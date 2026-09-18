@@ -1,0 +1,1006 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7fbff">
+  <meta name="description" content="EYEKON VISION — ophthalmic instruments, diagnostic equipment and professional eye-care solutions in Lucknow, Uttar Pradesh.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://shaurya1233.github.io/EYEKON-Precision-In-Vision-/">
+  <meta property="og:title" content="EYEKON — Precision in Vision | Ophthalmic Instruments & Eye-Care Solutions">
+  <meta property="og:description" content="Explore EYEKON VISION's ophthalmic equipment showcase and interactive optical laboratory experience.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shaurya1233.github.io/EYEKON-Precision-In-Vision-/">
+  <meta property="og:image" content="eye.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EYEKON — Precision in Vision">
+  <meta name="twitter:description" content="Ophthalmic instruments, diagnostic equipment and professional eye-care solutions.">
+  <meta name="twitter:image" content="eye.jpg">
+  <title>EYEKON — Precision in Vision | Ophthalmic Instruments & Eye-Care Solutions</title>
+  <style>
+    :root{
+      --white:#ffffff; --paper:#fbfdff; --ice:#f4faff; --mist:#edf7ff; --mint:#f1fbf8;
+      --blue:#1476d4; --blue-2:#35a7ff; --cyan:#31c9d7; --green:#2aab79; --green-2:#58cfa0;
+      --ink:#17304a; --muted:#688198; --line:#d9e7f3; --line-2:#e8f0f6;
+      --shadow:0 24px 70px rgba(32,93,132,.11); --shadow-soft:0 12px 36px rgba(32,93,132,.08);
+      --r-lg:28px; --r-md:18px; --r-sm:12px; --ease:cubic-bezier(.22,.68,.17,1);
+      --max:1260px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:var(--white)}
+    body{margin:0;background:var(--white);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5;overflow-x:hidden}
+    body.modal-open{overflow:hidden}
+    a{color:inherit;text-decoration:none}
+    button,input,select,textarea{font:inherit}
+    button{cursor:pointer}
+    img{max-width:100%;display:block}
+    .skip{position:fixed;left:16px;top:10px;z-index:999;padding:10px 14px;border-radius:10px;background:#e7f5ff;color:var(--ink);transform:translateY(-140%);transition:.25s;box-shadow:var(--shadow-soft)}
+    .skip:focus{transform:none}
+    .container{width:min(calc(100% - 40px),var(--max));margin-inline:auto}
+    .eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:800;color:#43769e}
+    .micro{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:#7890a4;font-weight:750}
+    .section{padding:110px 0;position:relative}
+    .section.tight{padding:78px 0}
+    .section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;margin-bottom:46px}
+    .section-title{font-size:clamp(38px,6vw,74px);line-height:.98;letter-spacing:-.045em;margin:12px 0 0;font-weight:780}
+    .section-copy{max-width:580px;color:var(--muted);font-size:17px}
+    .divider{height:1px;background:var(--line)}
+    .btn{border:1px solid var(--line);background:var(--white);color:var(--ink);min-height:48px;padding:0 18px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;gap:9px;transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s var(--ease),background .35s var(--ease);white-space:nowrap}
+    .btn:hover{transform:translateY(-2px);box-shadow:var(--shadow-soft);border-color:#b9d6eb}
+    .btn:focus-visible{outline:3px solid rgba(20,118,212,.18);outline-offset:3px}
+    .btn.primary{background:#1476d4;color:white;border-color:#1476d4}
+    .btn.primary:hover{box-shadow:0 15px 35px rgba(20,118,212,.22)}
+    .btn.green{background:#e9fbf4;border-color:#c9f0df;color:#1f7c5b}
+    .btn.soft{background:#f3f9fd}
+    .btn.icon{width:44px;padding:0}
+    .pill{display:inline-flex;align-items:center;gap:7px;padding:8px 11px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.86);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#507188}
+    .dot{width:7px;height:7px;border-radius:50%;background:var(--green)}
+
+    /* nav */
+    .nav-shell{position:fixed;left:50%;top:16px;transform:translateX(-50%);width:min(calc(100% - 24px),1220px);z-index:90}
+    nav{display:flex;align-items:center;gap:18px;padding:11px 12px 11px 16px;background:rgba(255,255,255,.92);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);border:1px solid rgba(191,216,232,.8);border-radius:999px;box-shadow:0 15px 45px rgba(54,105,137,.08)}
+    .brand{display:flex;align-items:center;gap:10px;min-width:max-content}
+    .brand-mark{width:33px;height:33px;border-radius:50%;border:1px solid #b7d9ee;background:#f2fbff;display:grid;place-items:center;overflow:hidden}
+    .brand-mark img{width:100%;height:100%;object-fit:cover}
+    .brand-fallback{font-size:11px;font-weight:900;letter-spacing:-.03em;color:var(--blue)}
+    .brand-word{font-weight:850;letter-spacing:.13em;font-size:13px}
+    .nav-links{display:flex;align-items:center;gap:4px;margin-inline:auto}
+    .nav-link{padding:9px 12px;border-radius:999px;color:#5b7387;font-size:12px;font-weight:720;position:relative}
+    .nav-link::after{content:"";position:absolute;left:18px;right:18px;bottom:4px;height:2px;background:var(--blue);transform:scaleX(0);transform-origin:center;transition:.25s}
+    .nav-link:hover{color:var(--ink)} .nav-link.active{color:var(--ink)} .nav-link.active::after{transform:scaleX(1)}
+    .nav-actions{display:flex;align-items:center;gap:7px}
+    .nav-catalog{padding:10px 15px;background:#e9f6ff;border-color:#d2eaf7;color:#136cb7}
+    .hamb{display:none}
+
+    /* intro */
+    #intro{position:fixed;inset:0;background:#fff;z-index:120;display:grid;place-items:center;transition:opacity .65s ease,visibility .65s ease}
+    #intro.is-done{opacity:0;visibility:hidden;pointer-events:none}
+    .intro-stage{position:relative;width:min(86vw,650px);height:min(70vh,650px);display:grid;place-items:center}
+    .intro-core{width:10px;height:10px;border-radius:50%;background:var(--blue);box-shadow:0 0 0 0 rgba(20,118,212,.22);animation:corePulse 2s infinite}
+    .intro-ring,.intro-ring2,.intro-grid{position:absolute;border:1px solid #cfe7f5;border-radius:50%;opacity:0;animation:orbitIn 1.8s var(--ease) forwards}
+    .intro-ring{inset:17%}.intro-ring2{inset:28%;border-color:#cbeee0;animation-delay:.18s}.intro-grid{inset:37%;border-style:dashed;border-color:#d9edf8;animation-delay:.32s}
+    .intro-logo{position:absolute;text-align:center;opacity:0;transform:translateY(12px);animation:reveal .8s .8s var(--ease) forwards}
+    .intro-logo .name{font-size:clamp(36px,9vw,76px);font-weight:850;letter-spacing:.18em;margin-right:-.18em}
+    .intro-logo .tag{margin-top:8px;color:#4f718a;font-size:12px;letter-spacing:.27em;text-transform:uppercase;font-weight:750}
+    .intro-skip{position:absolute;right:20px;top:20px}
+    @keyframes corePulse{0%,100%{box-shadow:0 0 0 0 rgba(20,118,212,.18)}50%{box-shadow:0 0 0 14px rgba(20,118,212,0)}}
+    @keyframes orbitIn{0%{transform:scale(.65);opacity:0}100%{transform:scale(1);opacity:1}}
+    @keyframes reveal{to{opacity:1;transform:none}}
+
+    /* hero */
+    .hero{min-height:100svh;padding:132px 0 52px;display:grid;place-items:center;position:relative;overflow:hidden;background:linear-gradient(#fff,#fbfeff 72%,#fff)}
+    .hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(24,99,148,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(24,99,148,.035) 1px,transparent 1px);background-size:58px 58px;mask-image:linear-gradient(to bottom,transparent,black 20%,black 76%,transparent)}
+    .hero-vignette{position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 50% 48%,rgba(48,190,215,.10),transparent 28%),radial-gradient(circle at 30% 30%,rgba(31,121,211,.06),transparent 30%),radial-gradient(circle at 70% 70%,rgba(65,196,144,.06),transparent 28%)}
+    #heroCanvas{position:absolute;inset:0;width:100%;height:100%;opacity:.95}
+    .hero-content{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1.15fr;gap:46px;align-items:end;width:100%}
+    .hero-copy{padding-top:40px}
+    .hero-title{font-size:clamp(66px,10vw,150px);line-height:.82;letter-spacing:-.06em;margin:16px 0 18px;font-weight:850}
+    .hero-title span{display:block;color:#2f78ab}
+    .hero-sub{max-width:520px;color:var(--muted);font-size:18px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+    .hero-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:44px;max-width:650px}
+    .meta-box{padding:14px 16px;border:1px solid var(--line-2);background:rgba(255,255,255,.72);border-radius:14px}
+    .meta-value{margin-top:6px;font-size:11px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}
+    .hero-visual{height:clamp(390px,60vh,720px);position:relative}
+    .hero-orbit{position:absolute;inset:6% 4%;display:grid;place-items:center;pointer-events:none}
+    .orbit-ring{position:absolute;width:76%;aspect-ratio:1;border:1px solid rgba(20,118,212,.18);border-radius:50%;transform:rotateX(65deg) rotateZ(18deg)}
+    .orbit-ring:nth-child(2){width:62%;border-color:rgba(42,171,121,.22);transform:rotateX(74deg) rotateZ(-11deg)}
+    .orbit-ring:nth-child(3){width:47%;border-color:rgba(49,201,215,.3);transform:rotateY(70deg) rotateZ(22deg)}
+    .hero-caption{position:absolute;left:7%;bottom:6%;max-width:210px;padding:12px 14px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.84);box-shadow:var(--shadow-soft)}
+
+    /* lab */
+    .lab-stage{border:1px solid var(--line);border-radius:34px;background:#fbfeff;box-shadow:var(--shadow);overflow:hidden;display:grid;grid-template-columns:1.35fr .65fr;min-height:570px}
+    .lab-visual{position:relative;min-height:570px;background:radial-gradient(circle at 50% 45%,#ffffff 0,#f4fbff 45%,#edf9f5 100%);overflow:hidden}
+    #labCanvas{width:100%;height:100%;display:block}
+    .lab-hud{position:absolute;left:22px;top:20px;display:flex;flex-wrap:wrap;gap:8px}
+    .lab-hud .hud{padding:9px 11px;border:1px solid #d4e7f2;background:rgba(255,255,255,.82);border-radius:12px;font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#5a7a92}
+    .lab-controls{padding:24px;border-left:1px solid var(--line);display:flex;flex-direction:column;gap:18px;background:#fff}
+    .control-row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
+    .range{width:100%;accent-color:var(--blue)}
+    .control-card{padding:16px;border:1px solid var(--line-2);border-radius:18px;background:#fff}
+    .control-title{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+    .control-copy{font-size:13px;color:var(--muted);margin-top:6px}
+    .lab-tabs{display:flex;gap:7px;flex-wrap:wrap}
+    .tab{border:1px solid var(--line);background:#fff;color:#5a7387;border-radius:999px;padding:9px 12px;font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
+    .tab.active{background:#eaf6ff;border-color:#cfe6f5;color:#136db8}
+
+    /* 6d */
+    .six-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .six-card{min-height:180px;padding:24px;border:1px solid var(--line);border-radius:22px;background:#fff;position:relative;overflow:hidden;transition:transform .4s var(--ease),box-shadow .4s var(--ease),border-color .4s}
+    .six-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-soft);border-color:#c7ddea}
+    .six-num{font-size:11px;letter-spacing:.14em;color:#7a91a4;font-weight:800}
+    .six-title{font-size:24px;margin:15px 0 8px;letter-spacing:-.03em}
+    .six-copy{font-size:13px;color:var(--muted)}
+    .six-line{position:absolute;right:-18px;bottom:-34px;width:120px;height:120px;border:1px solid #d9eef8;border-radius:50%}
+
+    /* products */
+    .product-toolbar{display:grid;grid-template-columns:1.4fr .6fr .6fr auto;gap:10px;align-items:center;margin-bottom:22px}
+    .field{height:48px;border:1px solid var(--line);background:#fff;border-radius:14px;padding:0 14px;color:var(--ink)}
+    .field:focus{outline:2px solid rgba(20,118,212,.18);border-color:#9ac8e9}
+    .count{padding:0 12px;font-size:12px;color:#678094}
+    .product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .product-grid.list{grid-template-columns:1fr}
+    .product-card{border:1px solid var(--line);border-radius:26px;background:#fff;overflow:hidden;position:relative;transition:transform .45s var(--ease),box-shadow .45s var(--ease),border-color .45s var(--ease)}
+    .product-card:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:#c0ddec}
+    .product-media{aspect-ratio:4/3;background:linear-gradient(#f9fdff,#eef9ff);display:grid;place-items:center;position:relative;overflow:hidden}
+    .product-media img{width:100%;height:100%;object-fit:contain;padding:18px;transition:transform .5s var(--ease);mix-blend-mode:multiply}
+    .product-card:hover .product-media img{transform:scale(1.035)}
+    .product-fallback{width:76%;height:72%;border-radius:24px;border:1px dashed #c9ddea;display:grid;place-items:center;background:radial-gradient(circle at 50% 40%,#fff, #eef9ff);text-align:center;padding:20px}
+    .product-fallback strong{font-size:30px;letter-spacing:-.05em;color:#4c89b2}
+    .product-actions-float{position:absolute;left:14px;right:14px;top:14px;display:flex;justify-content:space-between;align-items:center}
+    .fav{width:38px;height:38px;border-radius:50%;border:1px solid #d6e6ef;background:rgba(255,255,255,.9);color:#5d7c90;display:grid;place-items:center}
+    .fav.is-fav{background:#e9fbf4;border-color:#c6efdd;color:#1d8560}
+    .product-body{padding:18px 18px 20px}
+    .product-name{font-size:20px;font-weight:780;letter-spacing:-.02em;margin:4px 0 6px}
+    .product-desc{font-size:13px;color:var(--muted);min-height:39px}
+    .product-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:16px}
+    .view-link{font-size:11px;font-weight:850;text-transform:uppercase;letter-spacing:.13em;color:#1476d4}
+    .list .product-card{display:grid;grid-template-columns:260px 1fr}
+    .list .product-media{height:100%;aspect-ratio:auto}
+    .list .product-body{padding:26px}
+
+    /* details / journeys */
+    .journey{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .journey-panel{border:1px solid var(--line);border-radius:30px;background:#fff;min-height:440px;position:relative;overflow:hidden;padding:30px;box-shadow:var(--shadow-soft)}
+    .journey-panel.alt{background:#f8fcff}
+    .journey-visual{position:absolute;inset:auto 0 0;height:62%;pointer-events:none}
+    .ray-stage{position:absolute;inset:20% 10% 12%;}
+    .ray-line{position:absolute;left:4%;right:4%;height:2px;background:#4cb3dc;transform-origin:left center}
+    .ray-line.l1{top:25%;transform:rotate(8deg)} .ray-line.l2{top:52%;transform:rotate(-8deg);background:#4ac494}.ray-line.l3{top:72%;transform:rotate(4deg);background:#5b95db}
+    .lens-shape{position:absolute;right:16%;top:21%;width:120px;height:190px;border:2px solid #7fcde3;border-radius:52% 48%;background:rgba(210,244,252,.22);transform:skewY(-4deg)}
+    .eye-explorer{display:grid;grid-template-columns:1.15fr .85fr;gap:14px}
+    #eyeCanvas{display:block;width:100%;height:100%;min-height:520px;border:1px solid var(--line);border-radius:30px;background:#fbfeff}
+    .eye-controls{border:1px solid var(--line);border-radius:30px;background:#fff;padding:24px;display:flex;flex-direction:column;gap:14px}
+    .eye-part{border:1px solid var(--line-2);padding:15px 16px;border-radius:16px;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:12px;transition:.3s}
+    .eye-part:hover{border-color:#c6dfef;background:#f7fcff}
+    .eye-part strong{font-size:13px}
+    .eye-part span{font-size:11px;color:#758da0}
+    .path{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;align-items:center;margin-top:26px}
+    .path-step{padding:16px 12px;text-align:center;border:1px solid var(--line);border-radius:16px;background:#fff;font-size:11px;font-weight:850;letter-spacing:.08em;text-transform:uppercase}
+    .path-arrow{font-size:20px;color:#67b48f;text-align:center}
+    .ray-lab{display:grid;grid-template-columns:1fr .75fr;gap:14px}
+    #rayCanvas{width:100%;height:480px;border:1px solid var(--line);border-radius:28px;background:#fff}
+    .ray-controls{border:1px solid var(--line);border-radius:28px;background:#fff;padding:24px}
+    .state-buttons{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}
+    .state-btn{border:1px solid var(--line);background:#fff;border-radius:999px;padding:10px 12px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    .state-btn.active{background:#eef9f4;border-color:#cbefdd;color:#287c5d}
+
+    /* archive/about */
+    .archive{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;display:flex;gap:22px;overflow:auto;scrollbar-width:none}
+    .archive::-webkit-scrollbar{display:none}
+    .archive span{white-space:nowrap;font-size:clamp(34px,5.7vw,84px);font-weight:820;letter-spacing:-.05em;color:#d6e7f2}
+    .archive span.active{color:#69a8cf}
+    .about-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:60px}
+    .about-copy{font-size:23px;line-height:1.3;letter-spacing:-.02em}
+    .about-points{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    .point-card{padding:22px;border:1px solid var(--line);border-radius:22px;background:#fff}
+    .point-card strong{font-size:15px}.point-card p{font-size:13px;color:var(--muted);margin:8px 0 0}
+
+    /* contact */
+    .contact-shell{display:grid;grid-template-columns:1fr .72fr;gap:14px}
+    .contact-card{padding:34px;border:1px solid var(--line);border-radius:30px;background:#fff;box-shadow:var(--shadow-soft)}
+    .contact-list{display:grid;gap:9px;margin-top:22px}
+    .contact-item{padding:16px;border:1px solid var(--line-2);border-radius:17px;background:#fbfdff;display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
+    .contact-item strong{font-size:13px}.contact-item div:last-child{font-size:13px;color:#5d7588;text-align:right}
+    .status{display:inline-flex;align-items:center;gap:7px;font-size:11px;letter-spacing:.11em;text-transform:uppercase;font-weight:850;padding:8px 10px;border-radius:999px;background:#ebfaf4;color:#287d60;border:1px solid #cdeedf}
+    .status.closed{background:#f8fafd;color:#6f8291;border-color:#dce7ee}
+
+    /* footer */
+    footer{padding:60px 0 110px;border-top:1px solid var(--line);background:#fbfdff}
+    .footer-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:50px}
+    .footer-brand{font-size:22px;font-weight:860;letter-spacing:.14em}
+    .footer-tag{color:#5f7a90;font-size:13px;margin-top:10px}
+    .footer-col{display:grid;gap:9px}.footer-col a{font-size:13px;color:#5f778b}.footer-col a:hover{color:var(--blue)}
+    .footer-bottom{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:14px;color:#8397a7;font-size:11px}
+
+    /* bottom mobile */
+    .mobile-dock{display:none;position:fixed;left:10px;right:10px;bottom:10px;z-index:80;padding:7px;background:rgba(255,255,255,.95);border:1px solid #cfe1ec;border-radius:18px;box-shadow:0 16px 40px rgba(41,89,121,.15);grid-template-columns:repeat(4,1fr);gap:4px}
+    .mobile-dock a{font-size:9px;letter-spacing:.06em;text-transform:uppercase;font-weight:800;text-align:center;padding:10px 4px;border-radius:12px;color:#547084}.mobile-dock a:hover{background:#eef8fd;color:#0e70ba}
+
+    /* modal */
+    .modal{position:fixed;inset:0;background:rgba(244,251,255,.92);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);z-index:110;display:none;padding:18px}
+    .modal.open{display:block}
+    .viewer{width:min(1180px,100%);height:min(760px,100%);margin:auto;border:1px solid #cfe2ee;border-radius:30px;background:#fff;box-shadow:var(--shadow);display:grid;grid-template-rows:auto 1fr auto;overflow:hidden}
+    .viewer-head,.viewer-foot{padding:16px 18px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:14px}.viewer-foot{border-bottom:0;border-top:1px solid var(--line)}
+    .viewer-title{font-weight:800}.viewer-body{display:grid;grid-template-columns:1fr .38fr;min-height:0}
+    .viewer-stage{position:relative;display:grid;place-items:center;overflow:hidden;background:radial-gradient(circle at 50% 50%,#fff,#f3faff 70%)}
+    .viewer-stage img{max-width:none;width:auto;height:auto;max-height:78%;max-width:82%;object-fit:contain;transform:translate(var(--tx,0),var(--ty,0)) scale(var(--scale,1));transition:transform .15s ease;touch-action:none;user-select:none}
+    .viewer-fallback{width:70%;height:70%;display:grid;place-items:center;text-align:center;color:#648096;border:1px dashed #c9ddea;border-radius:22px;background:#f7fcff}
+    .viewer-side{padding:22px;border-left:1px solid var(--line);overflow:auto}.viewer-side p{font-size:13px;color:var(--muted)}
+    .viewer-controls{display:flex;gap:7px;flex-wrap:wrap}.key{font-size:10px;letter-spacing:.1em;color:#748b9c;border:1px solid var(--line);padding:7px 9px;border-radius:9px;background:#fbfdff}
+
+    /* cookie-ish disclosure */
+    .notice{padding:12px 14px;border:1px solid #d9e8f1;background:#f8fcff;border-radius:14px;font-size:12px;color:#698194}
+    .tiny-link{font-size:11px;color:#2879ad;font-weight:750}
+
+    /* reduced motion */
+    @media (prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}.btn,.product-card,.six-card,.nav-link::after,.product-media img{transition:none!important}
+      .intro-core,.intro-ring,.intro-ring2,.intro-grid,.intro-logo{animation:none!important}
+    }
+
+    @media (max-width:1100px){
+      .nav-links{display:none}.hamb{display:grid}.nav-actions .btn:not(.icon){display:none}
+      .hero-content{grid-template-columns:1fr}.hero-copy{max-width:760px}.hero-visual{height:420px;margin-top:-30px}.hero-meta{max-width:100%}
+      .lab-stage,.contact-shell,.ray-lab,.eye-explorer,.about-grid{grid-template-columns:1fr}.lab-controls{border-left:0;border-top:1px solid var(--line)}.lab-visual{min-height:480px}.six-grid{grid-template-columns:repeat(2,1fr)}
+      .product-grid{grid-template-columns:repeat(2,1fr)}.product-toolbar{grid-template-columns:1fr 1fr 1fr auto}.viewer-body{grid-template-columns:1fr}.viewer-side{display:none}
+    }
+    @media (max-width:760px){
+      .container{width:min(calc(100% - 24px),var(--max))}.nav-shell{top:9px;width:calc(100% - 16px)}nav{padding-left:11px}.brand-word{font-size:12px}.nav-catalog{display:none}
+      .hero{padding-top:102px}.hero-content{gap:10px}.hero-title{font-size:clamp(60px,18vw,100px)}.hero-sub{font-size:15px}.hero-visual{height:340px}.hero-meta{grid-template-columns:1fr}.hero-actions .btn{flex:1 1 46%}
+      .section{padding:78px 0}.section-head{display:block;margin-bottom:28px}.section-copy{margin-top:15px;font-size:15px}.six-grid,.product-grid{grid-template-columns:1fr}.product-toolbar{grid-template-columns:1fr 1fr}.count{grid-column:1/-1;padding:5px 2px}.product-toolbar .btn{grid-column:auto}
+      .list .product-card{grid-template-columns:1fr}.list .product-media{height:auto;aspect-ratio:4/3}.path{grid-template-columns:1fr}.path-arrow{transform:rotate(90deg)}
+      .footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}.footer-bottom{display:block}.footer-bottom div+div{margin-top:7px}.mobile-dock{display:grid}
+      .contact-item{display:block}.contact-item div:last-child{text-align:left;margin-top:5px}.about-copy{font-size:18px}.about-points{grid-template-columns:1fr}
+      #eyeCanvas{min-height:420px}.lab-visual{min-height:420px}
+    }
+    @media (max-width:480px){.hero-actions{display:grid;grid-template-columns:1fr}.btn{min-height:46px}.hero-title{font-size:58px}.product-toolbar{grid-template-columns:1fr}.product-toolbar .count{grid-column:auto}.viewer{border-radius:20px}.viewer-foot{overflow:auto}.viewer-controls{flex-wrap:nowrap}.viewer-controls .key{display:none}.section-title{font-size:44px}}
+  </style>
+  <script type="application/ld+json" id="orgSchema">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"EYEKON VISION",
+    "url":"https://shaurya1233.github.io/EYEKON-Precision-In-Vision-/",
+    "logo":"https://shaurya1233.github.io/EYEKON-Precision-In-Vision-/eye.jpg",
+    "email":"mailto:eyekonvision01@gmail.com",
+    "telephone":"+91-9455855203",
+    "sameAs":["https://wa.me/919455855203"]
+  }
+  </script>
+
+<style id="eyekon-diwali-2026">
+:root{--di-gold:#c9972e;--di-saffron:#f08b2f;--di-red:#c84b42;--di-ivory:#fffaf0}
+.eyk-diwali-ann{position:relative;z-index:30;display:flex;align-items:center;justify-content:center;gap:12px;padding:9px 44px;background:linear-gradient(90deg,#fff,#fff8e9,#fff);border-bottom:1px solid rgba(201,151,46,.35);color:#60491d;font-size:11px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.eyk-diwali-ann button{position:absolute;right:16px;border:0;background:transparent;color:#8a6a2c;font-size:20px;cursor:pointer}
+.eyk-diwali-dot{width:7px;height:7px;border-radius:50%;background:var(--di-gold);box-shadow:0 0 14px rgba(201,151,46,.75)}
+#diwaliFireworks{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
+.hero-content{position:relative;z-index:2}
+.diwali-hero-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid rgba(201,151,46,.45);border-radius:999px;background:rgba(255,251,240,.82);backdrop-filter:blur(8px);color:#775b22;font-size:10px;font-weight:900;letter-spacing:.12em}
+.diwali-hero-badge i{width:6px;height:6px;border-radius:50%;background:var(--di-saffron);box-shadow:0 0 12px rgba(240,139,47,.7)}
+.diwali-date{font-size:clamp(12px,1.5vw,15px);letter-spacing:.16em;font-weight:900;color:#6f5422;margin-top:15px}
+.eyk-diwali{position:relative;overflow:hidden;background:radial-gradient(circle at 50% 0%,rgba(201,151,46,.12),transparent 42%),linear-gradient(135deg,#fff,#fffaf0 52%,#f7fbff);border-block:1px solid rgba(201,151,46,.2)}
+.eyk-diwali:before{content:"";position:absolute;width:520px;height:520px;left:-180px;top:-180px;border:1px solid rgba(201,151,46,.18);border-radius:50%;box-shadow:0 0 0 36px rgba(201,151,46,.025),0 0 0 72px rgba(42,171,121,.02),0 0 0 108px rgba(20,118,212,.02)}
+.diwali-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:stretch;position:relative;z-index:2}
+.diwali-copy{padding:20px 0}.diwali-kicker{color:#8b6b28;font-weight:900;font-size:11px;letter-spacing:.18em}.diwali-title{font-size:clamp(42px,7vw,92px);line-height:.9;letter-spacing:-.07em;margin:12px 0 18px}.diwali-title span{color:var(--di-gold)}
+.diwali-copy p{max-width:650px;color:#62798a;font-size:16px;line-height:1.75}.diwali-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}.diwali-countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:28px;max-width:620px}.diwali-time{padding:16px 10px;border:1px solid rgba(201,151,46,.25);background:rgba(255,255,255,.78);border-radius:18px;text-align:center}.diwali-time strong{display:block;font-size:clamp(24px,4vw,42px);letter-spacing:-.04em}.diwali-time span{font-size:9px;font-weight:900;letter-spacing:.14em;color:#8b7a5c}.diwali-stage{min-height:420px;border:1px solid rgba(201,151,46,.25);border-radius:34px;background:radial-gradient(circle at 50% 44%,rgba(240,139,47,.12),transparent 25%),radial-gradient(circle at 50% 50%,rgba(20,118,212,.06),transparent 58%),#fff;position:relative;display:grid;place-items:center;overflow:hidden;box-shadow:0 24px 80px rgba(32,93,132,.08)}
+.optical-diya{position:relative;width:120px;height:76px;border-radius:50% 50% 45% 45%;background:linear-gradient(#e8b64c,#b77b21);box-shadow:0 20px 40px rgba(201,151,46,.25)}.optical-diya:before{content:"";position:absolute;left:50%;top:-56px;transform:translateX(-50%);width:26px;height:54px;border-radius:55% 45% 55% 45%;background:radial-gradient(circle at 50% 70%,#fff4ad 0 18%,#f6a72c 42%,transparent 72%);filter:drop-shadow(0 0 14px rgba(240,139,47,.7));animation:flame 1.6s ease-in-out infinite alternate}.optical-ring{position:absolute;border:1px solid rgba(20,118,212,.22);border-radius:50%;width:270px;height:270px;animation:ringPulse 5s ease-in-out infinite}.optical-ring.r2{width:350px;height:350px;border-color:rgba(42,171,121,.18);animation-delay:.8s}.optical-ring.r3{width:440px;height:440px;border-color:rgba(201,151,46,.18);animation-delay:1.6s}.rangoli{position:absolute;width:300px;height:300px;border:1px dashed rgba(201,151,46,.24);transform:rotate(45deg);border-radius:22%;animation:slowspin 24s linear infinite}.diwali-offer{margin-top:18px;padding:18px;border:1px solid rgba(201,151,46,.24);border-radius:20px;background:rgba(255,252,242,.85)}
+.diwali-status{display:inline-flex;align-items:center;gap:8px;color:#6b7d69;font-size:10px;font-weight:900;letter-spacing:.12em}.diwali-status b{width:7px;height:7px;border-radius:50%;background:#e0a43c;box-shadow:0 0 10px rgba(224,164,60,.5)}
+@keyframes flame{to{transform:translateX(-50%) rotate(3deg) scale(1.06)}}@keyframes ringPulse{50%{transform:scale(1.035);opacity:.62}}@keyframes slowspin{to{transform:rotate(405deg)}}
+@media(max-width:800px){.diwali-grid{grid-template-columns:1fr}.diwali-stage{min-height:320px}.diwali-countdown{grid-template-columns:repeat(2,1fr)}.eyk-diwali-ann{justify-content:flex-start;padding-right:50px;font-size:9px}}
+@media(prefers-reduced-motion:reduce){.optical-diya:before,.optical-ring,.rangoli{animation:none!important}#diwaliFireworks{display:none!important}}
+</style>
+
+<style id="eyekon-performance-css">
+html{scroll-behavior:smooth;overscroll-behavior-y:auto}
+body{overflow-x:hidden;-webkit-overflow-scrolling:touch}
+#diwali-background-layer,#diwali-background-layer *{pointer-events:none!important}
+canvas{max-width:100%}
+.eyk-perf-paused{animation-play-state:paused!important}
+@media (max-width:700px){nav{backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}.modal,.eyk-wa-modal,.eyk-doctor-overlay,.eyk-lab-overlay{backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}.eyk-perf-anim,.eyk-perf-anim *{animation:none!important;transition:none!important}}
+</style>
+
+<style id="eyekon-stability-css">
+body{overflow-x:hidden;touch-action:pan-y}
+#diwali-background-layer,#diwali-background-layer canvas,#diwaliFireworks,#diwaliSectionFireworks,#finaleFireworks{pointer-events:none!important}
+.eyk-doctor-overlay{touch-action:pan-y}
+.eyk-doctor-overlay .doctor-shell{min-height:100%;padding-bottom:48px}
+@media(max-width:700px){.eyk-doctor-overlay{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}.doctor-shell{padding-bottom:70px}}
+@media(prefers-reduced-motion:reduce){.eyk-doctor-overlay{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}}
+</style>
+<style id="eyekon-greeting-css">.eyk-live-greeting{border:1px solid rgba(20,118,212,.18);background:#fff;border-radius:999px;padding:7px 10px;font:800 9px/1 inherit;letter-spacing:.06em;color:#176da8;cursor:pointer}.eyk-live-greeting:hover{transform:translateY(-1px)}@media(max-width:700px){.eyk-live-greeting{padding:6px 8px;font-size:8px}}</style></head>
+<body>
+<div class="eyk-diwali-ann" id="diwaliAnnouncement" role="region" aria-label="EYEKON Diwali 2026 announcement"><span class="eyk-diwali-dot"></span><span>✨ EYEKON DIWALI 2026 · COMING SUNDAY · 8 NOVEMBER 2026 ✨</span><button id="dismissDiwali" aria-label="Dismiss Diwali announcement">×</button></div>
+
+  <a class="skip" href="#main">Skip to content</a>
+  <div id="intro" aria-hidden="true">
+    <button class="btn intro-skip" id="skipIntro">SKIP INTRO</button>
+    <div class="intro-stage">
+      <div class="intro-core"></div><div class="intro-ring"></div><div class="intro-ring2"></div><div class="intro-grid"></div>
+      <div class="intro-logo"><div class="name">EYEKON</div><div class="tag">Precision in Vision</div></div>
+    </div>
+  </div>
+
+  <div class="nav-shell">
+    <nav aria-label="Primary">
+      <a class="brand" href="#home" aria-label="EYEKON home">
+        <span class="brand-mark"><img src="eye.jpg" alt="EYEKON logo" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\'brand-fallback\'>E</span>'"></span>
+        <span class="brand-word">EYEKON</span>
+      </a>
+      <div class="nav-links">
+        <a class="nav-link active" href="#home">HOME</a>
+        <a class="nav-link" href="#experience">EXPERIENCE</a>
+        <a class="nav-link" href="#products">PRODUCTS</a>
+        <a class="nav-link" href="#lab">OPTICAL LAB</a>
+        <a class="nav-link" href="#about">ABOUT</a>
+        <a class="nav-link" href="#contact">CONTACT</a>
+      </div>
+      <div class="nav-actions"><button class="btn nav-doctor" id="navDoctorMode" type="button">DOCTOR MODE</button>
+        <a class="btn nav-catalog" href="https://wa.me/c/919455855203" target="_blank" rel="noopener">CATALOGUE</a>
+        <a class="btn icon" aria-label="Menu" href="#products">⌕</a>
+        <button class="btn icon hamb" id="mobileMenu" aria-label="Open menu">☰</button>
+      </div>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid"></div><div class="hero-vignette"></div>
+      <canvas id="heroCanvas" aria-hidden="true"></canvas><canvas id="diwaliFireworks" aria-hidden="true"></canvas>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <div class="diwali-hero-badge"><i></i> EYEKON DIWALI 2026 · LIGHT MEETS VISION</div><div class="eyebrow" style="margin-top:14px">EYEKON VISION · OPTICAL SYSTEM</div>
+          <h1 class="hero-title" id="hero-title">PRECISION<br><span>IN VISION.</span></h1>
+          <div class="diwali-date">COMING SUNDAY · 8 NOVEMBER 2026</div><p class="hero-sub">Ophthalmic instruments, diagnostic equipment and professional eye-care solutions — presented through a digital optical laboratory built around clarity and precision.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#products">EXPLORE PRODUCTS <span>↘</span></a>
+            <a class="btn green" href="#lab">ENTER OPTICAL LAB <span>↗</span></a>
+            <a class="btn" href="https://wa.me/919455855203?text=Hello%20EYEKON%20VISION%2C%20I%20would%20like%20more%20information." target="_blank" rel="noopener">MESSAGE EYEKON</a>
+            <a class="btn" href="tel:9455855203">CALL 9455855203</a>
+          </div>
+          <div class="hero-meta">
+            <div class="meta-box"><div class="micro">SYSTEM</div><div class="meta-value">OPTICAL EXPERIENCE</div></div>
+            <div class="meta-box"><div class="micro">MODE</div><div class="meta-value">PRECISION LIGHT</div></div>
+            <div class="meta-box"><div class="micro">STATUS</div><div class="meta-value" id="heroStatus">CHECKING…</div></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-orbit"><div class="orbit-ring"></div><div class="orbit-ring"></div><div class="orbit-ring"></div></div>
+          <div class="hero-caption"><div class="micro">THE OPTICAL LAB</div><div style="font-size:13px;margin-top:5px;color:#577287">A responsive visual study of light, lens, depth and perspective.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">01 / EXPERIENCE</div><h2 class="section-title" id="experience-title">A digital optical instrument.</h2></div><p class="section-copy">The experience layers space, light, interaction and information into a calm laboratory-like environment. The label “6D” describes the digital system — not literal physical dimensions.</p></div>
+        <div class="six-grid">
+          <article class="six-card"><div class="six-num">01 / SPACE</div><h3 class="six-title">Spatial depth</h3><p class="six-copy">3D geometry, depth planes and camera motion create a navigable optical environment.</p><div class="six-line"></div></article>
+          <article class="six-card"><div class="six-num">02 / TIME</div><h3 class="six-title">Temporal change</h3><p class="six-copy">Transitions, focus states and measured motion give the interface a sense of time.</p><div class="six-line"></div></article>
+          <article class="six-card"><div class="six-num">03 / LIGHT</div><h3 class="six-title">Optical light</h3><p class="six-copy">Reflections, rings and light paths are visual language — not clinical readings.</p><div class="six-line"></div></article>
+          <article class="six-card"><div class="six-num">04 / INTERACTION</div><h3 class="six-title">Direct control</h3><p class="six-copy">Pointer, touch, drag, zoom and keyboard controls keep exploration in the visitor’s hands.</p><div class="six-line"></div></article>
+          <article class="six-card"><div class="six-num">05 / INFORMATION</div><h3 class="six-title">Useful layers</h3><p class="six-copy">Product context and educational content surface when it is relevant, without inventing specifications.</p><div class="six-line"></div></article>
+          <article class="six-card"><div class="six-num">06 / PERSPECTIVE</div><h3 class="six-title">Change the view</h3><p class="six-copy">Hero, inspection and optical viewpoints create different ways to see the same experience.</p><div class="six-line"></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="products" aria-labelledby="products-title">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">02 / PRODUCT COMMAND CENTER</div><h2 class="section-title" id="products-title">A precise, growing instrument archive.</h2></div><p class="section-copy">The initial catalogue contains exactly ten product slots. Until product names are supplied, the interface deliberately uses editable placeholders rather than inventing identities or specifications.</p></div>
+        <div class="product-toolbar">
+          <input class="field" id="productSearch" type="search" placeholder="Search products…" aria-label="Search products">
+          <select class="field" id="productFilter" aria-label="Filter products"><option value="all">All products</option><option value="visible">Visible</option><option value="favorites">Favorites</option></select>
+          <select class="field" id="productSort" aria-label="Sort products"><option value="number">Product number</option><option value="name">Name</option><option value="recent">Recently viewed</option></select>
+          <button class="btn" id="toggleView" type="button">LIST VIEW</button>
+        </div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section tight" id="lab" aria-labelledby="lab-title">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">03 / OPTICAL LAB</div><h2 class="section-title" id="lab-title">Enter the laboratory.</h2></div><p class="section-copy">Interactive visualizations are clearly marked as educational or illustrative wherever they do not represent verified product engineering or clinical measurements.</p></div>
+        <div class="lab-stage">
+          <div class="lab-visual">
+            <canvas id="labCanvas" aria-label="Interactive optical laboratory illustration"></canvas>
+            <div class="lab-hud"><span class="hud">EYEKON / OPTICAL LAB</span><span class="hud" id="hudMode">MODE / EXPLORATION</span><span class="hud" id="hudFocus">FOCUS / LOCKED</span><span class="hud">STATUS / READY</span></div>
+          </div>
+          <div class="lab-controls">
+            <div class="lab-tabs" role="tablist" aria-label="Lab visualizations"><button class="tab active" data-lab="slit" role="tab">SLIT LAMP</button><button class="tab" data-lab="lens" role="tab">LENS</button><button class="tab" data-lab="micro" role="tab">MICRO</button></div>
+            <div class="control-card"><div class="control-row"><div><div class="control-title">Perspective</div><div class="control-copy" id="perspectiveCopy">Drag the laboratory scene to rotate the illustrative camera.</div></div><button class="btn icon" id="resetLab" aria-label="Reset lab view">↺</button></div></div>
+            <div class="control-card"><div class="control-title">Illumination</div><div class="control-copy">Visual control only — not a real instrument reading.</div><input class="range" id="illumination" type="range" min="0" max="100" value="62" aria-label="Illumination visualization"></div>
+            <div class="control-card"><div class="control-title">Magnification</div><div class="state-buttons"><button class="state-btn" data-mag="2">2×</button><button class="state-btn active" data-mag="3">3×</button><button class="state-btn" data-mag="5">5×</button></div><div class="notice" style="margin-top:14px">EDUCATIONAL OPTICAL SIMULATION · NOT A DIAGNOSTIC TOOL</div></div>
+            <div class="control-card"><div class="control-title">Inspection controls</div><div class="control-copy">ROTATE · PAN · ZOOM · RESET</div></div>
+          </div>
+        </div>
+
+        <div style="height:28px"></div>
+        <div class="journey">
+          <article class="journey-panel"><div class="eyebrow">04 / MAGNIFICATION LAB</div><h3 style="font-size:38px;letter-spacing:-.04em;margin:12px 0 8px">A controlled change in view.</h3><p style="max-width:480px;color:var(--muted)">Use the magnification states to change the illustrative optical field. The simulation does not represent real clinical measurements.</p><div class="journey-visual"><div class="lens-shape"></div><div class="ray-stage"><div class="ray-line l1"></div><div class="ray-line l2"></div><div class="ray-line l3"></div></div></div><div class="pill" style="position:absolute;left:30px;bottom:24px"><span class="dot"></span><span id="magLabel">3× / EDUCATIONAL</span></div></article>
+          <article class="journey-panel alt"><div class="eyebrow">05 / OPTICAL DETAIL</div><h3 style="font-size:38px;letter-spacing:-.04em;margin:12px 0 8px">See through the system.</h3><p style="max-width:480px;color:var(--muted)">Instrument → optics → viewing field → eye. A stylized first-person portal makes the transition feel like looking through a precision optical system.</p><div class="journey-visual"><div style="position:absolute;left:50%;top:40%;width:210px;height:210px;transform:translate(-50%,-50%);border-radius:50%;border:1px solid #9fd3e7;box-shadow:0 0 0 18px rgba(50,169,205,.05),inset 0 0 0 12px rgba(50,169,205,.04)"></div><div style="position:absolute;left:50%;top:40%;width:95px;height:95px;transform:translate(-50%,-50%);border-radius:50%;border:1px solid #acdcbc;background:#f4fffb"></div></div><button class="btn" style="position:absolute;left:30px;bottom:24px" id="focusPortal">ENTER VIEWING FIELD ↗</button></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="eye" aria-labelledby="eye-title">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">06 / HUMAN EYE EXPLORER</div><h2 class="section-title" id="eye-title">Light becomes vision.</h2></div><p class="section-copy">A simplified educational visualization of major eye structures. Select a component to focus the view.</p></div>
+        <div class="eye-explorer">
+          <canvas id="eyeCanvas" aria-label="Interactive educational eye visualization"></canvas>
+          <div class="eye-controls">
+            <div class="pill"><span class="dot"></span><span>EDUCATIONAL VISUALIZATION</span></div>
+            <div class="control-card"><div class="control-title">View controls</div><div class="control-copy">Drag to rotate the visual study. Use the wheel or pinch to zoom.</div></div>
+            <div id="eyeParts"></div>
+            <button class="btn" id="resetEye">RESET VIEW</button>
+          </div>
+        </div>
+        <div class="path" aria-label="Light to vision pathway">
+          <div class="path-step">LIGHT</div><div class="path-arrow">→</div><div class="path-step">CORNEA</div><div class="path-arrow">→</div><div class="path-step">PUPIL</div><div class="path-arrow">→</div><div class="path-step">LENS → RETINA → OPTIC NERVE → BRAIN</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight" aria-labelledby="ray-title">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">07 / OPTICAL RAY LAB</div><h2 class="section-title" id="ray-title">Focus, simplified.</h2></div><p class="section-copy">An educational ray diagram for normal focus, near focus and far focus. It is not a diagnostic assessment.</p></div>
+        <div class="ray-lab">
+          <canvas id="rayCanvas" aria-label="Educational optical ray diagram"></canvas>
+          <div class="ray-controls"><div class="pill"><span class="dot"></span><span id="rayStatePill">NORMAL FOCUS</span></div><h3 style="font-size:30px;margin:18px 0 6px" id="rayHeading">Normal focus</h3><p style="font-size:14px;color:var(--muted)" id="rayCopy">Rays are illustrated as converging toward the retinal plane in a simplified diagram.</p><div class="state-buttons"><button class="state-btn active" data-ray="normal">NORMAL</button><button class="state-btn" data-ray="near">NEAR FOCUS</button><button class="state-btn" data-ray="far">FAR FOCUS</button></div><div class="notice" style="margin-top:18px">EDUCATIONAL OPTICAL SIMULATION · NOT A DIAGNOSTIC TOOL</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">08 / INSIDE EYEKON</div><h2 class="section-title" id="about-title">Precision is more than a specification.</h2></div><p class="section-copy">It is a standard for how an optical experience should be presented: clear, responsible, detailed and calm.</p></div>
+        <div class="about-grid"><div class="about-copy">EYEKON VISION represents professional ophthalmic and eye-care equipment through a visual language shaped by optics, scientific diagrams, instrumentation and deliberate restraint.</div><div class="about-points"><div class="point-card"><strong>OPTICAL PRECISION</strong><p>Interfaces built around focus, clarity, proportion and controlled visual hierarchy.</p></div><div class="point-card"><strong>DIAGNOSTIC TECHNOLOGY</strong><p>Product information stays tied to the facts available in the content source.</p></div><div class="point-card"><strong>PROFESSIONAL EQUIPMENT</strong><p>A premium showroom format for instruments without invented specifications.</p></div><div class="point-card"><strong>HEALTHCARE ENVIRONMENTS</strong><p>Environment categories are presented as navigational concepts rather than unsupported compatibility claims.</p></div></div></div>
+      </div>
+    </section>
+
+    <section class="section tight" aria-label="Optical archive">
+      <div class="archive"><span>OPTICS</span><span>INSTRUMENTATION</span><span class="active">DIAGNOSTICS</span><span>LABORATORY</span><span>VISION</span></div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">09 / CONTACT EYEKON</div><h2 class="section-title" id="contact-title">Precision begins with connection.</h2></div><div id="statusBadge" class="status"><span class="dot"></span><span>CHECKING STATUS</span></div></div>
+        <div class="contact-shell">
+          <div class="contact-card"><div class="eyebrow">HOW CAN WE HELP?</div><h3 style="font-size:46px;letter-spacing:-.05em;margin:12px 0 8px">Talk to EYEKON VISION.</h3><p style="max-width:560px;color:var(--muted)">Use the channel that works for you. Product-specific enquiries can be sent directly through WhatsApp.</p><div style="display:flex;flex-wrap:wrap;gap:9px;margin-top:24px"><a class="btn primary" href="https://wa.me/919455855203" target="_blank" rel="noopener">WHATSAPP</a><button class="btn" id="contactGreeting" type="button">SEND A GREETING</button><a class="btn" href="tel:9455855203">CALL 9455855203</a><a class="btn green" href="https://wa.me/c/919455855203" target="_blank" rel="noopener">VIEW CATALOGUE</a><a class="btn" href="mailto:eyekonvision01@gmail.com">EMAIL EYEKON</a><a class="btn" href="https://maps.app.goo.gl/77szJmgtXu7oERWr8" target="_blank" rel="noopener">GET DIRECTIONS</a></div><div class="contact-list"><div class="contact-item"><strong>PHONE</strong><div>9455855203</div></div><div class="contact-item"><strong>EMAIL</strong><div>eyekonvision01@gmail.com</div></div><div class="contact-item"><strong>HOURS</strong><div>Every day · 10:00 AM — 5:00 PM · Asia/Kolkata</div></div></div></div>
+          <div class="contact-card"><div class="eyebrow">LOCATION</div><h3 style="font-size:30px;margin:14px 0">EYEKON VISION · Lucknow</h3><p style="font-size:15px;color:#5d778d">M-D1, Sector B, Kanpur Rd, LDA Colony,<br>opposite Kisna Diamond &amp; Gold Jewellery,<br>Alambagh, Lucknow, Uttar Pradesh 226012</p><div class="divider" style="margin:22px 0"></div><div class="micro">LIVE BUSINESS STATUS</div><div style="font-size:24px;font-weight:800;margin-top:6px" id="contactTime">—</div><a class="btn" style="margin-top:20px;width:100%" href="https://maps.app.goo.gl/77szJmgtXu7oERWr8" target="_blank" rel="noopener">OPEN GOOGLE MAPS ↗</a><div class="notice" style="margin-top:12px">Public site is static-hosting friendly. The included admin studio is local/browser storage only; production authentication should be connected to a secure backend before deployment.</div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+  
+<section class="section eyk-diwali" id="diwali" aria-labelledby="diwali-title">
+ <canvas id="diwaliSectionFireworks" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none"></canvas>
+ <div class="container diwali-grid">
+  <div class="diwali-copy"><div class="diwali-kicker">EYEKON DIWALI 2026 / SEASONAL EXPERIENCE</div><h2 class="diwali-title" id="diwali-title">LIGHT<br><span>MEETS</span><br>VISION.</h2><p>A premium Diwali visual layer for EYEKON VISION — combining optical geometry, controlled festive light and professional restraint.</p><div class="diwali-status"><b></b><span id="diwaliState">COMING SOON</span></div><div class="diwali-countdown" aria-label="Countdown to Diwali campaign"><div class="diwali-time"><strong id="dDays">—</strong><span>DAYS</span></div><div class="diwali-time"><strong id="dHours">—</strong><span>HOURS</span></div><div class="diwali-time"><strong id="dMinutes">—</strong><span>MINUTES</span></div><div class="diwali-time"><strong id="dSeconds">—</strong><span>SECONDS</span></div></div><div class="diwali-actions"><a class="btn primary" href="#products">EXPLORE PRODUCTS ↘</a><a class="btn green" href="#lab">DISCOVER OPTICAL LAB ↗</a><a class="btn" href="https://wa.me/c/919455855203" target="_blank" rel="noopener">VIEW CATALOGUE</a><a class="btn" href="https://wa.me/919455855203?text=Hello%20EYEKON%20VISION%2C%20I%20would%20like%20to%20know%20about%20the%20Diwali%202026%20campaign." target="_blank" rel="noopener">MESSAGE EYEKON</a></div><div class="diwali-offer"><div class="micro">EYEKON DIWALI OFFER</div><strong id="diwaliOfferTitle" style="display:block;margin-top:6px">COMING SOON</strong><span id="diwaliOfferDesc" style="display:block;color:#71879a;margin-top:4px;font-size:13px">No promotional offer has been configured.</span></div></div>
+  <div class="diwali-stage" aria-label="Decorative optical Diwali experience"><div class="rangoli"></div><div class="optical-ring"></div><div class="optical-ring r2"></div><div class="optical-ring r3"></div><div class="optical-diya" aria-hidden="true"></div></div>
+ </div>
+</section>
+<section class="eyk-section" id="insights" aria-labelledby="insights-title">
+    <div class="container">
+      <div class="section-head"><div><div class="eyebrow">10 / INSIGHTS</div><h2 class="section-title" id="insights-title">Optics, instrumentation, explained.</h2></div><p class="section-copy">An editorial layer for factual educational and EYEKON-approved content. Posts remain unpublished until an administrator explicitly publishes them.</p></div>
+      <div class="eyk-grid-3" id="blogGrid"></div>
+    </div>
+  </section>
+  <section class="eyk-section" id="faq" aria-labelledby="faq-title">
+    <div class="container"><div class="section-head"><div><div class="eyebrow">11 / FAQ</div><h2 class="section-title" id="faq-title">Questions, answered precisely.</h2></div><p class="section-copy">Answers are sourced only from the approved FAQ dataset. If information is unavailable, EYEKON will direct you to contact the business.</p></div><div class="eyk-grid-2" id="faqGrid"></div></div>
+  </section>
+  <section class="eyk-section" id="ask-eyekon" aria-labelledby="ask-title">
+    <div class="container"><div class="section-head"><div><div class="eyebrow">12 / ASK EYEKON</div><h2 class="section-title" id="ask-title">A controlled question interface.</h2></div><p class="section-copy">This is not a general-purpose AI assistant. It matches your question against administrator-approved FAQ content only.</p></div>
+      <div class="ask-shell"><div class="ask-box"><div class="ask-row"><input class="field" id="askInput" type="search" placeholder="Ask about EYEKON…" aria-label="Ask EYEKON"><button class="btn primary" id="askBtn">ASK</button></div><div class="ask-result" id="askResult">Ask a question to search the approved EYEKON knowledge base.</div></div><div class="ask-box"><div class="eyk-kicker">HANDOFF</div><h3>Need something specific?</h3><p>If no approved answer exists, contact EYEKON directly.</p><div class="eyk-admin-actions"><a class="btn primary" href="https://wa.me/919455855203" target="_blank" rel="noopener">WHATSAPP</a><a class="btn" href="tel:9455855203">CALL</a><a class="btn" href="mailto:eyekonvision01@gmail.com">EMAIL</a></div></div></div>
+    </div>
+  </section>
+  <section class="eyk-section" id="privacy-analytics" aria-label="Privacy and analytics readiness">
+    <div class="container"><div class="eyk-panel"><div class="eyk-kicker">ANALYTICS / PRIVACY</div><h3>Measurement without fabricated numbers.</h3><p id="analyticsNotice">No analytics provider is connected. Event instrumentation is ready, but this site does not display invented traffic or engagement metrics.</p><div class="eyk-admin-actions"><button class="btn" id="showEvents">VIEW EVENT SCHEMA</button></div></div></div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid"><div><div class="footer-brand">EYEKON</div><div class="footer-tag">PRECISION IN VISION.</div><p style="max-width:420px;color:#71879a;font-size:13px;margin-top:20px">A premium digital showroom and educational optical experience for EYEKON VISION.</p></div><div class="footer-col"><div class="micro">EXPLORE</div><a href="#products">Products</a><a href="#lab">Optical Lab</a><a href="#about">About EYEKON</a><a href="#contact">Contact</a></div><div class="footer-col"><div class="micro">CONTACT</div><a href="https://wa.me/919455855203" target="_blank" rel="noopener">WhatsApp</a><a href="https://wa.me/c/919455855203" target="_blank" rel="noopener">Catalogue</a><a href="tel:9455855203">Call 9455855203</a><a href="mailto:eyekonvision01@gmail.com">eyekonvision01@gmail.com</a></div></div>
+      <div class="footer-bottom"><div>© EYEKON VISION</div><div>Where optical precision meets professional possibility.</div></div>
+    </div>
+  
+<section class="eyk-pro-suite section" id="doctor-suite" aria-labelledby="doctor-title">
+  <div class="container">
+    <div class="section-head"><div><div class="eyebrow">07 / PROFESSIONAL MODE</div><h2 class="section-title" id="doctor-title">Doctor Mode — a clinical product workspace.</h2></div><p class="section-copy">A focused interface for clinicians and professional buyers to inspect available product information, compare instruments and prepare enquiries. Missing facts remain marked as unavailable.</p></div>
+    <div class="pro-grid">
+      <article class="pro-card pro-feature"><div class="pro-icon">01</div><h3>Instrument Explorer</h3><p>Open an instrument, inspect its supplied photograph, zoom, pan and move through the available catalogue.</p><button class="btn primary" id="doctorModeBtn" type="button">I'M A DOCTOR ↗</button></article>
+      <article class="pro-card"><div class="pro-icon">02</div><h3>How It Works</h3><p>Step-by-step optical explanations are presented as educational visualizations, not clinical guidance.</p><div class="mini-steps"><span>LIGHT</span><i>→</i><span>OPTICS</span><i>→</i><span>VIEW</span></div></article>
+      <article class="pro-card"><div class="pro-icon">03</div><h3>Clinical Use Cases</h3><div class="use-cases"><button data-env="Clinic">CLINIC</button><button data-env="Hospital">HOSPITAL</button><button data-env="Diagnostic">DIAGNOSTIC</button><button data-env="Surgical">SURGICAL</button><button data-env="Laboratory">LABORATORY</button><button data-env="Education">EDUCATION</button></div><small id="envResult">Select an environment to filter the available catalogue.</small></article>
+      <article class="pro-card"><div class="pro-icon">04</div><h3>Request Workflow</h3><p>Prepare a product-specific enquiry without manually rewriting the product name.</p><div class="actions"><button class="btn" id="quoteBtn">REQUEST QUOTATION</button><button class="btn" id="detailsBtn">REQUEST DETAILS</button><button class="btn" id="availabilityBtn">CHECK AVAILABILITY</button></div></article>
+    </div>
+  </div>
+</section>
+<section class="eyk-knowledge section tight" id="knowledge" aria-labelledby="knowledge-title">
+ <div class="container"><div class="section-head"><div><div class="eyebrow">08 / KNOWLEDGE CENTRE</div><h2 class="section-title" id="knowledge-title">Instrument knowledge, without the clutter.</h2></div><p class="section-copy">A searchable educational layer for professionals, students and anyone learning ophthalmic terminology.</p></div>
+ <div class="knowledge-grid"><article><h3>Technical Glossary</h3><div class="glossary"><button data-term="Cornea">CORNEA</button><button data-term="Iris">IRIS</button><button data-term="Pupil">PUPIL</button><button data-term="Lens">LENS</button><button data-term="Retina">RETINA</button><button data-term="Optic nerve">OPTIC NERVE</button></div><p id="glossaryResult">Select a term to see a concise educational definition.</p></article><article><h3>Product Documents</h3><p>Manuals, specification sheets and other documentation can be published here when supplied and verified by the administrator.</p><span class="pill"><span class="dot"></span>DOCUMENTS ON REQUEST</span></article><article><h3>Service & Support</h3><p>For service, support or technical information not published in the catalogue, contact EYEKON directly.</p><div class="actions"><a class="btn" href="tel:9455855203">CALL EYEKON</a><a class="btn" href="mailto:eyekonvision01@gmail.com">EMAIL EYEKON</a></div></article></div>
+ </div>
+</section>
+<section class="eyk-di-finale section" id="diwali-finale" aria-labelledby="finale-title">
+ <canvas id="finaleFireworks" aria-hidden="true"></canvas><div class="finale-rangoli" aria-hidden="true"></div><div class="finale-diya" aria-hidden="true"><span></span></div>
+ <div class="container finale-content"><div class="finale-kicker">EYEKON DIWALI 2026</div><h2 id="finale-title">LIGHT MEETS VISION.</h2><p>THE FESTIVAL OF LIGHT. THE PRECISION OF VISION.</p><div class="finale-date">08 NOVEMBER 2026</div><div class="actions"><a class="btn primary" href="#products">EXPLORE PRODUCTS</a><a class="btn" href="https://wa.me/919455855203?text=Hello%20EYEKON%20VISION%2C%20I%20would%20like%20information%20about%20your%20products." target="_blank" rel="noopener">MESSAGE EYEKON</a></div></div>
+</section>
+
+</footer>
+
+  <div class="mobile-dock" aria-label="Mobile contact navigation"><a href="tel:9455855203">CALL</a><a href="https://wa.me/919455855203" target="_blank" rel="noopener">WHATSAPP</a><button type="button" id="eykGreetingBtn" class="eyk-live-greeting">GREETING EYEKON</button><a href="https://wa.me/c/919455855203" target="_blank" rel="noopener">CATALOGUE</a><a href="#products">PRODUCTS</a></div>
+
+  <div class="modal" id="viewerModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Product viewer">
+    <div class="viewer">
+      <div class="viewer-head"><div><div class="micro" id="viewerNumber">PRODUCT 01</div><div class="viewer-title" id="viewerTitle">Product 01</div></div><button class="btn icon" id="closeViewer" aria-label="Close product viewer">×</button></div>
+      <div class="viewer-body"><div class="viewer-stage" id="viewerStage"><img id="viewerImage" alt="" draggable="false"><div class="viewer-fallback" id="viewerFallback">PRODUCT IMAGE<br><span style="font-size:12px">Add the corresponding image asset to display the instrument.</span></div></div><aside class="viewer-side"><div class="pill"><span class="dot"></span><span id="viewerStatus">READY</span></div><h3 id="viewerSideTitle" style="font-size:28px;letter-spacing:-.03em;margin:15px 0 8px">Product 01</h3><p id="viewerDesc">Product information available on request.</p><a id="viewerWhatsapp" class="btn primary" style="width:100%;margin-top:10px" target="_blank" rel="noopener">ASK ABOUT PRODUCT ↗</a></aside></div>
+      <div class="viewer-foot"><div class="viewer-controls"><button class="btn" id="zoomOut">− ZOOM</button><button class="btn" id="zoomIn">+ ZOOM</button><button class="btn" id="resetViewer">RESET</button><button class="btn" id="fullViewer">FULLSCREEN</button><button class="btn" id="prevProduct">← PREV</button><button class="btn" id="nextProduct">NEXT →</button></div><div><span class="key">ESC CLOSE</span> <span class="key">← → NAV</span> <span class="key">+ − ZOOM</span></div></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js" crossorigin="anonymous"></script>
+  <script>
+  (()=>{
+    'use strict';
+    const STORAGE_KEY='eyekon-content-v1';
+    const FAV_KEY='eyekon-favorites-v1';
+    const RECENT_KEY='eyekon-recent-v1';
+    const baseProducts=Array.from({length:10},(_,i)=>({id:String(i+1),number:String(i+1).padStart(2,'0'),name:`Product ${String(i+1).padStart(2,'0')}`,image:`${i+1}.jpg`,description:'Product information available on request.',visible:true,sort:i+1,category:'Ophthalmic equipment'}));
+    const defaultContent={products:baseProducts,site:{name:'EYEKON VISION',brand:'EYEKON',tagline:'PRECISION IN VISION.',phone:'9455855203',whatsapp:'https://wa.me/919455855203',catalogue:'https://wa.me/c/919455855203',email:'eyekonvision01@gmail.com',maps:'https://maps.app.goo.gl/77szJmgtXu7oERWr8',hours:{open:'10:00',close:'17:00',timezone:'Asia/Kolkata'},address:'M-D1, Sector B, Kanpur Rd, LDA Colony, opposite Kisna Diamond & Gold Jewellery, Alambagh, Lucknow, Uttar Pradesh 226012'}};
+    const read=(k,f)=>{try{const v=JSON.parse(localStorage.getItem(k));return v??f}catch{return f}};
+    let content=read(STORAGE_KEY,defaultContent);
+    content.products=Array.isArray(content.products)&&content.products.length?content.products:baseProducts;
+    let favorites=new Set(read(FAV_KEY,[]));
+    let recent=read(RECENT_KEY,[]);
+    const save=()=>localStorage.setItem(STORAGE_KEY,JSON.stringify(content));
+    const saveFav=()=>localStorage.setItem(FAV_KEY,JSON.stringify([...favorites]));
+    const saveRecent=()=>localStorage.setItem(RECENT_KEY,JSON.stringify(recent.slice(0,8)));
+
+    const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+    const statusFor=()=>{const fmt=new Intl.DateTimeFormat('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',hour12:false,weekday:'short'});const parts=fmt.formatToParts(new Date());const hour=Number(parts.find(x=>x.type==='hour')?.value||0),min=Number(parts.find(x=>x.type==='minute')?.value||0);return {hour,min,open:(hour*60+min)>=600&&(hour*60+min)<1020,stamp:fmt.format(new Date())}};
+    const updateStatus=()=>{const s=statusFor();const text=s.open?'OPEN NOW':'CLOSED NOW';$('#heroStatus').textContent=text;const badge=$('#statusBadge');badge.classList.toggle('closed',!s.open);badge.innerHTML=`<span class="dot"></span><span>${text}</span>`;$('#contactTime').textContent=`${s.stamp} · 10:00–17:00`;};
+    updateStatus(); setInterval(updateStatus,30000);
+
+    // intro
+    const intro=$('#intro');
+    const introSeen=sessionStorage.getItem('eyekon-intro-seen');
+    const finishIntro=()=>{sessionStorage.setItem('eyekon-intro-seen','1');intro.classList.add('is-done');setTimeout(()=>intro.remove(),700)};
+    $('#skipIntro').addEventListener('click',finishIntro);
+    if(!introSeen && !matchMedia('(prefers-reduced-motion: reduce)').matches){setTimeout(finishIntro,2100)}else{finishIntro()}
+
+    // scroll nav active state
+    const sections=$$('main section[id]'); const links=$$('.nav-link');
+    const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id))}}),{rootMargin:'-35% 0px -55% 0px'});sections.forEach(s=>observer.observe(s));
+
+    // mobile menu
+    $('#mobileMenu').addEventListener('click',()=>{const nav=$('.nav-links');const open=nav.style.display==='flex';nav.style.display=open?'':'flex';nav.style.position='absolute';nav.style.top='54px';nav.style.left='0';nav.style.right='0';nav.style.padding='8px';nav.style.background='#fff';nav.style.border='1px solid #d9e7f3';nav.style.borderRadius='18px';nav.style.flexDirection='column';nav.style.alignItems='stretch';nav.style.boxShadow='0 20px 40px rgba(54,105,137,.10)'});
+
+    // custom cursor
+    if(matchMedia('(pointer:fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches){const c=document.createElement('div');Object.assign(c.style,{position:'fixed',left:'0',top:'0',width:'10px',height:'10px',border:'1px solid #2aa5ca',borderRadius:'50%',zIndex:'100',pointerEvents:'none',mixBlendMode:'multiply',transform:'translate(-50%,-50%)',transition:'width .2s,height .2s,background .2s'});document.body.appendChild(c);window.addEventListener('pointermove',e=>{c.style.left=e.clientX+'px';c.style.top=e.clientY+'px'});$$('a,button,.product-card').forEach(el=>{el.addEventListener('pointerenter',()=>{c.style.width='28px';c.style.height='28px';c.style.background='rgba(20,118,212,.06)'});el.addEventListener('pointerleave',()=>{c.style.width='10px';c.style.height='10px';c.style.background='transparent'})})}
+
+    // Three hero / 2D fallback
+    const heroCanvas=$('#heroCanvas'); let heroScene=null;
+    function initHero(){
+      const w=heroCanvas.clientWidth||innerWidth,h=heroCanvas.clientHeight||innerHeight; heroCanvas.width=w*devicePixelRatio; heroCanvas.height=h*devicePixelRatio;
+      if(window.THREE){
+        try{const renderer=new THREE.WebGLRenderer({canvas:heroCanvas,alpha:true,antialias:true,powerPreference:'low-power'});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.setSize(w,h,false);const scene=new THREE.Scene();const camera=new THREE.PerspectiveCamera(36,w/h,.1,100);camera.position.set(0,0,7);
+          const group=new THREE.Group();scene.add(group);const matBlue=new THREE.MeshBasicMaterial({color:0x3ca8d4,transparent:true,opacity:.28,wireframe:true});const matGreen=new THREE.MeshBasicMaterial({color:0x55c79a,transparent:true,opacity:.23,wireframe:true});
+          [1.9,1.45,1.0].forEach((r,i)=>{const g=new THREE.TorusGeometry(r,.012+(i*.004),16,140);const m=i===1?matGreen:matBlue;const mesh=new THREE.Mesh(g,m);mesh.rotation.x=i===2?Math.PI/2.7:Math.PI/2.2;group.add(mesh)});
+          const lens=new THREE.Mesh(new THREE.SphereGeometry(.83,42,42),new THREE.MeshPhongMaterial({color:0xf6fdff,transparent:true,opacity:.32,shininess:120,side:THREE.DoubleSide}));group.add(lens);const light=new THREE.PointLight(0xa9ecff,1.5,15);light.position.set(2,2,4);scene.add(light);scene.add(new THREE.AmbientLight(0xdff8ff,1.7));
+          const ticks=[];for(let i=0;i<56;i++){const a=i/56*Math.PI*2;const rr=2.15;const p=new THREE.Mesh(new THREE.BoxGeometry(.018,.08,.018),new THREE.MeshBasicMaterial({color:i%2?0x7ccaa8:0x9dc8df,transparent:true,opacity:.5}));p.position.set(Math.cos(a)*rr,Math.sin(a)*rr,0);ticks.push(p);group.add(p)}
+          let px=0,py=0,active=true;const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;window.addEventListener('pointermove',e=>{px=(e.clientX/innerWidth-.5);py=(e.clientY/innerHeight-.5)});document.addEventListener('visibilitychange',()=>active=!document.hidden);const clock=new THREE.Clock();
+          let visible=true,lastFrame=0;const heroIO='IntersectionObserver' in window?new IntersectionObserver(es=>visible=!!es[0]?.isIntersecting,{rootMargin:'160px'}):null;heroIO?.observe(heroCanvas);function frame(t){if(document.hidden||!visible||reduce){requestAnimationFrame(frame);return}if(t-lastFrame<33){requestAnimationFrame(frame);return}lastFrame=t;const tt=clock.getElapsedTime();group.rotation.y += .0018;group.rotation.x = py*.22;group.rotation.y += px*.001;group.children.forEach((o,i)=>{if(o.geometry?.type==='TorusGeometry')o.rotation.z=tt*(i%2?-.06:.04)});renderer.render(scene,camera);requestAnimationFrame(frame)}requestAnimationFrame(frame);heroScene={renderer,scene,camera};return;
+        }catch(e){console.warn('WebGL hero fallback:',e)}
+      }
+      const ctx=heroCanvas.getContext('2d'); if(!ctx)return; let t=0; const draw=()=>{t+=.016;const W=heroCanvas.width,H=heroCanvas.height;ctx.clearRect(0,0,W,H);const cx=W*.70,cy=H*.48;[.37,.29,.21].forEach((r,i)=>{ctx.beginPath();ctx.arc(cx,cy,Math.min(W,H)*r,0,Math.PI*2);ctx.strokeStyle=i===1?'rgba(70,190,145,.26)':'rgba(40,138,198,.23)';ctx.lineWidth=Math.max(1,devicePixelRatio);ctx.stroke()});ctx.beginPath();ctx.arc(cx,cy,Math.min(W,H)*.11,0,Math.PI*2);ctx.strokeStyle='rgba(49,201,215,.38)';ctx.stroke();if(!matchMedia('(prefers-reduced-motion: reduce)').matches)requestAnimationFrame(draw)};draw();
+    }
+    addEventListener('resize',()=>{if(heroScene?.renderer){heroScene.renderer.setSize(heroCanvas.clientWidth,heroCanvas.clientHeight,false);heroScene.camera.aspect=heroCanvas.clientWidth/heroCanvas.clientHeight;heroScene.camera.updateProjectionMatrix()}});initHero();
+
+    // lab canvas
+    const labCanvas=$('#labCanvas'); let labState={mode:'slit',illum:62,mag:3,rx:0,ry:0};
+    function drawLab(){const ctx=labCanvas.getContext('2d');if(!ctx)return;const d=devicePixelRatio||1,W=labCanvas.clientWidth,H=labCanvas.clientHeight;labCanvas.width=W*d;labCanvas.height=H*d;ctx.setTransform(d,0,0,d,0,0);ctx.clearRect(0,0,W,H);ctx.save();ctx.translate(W/2,H/2);ctx.rotate(labState.ry*.02);ctx.scale(1+labState.rx*.002,1+labState.rx*.002);const max=Math.min(W,H)*.33;for(let i=0;i<8;i++){ctx.beginPath();ctx.arc(0,0,max-i*max/10,0,Math.PI*2);ctx.strokeStyle=i%2?'rgba(36,146,201,.10)':'rgba(42,171,121,.11)';ctx.lineWidth=1;ctx.stroke()}ctx.beginPath();ctx.ellipse(0,0,max*.84,max*.36,labState.ry*.01,0,Math.PI*2);ctx.strokeStyle='rgba(20,118,212,.24)';ctx.lineWidth=2;ctx.stroke();ctx.beginPath();ctx.arc(0,0,max*.24,0,Math.PI*2);ctx.fillStyle='rgba(255,255,255,.76)';ctx.fill();ctx.strokeStyle='rgba(55,169,204,.28)';ctx.stroke();const rays=Math.max(2,Math.round(labState.illum/25));for(let i=0;i<rays;i++){const y=(i-(rays-1)/2)*18;ctx.beginPath();ctx.moveTo(-max*1.02,y);ctx.lineTo(max*.78,y*0.46);ctx.strokeStyle=`rgba(61,174,215,${.12+labState.illum/900})`;ctx.lineWidth=2;ctx.stroke()}if(labState.mode==='micro'){for(let i=0;i<70;i++){const a=i*1.7,r=(i%17)/17*max*.8;ctx.beginPath();ctx.arc(Math.cos(a)*r,Math.sin(a)*r,1.3,0,Math.PI*2);ctx.fillStyle='rgba(76,175,145,.23)';ctx.fill()}}ctx.restore();}
+    drawLab();
+    let dragging=false,lastX=0,lastY=0;labCanvas.addEventListener('pointerdown',e=>{dragging=true;lastX=e.clientX;lastY=e.clientY;labCanvas.setPointerCapture(e.pointerId);$('#hudMode').textContent='MODE / INSPECTION'});labCanvas.addEventListener('pointermove',e=>{if(!dragging)return;labState.ry+=(e.clientX-lastX)*.8;labState.rx+=(e.clientY-lastY)*.8;lastX=e.clientX;lastY=e.clientY;drawLab()});labCanvas.addEventListener('pointerup',()=>dragging=false);labCanvas.addEventListener('wheel',e=>{e.preventDefault();labState.mag=Math.max(2,Math.min(5,labState.mag+(e.deltaY>0?-0.1:.1)));drawLab()},{passive:false});
+    $('#illumination').addEventListener('input',e=>{labState.illum=Number(e.target.value);drawLab()});$('#resetLab').addEventListener('click',()=>{labState={mode:'slit',illum:62,mag:3,rx:0,ry:0};$('#illumination').value=62;$('#hudMode').textContent='MODE / EXPLORATION';drawLab()});
+    $$('.tab').forEach(b=>b.addEventListener('click',()=>{$$('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');labState.mode=b.dataset.lab;drawLab()}));
+    $$('.state-btn[data-mag]').forEach(b=>b.addEventListener('click',()=>{$$('.state-btn[data-mag]').forEach(x=>x.classList.remove('active'));b.classList.add('active');const mag=Number(b.dataset.mag);labState.mag=mag;$('#magLabel').textContent=`${mag}× / EDUCATIONAL`;$('#hudFocus').textContent=`FOCUS / ${mag===5?'MACRO':'LOCKED'}`;drawLab()}));
+    $('#focusPortal').addEventListener('click',()=>{document.querySelector('#eye').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'})});
+
+    // products
+    const grid=$('#productGrid'); let listMode=false;
+    function productFiltered(){const q=$('#productSearch').value.trim().toLowerCase(),filter=$('#productFilter').value,sort=$('#productSort').value;let arr=content.products.filter(p=>p.visible!==false);if(filter==='favorites')arr=arr.filter(p=>favorites.has(p.id));if(q)arr=arr.filter(p=>`${p.number} ${p.name} ${p.description} ${p.category}`.toLowerCase().includes(q));if(sort==='name')arr.sort((a,b)=>a.name.localeCompare(b.name));else if(sort==='recent')arr.sort((a,b)=>(recent.indexOf(b.id)-recent.indexOf(a.id)));else arr.sort((a,b)=>a.sort-b.sort);return arr}
+    function renderProducts(){const arr=productFiltered();grid.className='product-grid'+(listMode?' list':'');grid.innerHTML='';if(!arr.length){grid.innerHTML='<div class="notice" style="grid-column:1/-1">NO MATCH FOUND · Try another optical search.</div>';return}arr.forEach(p=>{const c=document.createElement('article');c.className='product-card';const f=favorites.has(p.id);c.innerHTML=`<div class="product-media"><img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="product-fallback" style="display:none"><div><strong>${p.number}</strong><div class="micro" style="margin-top:8px">IMAGE ASSET REQUIRED</div></div></div><div class="product-actions-float"><span class="pill"><span class="dot"></span>${p.number}</span><button class="fav ${f?'is-fav':''}" data-fav="${p.id}" aria-label="${f?'Remove from':'Add to'} favorites">${f?'★':'☆'}</button></div></div><div class="product-body"><div class="micro">PRODUCT ${p.number}</div><div class="product-name">${escapeHTML(p.name)}</div><div class="product-desc">${escapeHTML(p.description)}</div><div class="product-foot"><button class="btn soft" data-view="${p.id}">VIEW PRODUCT ↗</button><a class="view-link" target="_blank" rel="noopener" href="${whatsappFor(p)}">ENQUIRE</a></div></div>`;grid.appendChild(c)});$$('[data-view]').forEach(b=>b.addEventListener('click',()=>openViewer(b.dataset.view)));$$('[data-fav]').forEach(b=>b.addEventListener('click',()=>{const id=b.dataset.fav;if(favorites.has(id))favorites.delete(id);else favorites.add(id);saveFav();renderProducts()}));}
+    function escapeHTML(s){return String(s).replace(/[&<>'"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[m]))}
+    function whatsappFor(p){return 'https://wa.me/919455855203?text='+encodeURIComponent(`Hello EYEKON VISION,\nI am interested in ${p.name}.\nPlease share the available details.`)}
+    ['productSearch','productFilter','productSort'].forEach(id=>$(('#'+id)).addEventListener('input',renderProducts));$('#toggleView').addEventListener('click',()=>{listMode=!listMode;$('#toggleView').textContent=listMode?'GRID VIEW':'LIST VIEW';renderProducts()});renderProducts();
+
+    // viewer
+    const modal=$('#viewerModal'),vimg=$('#viewerImage'),vf=$('#viewerFallback'); let currentId='1',scale=1,tx=0,ty=0,dragV=false,lx=0,ly=0;
+    const currentProduct=()=>content.products.find(p=>p.id===currentId)||content.products[0];
+    function applyViewer(){vimg.style.setProperty('--scale',scale);vimg.style.setProperty('--tx',tx+'px');vimg.style.setProperty('--ty',ty+'px')}
+    function setViewer(p){currentId=p.id;scale=1;tx=0;ty=0;applyViewer();$('#viewerNumber').textContent=`PRODUCT ${p.number}`;$('#viewerTitle').textContent=p.name;$('#viewerSideTitle').textContent=p.name;$('#viewerDesc').textContent=p.description;$('#viewerWhatsapp').href=whatsappFor(p);vimg.alt=p.name;vimg.src=p.image;vimg.style.display='block';vf.style.display='none';vimg.onerror=()=>{vimg.style.display='none';vf.style.display='grid'};$('#viewerStatus').textContent='READY';recent=[p.id,...recent.filter(x=>x!==p.id)].slice(0,8);saveRecent();renderProducts()}
+    function openViewer(id){const p=content.products.find(x=>x.id===id);if(!p)return;setViewer(p);modal.classList.add('open');modal.setAttribute('aria-hidden','false');window.EYEKON_SCROLL?.lock();$('#closeViewer').focus()}
+    function closeViewer(){modal.classList.remove('open');modal.setAttribute('aria-hidden','true');window.EYEKON_SCROLL?.unlock()}
+    $('#closeViewer').addEventListener('click',closeViewer);modal.addEventListener('click',e=>{if(e.target===modal)closeViewer()});
+    const changeProduct=dir=>{const ids=content.products.filter(p=>p.visible!==false).map(p=>p.id),i=ids.indexOf(currentId),n=ids[(i+dir+ids.length)%ids.length];setViewer(content.products.find(p=>p.id===n))};$('#prevProduct').addEventListener('click',()=>changeProduct(-1));$('#nextProduct').addEventListener('click',()=>changeProduct(1));
+    const updateZoom=d=>{scale=Math.min(3,Math.max(.8,scale+d));applyViewer()};$('#zoomIn').addEventListener('click',()=>updateZoom(.2));$('#zoomOut').addEventListener('click',()=>updateZoom(-.2));$('#resetViewer').addEventListener('click',()=>{scale=1;tx=0;ty=0;applyViewer()});
+    $('#fullViewer').addEventListener('click',()=>{const el=$('.viewer');if(document.fullscreenElement)document.exitFullscreen();else el.requestFullscreen?.()});
+    const vstage=$('#viewerStage');vstage.addEventListener('pointerdown',e=>{dragV=true;lx=e.clientX;ly=e.clientY;vstage.setPointerCapture(e.pointerId)});vstage.addEventListener('pointermove',e=>{if(!dragV)return;tx+=e.clientX-lx;ty+=e.clientY-ly;lx=e.clientX;ly=e.clientY;applyViewer()});vstage.addEventListener('pointerup',()=>dragV=false);vstage.addEventListener('pointercancel',()=>dragV=false);vstage.addEventListener('wheel',e=>{e.preventDefault();updateZoom(e.deltaY<0?.12:-.12)},{passive:false});
+    document.addEventListener('keydown',e=>{if(!modal.classList.contains('open'))return;if(e.key==='Escape')closeViewer();if(e.key==='ArrowLeft')changeProduct(-1);if(e.key==='ArrowRight')changeProduct(1);if(e.key==='+')updateZoom(.2);if(e.key==='-')updateZoom(-.2)});
+
+    // eye explorer canvas
+    const eyeCanvas=$('#eyeCanvas'),eyeParts=$('#eyeParts');const eyeData=[['cornea','CORNEA','Transparent front surface of the eye.'],['iris','IRIS','Colored structure that surrounds the pupil.'],['pupil','PUPIL','Opening through which light enters.'],['lens','LENS','Transparent structure that helps focus light.'],['retina','RETINA','Light-sensitive layer lining the back of the eye.'],['optic','OPTIC NERVE','Carries visual signals from the retina toward the brain.']];let eyeFocus='cornea',eyeRot=0,eyeZoom=1,eyeDrag=false,elx=0;
+eyeParts.innerHTML=eyeData.map(([id,n,d])=>`<button class="eye-part" data-eye="${id}"><strong>${n}</strong><span>${d}</span></button>`).join('');
+    function drawEye(){const ctx=eyeCanvas.getContext('2d');if(!ctx)return;const d=devicePixelRatio||1,W=eyeCanvas.clientWidth,H=eyeCanvas.clientHeight;eyeCanvas.width=W*d;eyeCanvas.height=H*d;ctx.setTransform(d,0,0,d,0,0);ctx.clearRect(0,0,W,H);ctx.fillStyle='#fbfeff';ctx.fillRect(0,0,W,H);const cx=W/2,cy=H/2,rx=Math.min(W,H)*.27*eyeZoom,ry=rx*.72;ctx.save();ctx.translate(cx,cy);ctx.rotate(eyeRot*.01);ctx.scale(1,1);ctx.beginPath();ctx.ellipse(0,0,rx,ry,0,0,Math.PI*2);ctx.fillStyle='rgba(224,246,252,.62)';ctx.fill();ctx.strokeStyle='#8fc9de';ctx.lineWidth=2;ctx.stroke();ctx.beginPath();ctx.ellipse(rx*.32,0,rx*.42,ry*.84,0,0,Math.PI*2);ctx.fillStyle='rgba(198,240,218,.42)';ctx.fill();ctx.strokeStyle='#7fc49f';ctx.stroke();ctx.beginPath();ctx.arc(-rx*.26,0,rx*.18,0,Math.PI*2);ctx.fillStyle='rgba(79,177,200,.30)';ctx.fill();ctx.strokeStyle='#4caac6';ctx.stroke();ctx.beginPath();ctx.arc(-rx*.26,0,rx*.085,0,Math.PI*2);ctx.fillStyle='#c7f0f4';ctx.fill();ctx.stroke();ctx.beginPath();ctx.arc(rx*.58,0,rx*.22,0,Math.PI*2);ctx.fillStyle='rgba(245,236,214,.42)';ctx.fill();ctx.strokeStyle='#c9ad85';ctx.stroke();ctx.beginPath();ctx.arc(0,0,Math.min(rx,ry)*.92,0,Math.PI*2);ctx.setLineDash([4,7]);ctx.strokeStyle='rgba(20,118,212,.18)';ctx.stroke();ctx.setLineDash([]);
+      // optic nerve
+      ctx.beginPath();ctx.moveTo(rx*.94,0);ctx.lineTo(rx*1.38,0);ctx.strokeStyle='#87caa6';ctx.lineWidth=16;ctx.lineCap='round';ctx.stroke();
+      // light rays
+      const a=-.04;for(let i=-2;i<=2;i++){ctx.beginPath();ctx.moveTo(-rx*1.55,i*12);ctx.lineTo(-rx*.26,i*7);ctx.strokeStyle='rgba(46,158,211,.42)';ctx.lineWidth=2;ctx.stroke()}
+      if(eyeFocus){ctx.beginPath();ctx.arc(({cornea:-rx*.58,iris:-rx*.23,pupil:-rx*.26,lens:-rx*.09,retina:rx*.43,optic:rx*1.05}[eyeFocus]||0),0,Math.min(rx,ry)*.13,0,Math.PI*2);ctx.strokeStyle='#42ad7b';ctx.lineWidth=3;ctx.stroke()}
+      ctx.restore();ctx.fillStyle='#68849a';ctx.font='700 11px Inter, sans-serif';ctx.fillText('EDUCATIONAL · ILLUSTRATIVE',22,28);ctx.font='700 10px Inter, sans-serif';ctx.fillText(`FOCUS / ${eyeFocus.toUpperCase()}`,22,48);}
+    $$('[data-eye]').forEach(b=>b.addEventListener('click',()=>{eyeFocus=b.dataset.eye;drawEye()}));$('#resetEye').addEventListener('click',()=>{eyeFocus='cornea';eyeRot=0;eyeZoom=1;drawEye()});eyeCanvas.addEventListener('pointerdown',e=>{eyeDrag=true;elx=e.clientX;eyeCanvas.setPointerCapture(e.pointerId)});eyeCanvas.addEventListener('pointermove',e=>{if(!eyeDrag)return;eyeRot+=e.clientX-elx;elx=e.clientX;drawEye()});eyeCanvas.addEventListener('pointerup',()=>eyeDrag=false);eyeCanvas.addEventListener('pointercancel',()=>eyeDrag=false);eyeCanvas.addEventListener('wheel',e=>{e.preventDefault();eyeZoom=Math.max(.8,Math.min(1.35,eyeZoom+(e.deltaY>0?-.03:.03)));drawEye()},{passive:false});drawEye();
+
+    // ray lab
+    const rayCanvas=$('#rayCanvas');let rayState='normal';const rayInfo={normal:['Normal focus','Rays are illustrated as converging toward the retinal plane in a simplified diagram.'],near:['Near focus','The diagram shifts the illustrated convergence point to represent a near-focus study.'],far:['Far focus','The diagram shifts the illustrated convergence point to represent a far-focus study.']};
+    function drawRays(){const ctx=rayCanvas.getContext('2d');if(!ctx)return;const d=devicePixelRatio||1,W=rayCanvas.clientWidth,H=rayCanvas.clientHeight;rayCanvas.width=W*d;rayCanvas.height=H*d;ctx.setTransform(d,0,0,d,0,0);ctx.clearRect(0,0,W,H);ctx.fillStyle='#fff';ctx.fillRect(0,0,W,H);ctx.strokeStyle='#d8e7ef';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(50,H*.52);ctx.lineTo(W-50,H*.52);ctx.stroke();const eyeX=W*.62,cy=H*.52,retinaX=W*.79;ctx.beginPath();ctx.arc(eyeX,cy,120,0,Math.PI*2);ctx.strokeStyle='#9bc6da';ctx.fillStyle='#f7fcff';ctx.fill();ctx.stroke();ctx.beginPath();ctx.arc(eyeX+18,cy,55,0,Math.PI*2);ctx.fillStyle='#f0faf7';ctx.fill();ctx.strokeStyle='#a7d5be';ctx.stroke();ctx.beginPath();ctx.arc(retinaX,cy,6,0,Math.PI*2);ctx.fillStyle='#4caecb';ctx.fill();const yOffsets=[-72,-36,0,36,72];const target=rayState==='normal'?retinaX:(rayState==='near'?eyeX+112:eyeX+330);yOffsets.forEach(y=>{ctx.beginPath();ctx.moveTo(60,cy+y);ctx.lineTo(eyeX-58,cy+y*.72);ctx.lineTo(target,cy);ctx.strokeStyle='rgba(44,153,205,.56)';ctx.lineWidth=2;ctx.stroke()});ctx.fillStyle='#607b90';ctx.font='700 11px Inter, sans-serif';ctx.fillText('OBJECT',62,cy-90);ctx.fillText('SIMPLIFIED EYE',eyeX-54,cy+142);ctx.fillText('RETINAL PLANE',retinaX-44,cy+32);}
+    function setRay(s){rayState=s;$$('[data-ray]').forEach(b=>b.classList.toggle('active',b.dataset.ray===s));$('#rayStatePill').textContent=rayInfo[s][0].toUpperCase();$('#rayHeading').textContent=rayInfo[s][0];$('#rayCopy').textContent=rayInfo[s][1];drawRays()};$$('[data-ray]').forEach(b=>b.addEventListener('click',()=>setRay(b.dataset.ray)));drawRays();
+    addEventListener('resize',()=>{drawLab();drawEye();drawRays()});
+
+    // smooth anchor clicks with reduced motion handled by CSS
+    $$('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>{const nl=$('.nav-links');if(innerWidth<=1100)nl.style.display='none'}));
+
+    // safe JSON-LD product graph generated from content (no unsupported fields)
+    const schema=$('#orgSchema'); try{const obj=JSON.parse(schema.textContent);obj['@type']='Organization';const products=content.products.map(p=>({'@type':'Product','name':p.name,'image':location.origin+location.pathname.replace(/[^/]*$/,'')+p.image,'description':p.description}));obj.subjectOf=products;schema.textContent=JSON.stringify(obj,null,2)}catch{}
+  })();
+  </script>
+
+  <div class="eyk-admin" id="eykAdmin" aria-hidden="true">
+    <div class="eyk-admin-top"><div class="eyk-admin-bar"><div><div class="eyk-admin-brand">EYEKON ADMIN</div><div class="eyk-kicker">CONTROL CENTER · LOCAL CMS MODE</div></div><div class="eyk-admin-actions"><span class="eyk-state not-configured">AUTH BACKEND NOT CONFIGURED</span><button class="btn" id="closeAdmin">CLOSE</button></div></div></div>
+    <div class="eyk-admin-body">
+      <aside class="eyk-admin-nav" aria-label="Admin sections">
+        <button class="active" data-admin="overview">OVERVIEW</button><button data-admin="products">PRODUCTS</button><button data-admin="media">MEDIA</button><button data-admin="content">CONTENT</button><button data-admin="homepage">HOMEPAGE</button><button data-admin="lab">OPTICAL LAB</button><button data-admin="blog">BLOG</button><button data-admin="faq">FAQ</button><button data-admin="chat">CHAT</button><button data-admin="contact">CONTACT</button><button data-admin="hours">BUSINESS HOURS</button><button data-admin="seo">SEO</button><button data-admin="analytics">ANALYTICS</button><button data-admin="api">API INTEGRATIONS</button><button data-admin="settings">SETTINGS</button><button data-admin="security">SECURITY</button>
+      </aside>
+      <main class="eyk-admin-main" id="adminPanel"></main>
+    </div>
+  </div>
+
+<style id="eyekon-v2-extension">
+  :root{--eyk-blue:#1476d4;--eyk-green:#2aab79;--eyk-ink:#17304a;--eyk-muted:#688198;--eyk-line:#d9e7f3;--eyk-paper:#fbfdff}
+  .eyk-tools{display:flex;align-items:center;gap:7px}.eyk-lang{min-height:42px;padding:0 12px;border:1px solid var(--eyk-line);background:#fff;border-radius:999px;font-size:11px;font-weight:850;letter-spacing:.08em}
+  .eyk-section{padding:105px 0;border-top:1px solid var(--eyk-line)}
+  .eyk-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.eyk-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .eyk-panel{border:1px solid var(--eyk-line);border-radius:24px;background:#fff;padding:24px;box-shadow:0 18px 55px rgba(32,93,132,.06)}
+  .eyk-kicker{font-size:10px;letter-spacing:.16em;text-transform:uppercase;font-weight:850;color:#6b879b}.eyk-panel h3{margin:10px 0 8px;font-size:24px;letter-spacing:-.03em}.eyk-panel p{color:var(--eyk-muted);font-size:14px}
+  .eyk-blog-card{display:flex;flex-direction:column;min-height:220px}.eyk-blog-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}.eyk-tag{padding:7px 9px;border:1px solid var(--eyk-line);border-radius:999px;font-size:10px;font-weight:800;color:#58758a}
+  .eyk-faq{border-top:1px solid var(--eyk-line)}.eyk-faq button{width:100%;padding:18px 0;border:0;background:transparent;text-align:left;display:flex;justify-content:space-between;gap:16px;font-weight:800;color:var(--eyk-ink)}.eyk-faq-answer{display:none;padding:0 0 18px;color:var(--eyk-muted);font-size:14px}.eyk-faq.open .eyk-faq-answer{display:block}
+  .ask-shell{display:grid;grid-template-columns:1fr .7fr;gap:14px}.ask-box{border:1px solid var(--eyk-line);border-radius:28px;background:#fff;padding:24px}.ask-row{display:flex;gap:8px}.ask-row input{flex:1;min-width:0}.ask-result{margin-top:14px;padding:16px;border:1px solid var(--eyk-line);border-radius:16px;background:#fbfdff;color:#526e82;min-height:70px}
+  .eyk-admin{position:fixed;inset:0;background:#f7fbff;z-index:300;display:none;overflow:auto;color:var(--eyk-ink)}.eyk-admin.open{display:block}.eyk-admin-top{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.94);backdrop-filter:blur(18px);border-bottom:1px solid var(--eyk-line);padding:14px 20px}.eyk-admin-bar{max-width:1400px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}.eyk-admin-brand{font-weight:900;letter-spacing:.13em}.eyk-admin-body{max-width:1400px;margin:auto;padding:24px;display:grid;grid-template-columns:230px 1fr;gap:18px}.eyk-admin-nav{border:1px solid var(--eyk-line);background:#fff;border-radius:22px;padding:10px;height:max-content;position:sticky;top:80px}.eyk-admin-nav button{display:block;width:100%;border:0;background:#fff;text-align:left;padding:12px;border-radius:12px;font-size:11px;font-weight:850;letter-spacing:.08em}.eyk-admin-nav button.active,.eyk-admin-nav button:hover{background:#eef8ff;color:#136db8}.eyk-admin-main{min-width:0}.eyk-admin-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.eyk-stat{border:1px solid var(--eyk-line);background:#fff;border-radius:18px;padding:18px}.eyk-stat strong{display:block;font-size:28px}.eyk-admin-card{border:1px solid var(--eyk-line);background:#fff;border-radius:22px;padding:20px;margin-top:14px}.eyk-status-line{display:flex;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid #edf3f7;font-size:13px}.eyk-status-line:last-child{border-bottom:0}.eyk-state{font-size:10px;font-weight:900;letter-spacing:.1em;padding:6px 8px;border-radius:999px;background:#f5f8fa;color:#6b8090}.eyk-state.not-configured{background:#fff8e9;color:#946c19}.eyk-product-admin{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.eyk-product-row{display:grid;grid-template-columns:72px 1fr auto;gap:12px;align-items:center;border:1px solid var(--eyk-line);border-radius:16px;padding:10px}.eyk-product-row img{width:72px;height:58px;object-fit:contain;background:#f4faff;border-radius:10px}.eyk-admin-input{width:100%;height:42px;border:1px solid var(--eyk-line);border-radius:10px;padding:0 10px}.eyk-admin-actions{display:flex;gap:8px;flex-wrap:wrap}.eyk-admin-note{padding:12px 14px;border:1px solid #d8eaf5;background:#f6fbff;border-radius:14px;color:#58748a;font-size:12px;margin-top:12px}.eyk-modal-small{max-width:680px!important}.eyk-hidden{display:none!important}
+  @media(max-width:900px){.eyk-grid-3,.eyk-grid-2,.ask-shell{grid-template-columns:1fr}.eyk-admin-body{grid-template-columns:1fr}.eyk-admin-nav{position:static;display:flex;overflow:auto;gap:5px}.eyk-admin-nav button{min-width:max-content}.eyk-admin-grid{grid-template-columns:repeat(2,1fr)}.eyk-product-admin{grid-template-columns:1fr}}
+  @media(max-width:600px){.eyk-admin-grid{grid-template-columns:1fr 1fr}.eyk-section{padding:78px 0}.eyk-product-row{grid-template-columns:58px 1fr}.eyk-product-row .eyk-admin-actions{grid-column:1/-1}.eyk-tools .eyk-lang{padding:0 9px}}
+  @media(prefers-reduced-motion:reduce){.eyk-section *{scroll-behavior:auto!important}}
+</style>
+
+
+<script id="eyekon-v2-extension-js">
+(()=>{
+  const q=s=>document.querySelector(s), qa=s=>[...document.querySelectorAll(s)];
+  const safe=(v)=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  const STORE='eyekon_v2_cms';
+  const baseProducts=[...Array(10)].map((_,i)=>({id:String(i+1),number:String(i+1).padStart(2,'0'),name:`PRODUCT ${String(i+1).padStart(2,'0')}`,slug:`product-${i+1}`,image:`${i+1}.jpg`,description:'Product information available on request.',category:'Unassigned',visible:true,sort:i+1,alt:`EYEKON VISION product ${String(i+1).padStart(2,'0')}`,enquiry:'Please share the available details.'}));
+  const faqSeed=[
+   ['What is EYEKON VISION?','EYEKON VISION is the EYEKON digital platform for exploring ophthalmic and eye-care equipment information, approved educational content and contact options.'],['What products does EYEKON VISION offer?','The current website contains ten product records using the supplied image assets. Product identities and specifications are administrator-controlled.'],['Where is EYEKON VISION located?','EYEKON VISION is listed at M-D1, Sector B, Kanpur Rd, LDA Colony, opposite Kisna Diamond & Gold Jewellery, Alambagh, Lucknow, Uttar Pradesh 226012.'],['What are the business hours?','Every day, 10:00 AM — 5:00 PM, Asia/Kolkata.'],['Is EYEKON VISION open today?','The website calculates business status using Asia/Kolkata and the configured daily hours.'],['How can I contact EYEKON?','Use WhatsApp, phone, email or the directions link in the Contact section.'],['How can I contact EYEKON on WhatsApp?','Use the WhatsApp contact button on the website.'],['Where can I view the catalogue?','Use the Catalogue button to open EYEKON’s supplied WhatsApp catalogue link.'],['Can I enquire about a specific product?','Yes. Open a product and use its enquiry action.'],['How do I enquire about a product?','Open the product and select ENQUIRE to prepare a WhatsApp message.'],['Can I view product images?','Yes. Each visible product can be opened in the product inspection viewer.'],['Can I zoom into a product image?','Yes. The product inspection viewer supports zoom and pan.'],['Can I view products fullscreen?','Yes, where the browser supports fullscreen.'],['Where can I find the product collection?','Use the PRODUCTS section in the main navigation.'],['What is the Optical Lab?','It is an educational and illustrative digital optics experience. It does not replace a clinical or engineering instrument.'],['What is the Human Eye Explorer?','It is an educational visualization of major eye structures including the cornea, iris, pupil, lens, retina and optic nerve.'],['Is the Optical Lab educational?','Yes. Illustrative experiences are explicitly labeled as educational where appropriate.'],['What is the Light → Vision experience?','It presents a simplified educational journey from incoming light through the eye and toward the brain.'],['What is the Magnification Simulator?','It is an educational visualization for comparing 2×, 3× and 5× magnification effects.'],['Is the magnification simulation a diagnostic tool?','No. It is an educational optical simulation.'],['Can product information be requested?','Yes. Contact EYEKON for product information that is not published on the website.'],['Can product names be updated?','Yes, where the administrator has access to the CMS content layer.'],['How can I request product details?','Use a product enquiry or contact EYEKON directly.'],['How can I request availability?','Contact EYEKON for the latest availability information.'],['Can I contact EYEKON by phone?','Yes. The listed phone number is 9455855203.'],['What is the EYEKON email address?','The listed email address is eyekonvision01@gmail.com.'],['How do I get directions?','Use the GET DIRECTIONS / Google Maps action in the Contact section.'],['Does EYEKON support Hindi?','Yes. The interface includes English and हिन्दी modes.'],['Does EYEKON support English?','Yes. English is the default interface language.'],['Can I save products?','Yes. Favorites are stored locally in the browser and do not require an account.'],['Can I see recently viewed products?','Yes. Recently viewed products are stored locally with a limited history.'],['Can I search products?','Yes. Use the product search field.'],['Can I filter products?','Yes. The product interface supports filtering and sorting.'],['Can I view the latest EYEKON articles?','Yes. Use the INSIGHTS section when approved articles are published.'],['What is the EYEKON Blog?','It is an editorial area for factual ophthalmic technology, optical science, instrumentation and EYEKON-approved educational content.'],['How can I read educational articles?','Open an article from INSIGHTS when one is published.'],['Can I access EYEKON on mobile?','Yes. The interface is responsive and includes a mobile contact dock.'],['Does the website support accessibility features?','The site includes semantic landmarks, keyboard-friendly controls, visible focus, accessible labels and reduced-motion handling.'],['Can I request information not listed on the website?','Yes. Contact EYEKON directly for the latest information.'],['How can I speak with EYEKON VISION?','Use WhatsApp, phone or email from the Contact section.']
+  ].map((x,i)=>({id:String(i+1),q:x[0],a:x[1],hiQ:'',hiA:'',keywords:x[0].toLowerCase().split(/\W+/).filter(Boolean),enabled:true,sort:i+1}));
+  const seed={products:baseProducts,faq:faqSeed,blog:[],site:{language:'en',seoTitle:document.title,seoDescription:q('meta[name="description"]')?.content||'',published:false},analytics:{provider:'',connected:false},contact:{phone:'9455855203',whatsapp:'+919455855203',email:'eyekonvision01@gmail.com',address:'M-D1, Sector B, Kanpur Rd, LDA Colony, opposite Kisna Diamond & Gold Jewellery, Alambagh, Lucknow, Uttar Pradesh 226012',maps:'https://maps.app.goo.gl/77szJmgtXu7oERWr8',catalogue:'https://wa.me/c/919455855203'},hours:{timezone:'Asia/Kolkata',everyDay:true,open:'10:00',close:'17:00'}};
+  let data;try{data=JSON.parse(localStorage.getItem(STORE)||'null')}catch{} data=data||seed;
+  if(!Array.isArray(data.products)||!data.products.length)data.products=baseProducts; if(!data.faq)data.faq=faqSeed; if(!data.blog)data.blog=[];
+  // Bridge the existing public product renderer to the centralized CMS dataset.
+  if(window.content && Array.isArray(window.content.products)) window.content.products=data.products;
+  const persist=()=>{localStorage.setItem(STORE,JSON.stringify(data)); if(window.content&&Array.isArray(window.content.products)) window.content.products=data.products;}; persist();
+
+  // language
+  const labels={en:{insights:'INSIGHTS',faq:'FAQ',ask:'ASK EYEKON'},hi:{insights:'इनसाइट्स',faq:'अक्सर पूछे जाने वाले प्रश्न',ask:'EYEKON से पूछें'}};
+  const langBtn=document.createElement('button');langBtn.className='eyk-lang';langBtn.id='languageToggle';langBtn.textContent='EN | हिन्दी';
+  const navActions=q('.nav-actions'); if(navActions)navActions.prepend(langBtn);
+  const applyLang=()=>{const hi=localStorage.getItem('eyekon_lang')==='hi';document.documentElement.lang=hi?'hi':'en';q('#insights-title').textContent=hi?'ऑप्टिक्स और इंस्ट्रूमेंटेशन, स्पष्ट रूप में।':'Optics, instrumentation, explained.';q('#faq-title').textContent=hi?'सटीक उत्तर, स्पष्ट जानकारी।':'Questions, answered precisely.';q('#ask-title').textContent=hi?'एक नियंत्रित प्रश्न इंटरफेस।':'A controlled question interface.';q('#askInput').placeholder=hi?'EYEKON के बारे में पूछें…':'Ask about EYEKON…';};
+  langBtn.addEventListener('click',()=>{localStorage.setItem('eyekon_lang',localStorage.getItem('eyekon_lang')==='hi'?'en':'hi');applyLang()});applyLang();
+
+  function renderBlog(){const g=q('#blogGrid');if(!g)return;const posts=data.blog.filter(x=>x.status==='published');g.innerHTML=posts.length?posts.map(p=>`<article class="eyk-panel eyk-blog-card"><div class="eyk-kicker">${safe(p.category||'INSIGHT')}</div><h3>${safe(p.title)}</h3><p>${safe(p.excerpt||'')}</p><div class="eyk-blog-meta"><span class="eyk-tag">${safe(p.date||'')}</span><span class="eyk-tag">${safe(p.author||'EYEKON')}</span></div></article>`).join(''):'<div class="eyk-panel" style="grid-column:1/-1"><div class="eyk-kicker">INSIGHTS</div><h3>No published articles yet.</h3><p>Articles will appear here only after administrator approval and publication.</p></div>'}
+  function renderFaq(){const g=q('#faqGrid');if(!g)return;const hi=document.documentElement.lang==='hi';g.innerHTML=data.faq.filter(x=>x.enabled!==false).map(f=>`<div class="eyk-panel eyk-faq"><button aria-expanded="false"><span>${safe(hi&&f.hiQ?f.hiQ:f.q)}</span><span>+</span></button><div class="eyk-faq-answer">${safe(hi&&f.hiA?f.hiA:f.a)}</div></div>`).join('');qa('.eyk-faq button').forEach(b=>b.addEventListener('click',()=>{const p=b.parentElement;p.classList.toggle('open');b.setAttribute('aria-expanded',p.classList.contains('open'))}));}
+  renderBlog();renderFaq();langBtn.addEventListener('click',renderFaq);
+
+  // deterministic approved FAQ matcher
+  function norm(t){return String(t||'').toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}\s]/gu,' ').replace(/\s+/g,' ').trim()}
+  function matchFaq(input){const n=norm(input);if(!n)return null;let best=null,score=0;for(const f of data.faq){if(f.enabled===false)continue;const terms=[f.q,...(f.keywords||[])].map(norm).filter(Boolean);let s=0;if(n===norm(f.q))s+=100;for(const t of terms){if(n.includes(t))s+=30;const words=t.split(' ').filter(w=>w.length>2);s+=words.filter(w=>n.includes(w)).length*4}if(s>score){score=s;best=f}}return score>=12?best:null}
+  q('#askBtn')?.addEventListener('click',()=>{const input=q('#askInput').value;const f=matchFaq(input);const hi=document.documentElement.lang==='hi';q('#askResult').textContent=f?(hi&&f.hiA?f.hiA:f.a):'I don\'t have an approved answer for that question. Please contact EYEKON VISION via WhatsApp, phone or email.'});q('#askInput')?.addEventListener('keydown',e=>{if(e.key==='Enter')q('#askBtn').click()});
+
+  // analytics-ready event bus; no provider = no claims/data.
+  window.EYEKON_ANALYTICS={track:(name,props={})=>{const allowed=['PAGE_VIEW','PRODUCT_VIEW','PRODUCT_SEARCH','PRODUCT_FAVORITE','PRODUCT_SHARE','PRODUCT_ENQUIRY','WHATSAPP_CLICK','CALL_CLICK','CATALOGUE_CLICK','DIRECTIONS_CLICK','BLOG_VIEW','BLOG_SEARCH','FAQ_OPEN','CHAT_QUESTION','CHAT_MATCH','CHAT_NO_MATCH','LANGUAGE_CHANGE','LAB_OPEN','LAB_INTERACTION'];if(!allowed.includes(name))return;window.dispatchEvent(new CustomEvent('eyekon:analytics',{detail:{name,props,time:new Date().toISOString()}}));}};
+  q('#showEvents')?.addEventListener('click',()=>alert('EYEKON event schema is ready. No analytics provider is connected, so no traffic metrics are shown.'));
+
+  // admin local CMS studio. It is deliberately NOT represented as secure authentication.
+  const admin=q('#eykAdmin'),adminPanel=q('#adminPanel');
+  function openAdmin(){admin.classList.add('open');admin.setAttribute('aria-hidden','false');renderAdmin('overview')}
+  function closeAdmin(){admin.classList.remove('open');admin.setAttribute('aria-hidden','true');if(location.hash==='#admin')history.replaceState(null,'',location.pathname+location.search)}
+  q('#closeAdmin')?.addEventListener('click',closeAdmin);
+  function adminTitle(t,sub){return `<div class="eyk-kicker">ADMIN / ${safe(t)}</div><h1 style="font-size:clamp(32px,5vw,58px);margin:8px 0;letter-spacing:-.05em">${safe(t)}</h1><p style="color:var(--eyk-muted)">${safe(sub)}</p>`}
+  function renderAdmin(view){qa('.eyk-admin-nav button').forEach(b=>b.classList.toggle('active',b.dataset.admin===view));
+    if(view==='overview')adminPanel.innerHTML=adminTitle('Overview','EYEKON control center. Persistent edits in this static build are local-browser CMS data until a real backend is connected.')+`<div class="eyk-admin-grid"><div class="eyk-stat"><div class="eyk-kicker">PRODUCTS</div><strong>10</strong><span>Initial records</span></div><div class="eyk-stat"><div class="eyk-kicker">PUBLISHED</div><strong>${data.products.filter(p=>p.visible).length}</strong><span>Visible products</span></div><div class="eyk-stat"><div class="eyk-kicker">DRAFTS</div><strong>${data.blog.filter(p=>p.status!=='published').length}</strong><span>Unpublished articles</span></div><div class="eyk-stat"><div class="eyk-kicker">MEDIA</div><strong>10</strong><span>Approved product assets</span></div></div><div class="eyk-admin-card"><h3>System status</h3><div class="eyk-status-line"><span>CMS persistence</span><span class="eyk-state">LOCAL STORAGE</span></div><div class="eyk-status-line"><span>Authentication</span><span class="eyk-state not-configured">NOT CONFIGURED</span></div><div class="eyk-status-line"><span>Analytics</span><span class="eyk-state not-configured">NOT CONNECTED</span></div><div class="eyk-status-line"><span>API</span><span class="eyk-state not-configured">NOT CONFIGURED</span></div><div class="eyk-admin-note">Production requirements: connect this content layer to a backend/CMS, enforce server-side roles, secure sessions, rate limiting and protected publishing endpoints. This browser studio does not provide those guarantees.</div></div>`;
+    else if(view==='products')adminPanel.innerHTML=adminTitle('Products','Exactly ten initial records. Names and specifications are editable; no product specifications are invented.')+`<div class="eyk-admin-card"><div class="eyk-product-admin">${data.products.map(p=>`<div class="eyk-product-row"><img src="${safe(p.image)}" alt=""><div><div class="eyk-kicker">PRODUCT ${safe(p.number)}</div><input class="eyk-admin-input" data-name="${p.id}" value="${safe(p.name)}"><div style="font-size:11px;color:#7890a4;margin-top:5px">${safe(p.image)}</div></div><div class="eyk-admin-actions"><button class="btn" data-save-product="${p.id}">SAVE</button><button class="btn" data-toggle-product="${p.id}">${p.visible?'HIDE':'SHOW'}</button></div></div>`).join('')}</div></div>`;
+    else if(view==='faq'||view==='chat')adminPanel.innerHTML=adminTitle(view==='faq'?'FAQ Database':'Ask EYEKON Chat','Edit the approved question-answer dataset. Matching is deterministic and limited to approved records.')+`<div class="eyk-admin-card"><div class="eyk-status-line"><span>${data.faq.length} approved question slots</span><span class="eyk-state">DETERMINISTIC MATCHING</span></div>${data.faq.map(f=>`<div style="padding:14px 0;border-bottom:1px solid #edf3f7"><input class="eyk-admin-input" data-faq-q="${f.id}" value="${safe(f.q)}"><textarea class="eyk-admin-input" style="height:70px;margin-top:8px;padding-top:9px" data-faq-a="${f.id}">${safe(f.a)}</textarea><div class="eyk-admin-actions" style="margin-top:8px"><button class="btn" data-save-faq="${f.id}">SAVE</button><button class="btn" data-toggle-faq="${f.id}">${f.enabled?'DISABLE':'ENABLE'}</button></div></div>`).join('')}</div>`;
+    else if(view==='blog')adminPanel.innerHTML=adminTitle('Blog CMS','Create, edit, preview and publish factual editorial content. Published posts are shown publicly.')+`<div class="eyk-admin-card"><button class="btn primary" id="newPost">CREATE POST</button><div id="postEditor"></div>${data.blog.map(p=>`<div class="eyk-status-line"><span><strong>${safe(p.title)}</strong><br><small>${safe(p.status||'draft')} · ${safe(p.category||'')}</small></span><span class="eyk-admin-actions"><button class="btn" data-edit-post="${p.id}">EDIT</button><button class="btn" data-publish-post="${p.id}">${p.status==='published'?'UNPUBLISH':'PUBLISH'}</button></span></div>`).join('')}</div>`;
+    else if(view==='media')adminPanel.innerHTML=adminTitle('Media Library','The initial public product media set is restricted to 1.jpg through 10.jpg. Upload APIs are not enabled in this static build.')+`<div class="eyk-admin-card">${data.products.map(p=>`<div class="eyk-status-line"><span>${safe(p.image)} · ${safe(p.alt)}</span><span class="eyk-state">STATIC ASSET</span></div>`).join('')}<div class="eyk-admin-note">Production media uploads should validate MIME/type and file signatures server-side, store outside executable paths, sanitize filenames and generate optimized derivatives.</div></div>`;
+    else if(view==='seo')adminPanel.innerHTML=adminTitle('SEO Manager','CMS-ready metadata model. This static build updates the document metadata from approved fields but cannot report Google indexing.')+`<div class="eyk-admin-card"><label class="eyk-kicker">SEO TITLE</label><input class="eyk-admin-input" id="seoTitle" value="${safe(data.site.seoTitle)}"><label class="eyk-kicker" style="display:block;margin-top:14px">META DESCRIPTION</label><textarea class="eyk-admin-input" id="seoDesc" style="height:90px;padding-top:9px">${safe(data.site.seoDescription)}</textarea><div class="eyk-admin-actions" style="margin-top:12px"><button class="btn primary" id="saveSeo">SAVE SEO</button></div><div class="eyk-admin-note">Audit status: TITLE ${document.title?'PASS':'MISSING'} · DESCRIPTION ${q('meta[name="description"]')?'PASS':'MISSING'} · CANONICAL ${q('link[rel="canonical"]')?'PASS':'MISSING'} · STRUCTURED DATA ${q('#orgSchema')?'PASS':'MISSING'} · INDEXING STATUS UNKNOWN</div></div>`;
+    else if(view==='analytics')adminPanel.innerHTML=adminTitle('Analytics','No fake numbers. Provider connection is required before metrics are displayed.')+`<div class="eyk-admin-card"><div class="eyk-status-line"><span>Provider</span><span class="eyk-state not-configured">NOT CONFIGURED</span></div><div class="eyk-status-line"><span>Page views</span><span class="eyk-state not-configured">NO ANALYTICS DATA CONNECTED</span></div><div class="eyk-status-line"><span>Product views</span><span class="eyk-state not-configured">NO ANALYTICS DATA CONNECTED</span></div><div class="eyk-status-line"><span>Searches / no-result searches</span><span class="eyk-state not-configured">NO ANALYTICS DATA CONNECTED</span></div><div class="eyk-admin-note">The public event bus supports provider integration later without fabricating analytics.</div></div>`;
+    else if(view==='contact'||view==='hours'||view==='settings'||view==='api'||view==='security'||view==='content'||view==='homepage'||view==='lab')adminPanel.innerHTML=adminTitle(view.toUpperCase(), 'Configuration surface ready for a real backend. Static-hosting mode keeps changes local and does not claim server-side security.')+`<div class="eyk-admin-card"><div class="eyk-status-line"><span>CMS</span><span class="eyk-state">LOCAL STORAGE</span></div><div class="eyk-status-line"><span>AUTH</span><span class="eyk-state not-configured">NOT CONFIGURED</span></div><div class="eyk-status-line"><span>API</span><span class="eyk-state not-configured">NOT CONFIGURED</span></div><div class="eyk-status-line"><span>Version history / rollback</span><span class="eyk-state not-configured">BACKEND REQUIRED</span></div><div class="eyk-status-line"><span>Server-side roles</span><span class="eyk-state not-configured">BACKEND REQUIRED</span></div><div class="eyk-admin-note">This panel is intentionally transparent about static deployment limits. Connect a secure CMS/auth service before using it for production publishing or administrator access.</div></div>`;
+    bindAdmin(view);
+  }
+  function bindAdmin(view){
+    qa('[data-save-product]').forEach(b=>b.onclick=()=>{const id=b.dataset.saveProduct;const p=data.products.find(x=>x.id===id);p.name=q(`[data-name="${id}"]`).value.trim()||`PRODUCT ${p.number}`;persist();renderProducts();renderAdmin('products')});
+    qa('[data-toggle-product]').forEach(b=>b.onclick=()=>{const p=data.products.find(x=>x.id===b.dataset.toggleProduct);p.visible=!p.visible;persist();renderProducts();renderAdmin('products')});
+    qa('[data-save-faq]').forEach(b=>b.onclick=()=>{const f=data.faq.find(x=>x.id===b.dataset.saveFaq);f.q=q(`[data-faq-q="${f.id}"]`).value;f.a=q(`[data-faq-a="${f.id}"]`).value;persist();renderFaq();renderAdmin(view)});
+    qa('[data-toggle-faq]').forEach(b=>b.onclick=()=>{const f=data.faq.find(x=>x.id===b.dataset.toggleFaq);f.enabled=!f.enabled;persist();renderFaq();renderAdmin(view)});
+    q('#saveSeo')?.addEventListener('click',()=>{data.site.seoTitle=q('#seoTitle').value;data.site.seoDescription=q('#seoDesc').value;document.title=data.site.seoTitle;q('meta[name="description"]').content=data.site.seoDescription;persist();renderAdmin('seo')});
+    q('#newPost')?.addEventListener('click',()=>{const ed=q('#postEditor');ed.innerHTML=`<div class="eyk-panel" style="margin-top:12px"><input class="eyk-admin-input" id="postTitle" placeholder="Title"><input class="eyk-admin-input" id="postExcerpt" placeholder="Excerpt" style="margin-top:8px"><input class="eyk-admin-input" id="postCategory" placeholder="Category" style="margin-top:8px"><textarea class="eyk-admin-input" id="postContent" placeholder="Factual article content" style="height:130px;margin-top:8px;padding-top:9px"></textarea><div class="eyk-admin-actions" style="margin-top:10px"><button class="btn primary" id="savePost">SAVE DRAFT</button></div></div>`;q('#savePost').onclick=()=>{data.blog.push({id:Date.now().toString(),title:q('#postTitle').value||'Untitled insight',excerpt:q('#postExcerpt').value||'',category:q('#postCategory').value||'EDUCATIONAL',content:q('#postContent').value||'',status:'draft',date:new Date().toISOString().slice(0,10),author:'EYEKON'});persist();renderAdmin('blog');renderBlog()}});
+    qa('[data-publish-post]').forEach(b=>b.onclick=()=>{const p=data.blog.find(x=>x.id===b.dataset.publishPost);p.status=p.status==='published'?'draft':'published';persist();renderBlog();renderAdmin('blog')});
+    qa('[data-edit-post]').forEach(b=>b.onclick=()=>{const p=data.blog.find(x=>x.id===b.dataset.editPost);const ed=q('#postEditor');ed.innerHTML=`<div class="eyk-panel" style="margin-top:12px"><input class="eyk-admin-input" id="editPostTitle" value="${safe(p.title)}"><textarea class="eyk-admin-input" id="editPostContent" style="height:150px;margin-top:8px;padding-top:9px">${safe(p.content)}</textarea><div class="eyk-admin-actions" style="margin-top:10px"><button class="btn primary" id="updatePost">SAVE</button></div></div>`;q('#updatePost').onclick=()=>{p.title=q('#editPostTitle').value;p.content=q('#editPostContent').value;p.updated=new Date().toISOString();persist();renderAdmin('blog');renderBlog()}});
+  }
+  qa('[data-admin]').forEach(b=>b.addEventListener('click',()=>renderAdmin(b.dataset.admin)));
+  // Provide /admin when hosting supplies a SPA fallback/rewrite; #admin works on plain GitHub Pages without pretending it is a secure route.
+  if(location.pathname.replace(/\/$/,'').endsWith('/admin')||location.hash==='#admin')openAdmin();
+  window.EYEKON_CMS={get:()=>data,set:(next)=>{data=next;persist();renderProducts();renderFaq();renderBlog()}};
+  window.addEventListener('beforeunload',()=>{try{persist()}catch{}});
+})();
+</script>
+
+<script id="eyekon-diwali-engine">
+(()=>{
+ const $=s=>document.querySelector(s); const campaignAt=Date.parse('2026-11-08T00:00:00+05:30');
+ const ann=$('#diwaliAnnouncement'); if(localStorage.getItem('eyekon_diwali_announcement_dismissed')==='1')ann?.remove(); $('#dismissDiwali')?.addEventListener('click',()=>{localStorage.setItem('eyekon_diwali_announcement_dismissed','1');ann?.remove()});
+ function tick(){const now=Date.now(),d=Math.max(0,campaignAt-now);if(d<=0){['dDays','dHours','dMinutes','dSeconds'].forEach(id=>{const e=$('#'+id);if(e)e.textContent='0'});if($('#diwaliState'))$('#diwaliState').textContent='DIWALI DAY · 8 NOVEMBER 2026';return}const sec=Math.floor(d/1000);const vals=[Math.floor(sec/86400),Math.floor(sec/3600)%24,Math.floor(sec/60)%60,sec%60];['dDays','dHours','dMinutes','dSeconds'].forEach((id,i)=>{const e=$('#'+id);if(e)e.textContent=String(vals[i]).padStart(2,'0')});} tick();setInterval(tick,1000);
+ const prefers=matchMedia('(prefers-reduced-motion: reduce)').matches; const low=/Mobi|Android/i.test(navigator.userAgent)||((navigator.hardwareConcurrency||4)<=4);
+ function fireworks(canvas){if(!canvas||prefers)return;const ctx=canvas.getContext('2d',{alpha:true});if(!ctx)return;let w=0,h=0,pts=[],running=false,visible=true,last=0,lastDraw=0;const io='IntersectionObserver' in window?new IntersectionObserver(es=>{visible=!!es[0]?.isIntersecting},{rootMargin:'120px'}):null;io?.observe(canvas);const resize=()=>{w=canvas.clientWidth;h=canvas.clientHeight;const q=low?1:Math.min(devicePixelRatio||1,1.25);canvas.width=Math.max(1,Math.floor(w*q));canvas.height=Math.max(1,Math.floor(h*q));ctx.setTransform(q,0,0,q,0,0)};resize();addEventListener('resize',resize,{passive:true});const hiddenNow=()=>document.hidden||!visible;function burst(){const x=w*(.18+Math.random()*.64),y=h*(.12+Math.random()*.45),n=low?10:18;for(let i=0;i<n;i++){const a=Math.PI*2*i/n+Math.random()*.2,s=.55+Math.random()*1.5;pts.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s,life:1})}}function loop(t){if(hiddenNow()){running=false;ctx.clearRect(0,0,w,h);return}if(!running)running=true;if(t-last>=(low?3000:2200)){burst();last=t}if(t-lastDraw<50){requestAnimationFrame(loop);return}lastDraw=t;ctx.clearRect(0,0,w,h);for(let i=pts.length-1;i>=0;i--){const p=pts[i];p.x+=p.vx;p.y+=p.vy;p.vy+=.014;p.life-=low?.045:.032;if(p.life<=0){pts.splice(i,1);continue}ctx.globalAlpha=p.life*.42;ctx.fillStyle='#c9972e';ctx.beginPath();ctx.arc(p.x,p.y,1.1,0,Math.PI*2);ctx.fill()}ctx.globalAlpha=1;requestAnimationFrame(loop)}requestAnimationFrame(loop)}
+ fireworks($('#diwaliFireworks')); fireworks($('#diwaliSectionFireworks'));
+ window.EYEKON_DIWALI={date:'2026-11-08T00:00:00+05:30',enabled:true,offer:{title:'COMING SOON',description:'No promotional offer has been configured.'}};
+})();
+</script>
+
+<style id="eyekon-global-diwali-layer">#diwali-background-layer{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}#diwali-background-layer canvas{position:absolute;inset:0;width:100%;height:100%;opacity:.8}.diwali-rings{position:absolute;width:240px;height:240px;border:1px solid rgba(201,151,46,.08);border-radius:50%;right:-90px;top:18vh;box-shadow:0 0 0 24px rgba(201,151,46,.018),0 0 0 48px rgba(20,118,212,.012)}body> :not(#diwali-background-layer):not(.eyk-live-bar){position:relative;z-index:1}.eyk-live-bar{position:relative;z-index:90;display:flex;align-items:center;justify-content:center;gap:12px;padding:7px 12px;background:#fff;border-bottom:1px solid #dceaf0;color:#60788a;font-size:9px;font-weight:850;letter-spacing:.08em}.eyk-live-bar a{color:#176da8;text-decoration:none}.eyk-live-bar.closed .live-dot{background:#c9972e}.live-dot{width:6px;height:6px;border-radius:50%;background:#2aab79;box-shadow:0 0 10px rgba(42,171,121,.5)}@media(max-width:700px){.eyk-live-bar{gap:7px;justify-content:flex-start;overflow:auto;white-space:nowrap}.eyk-live-bar span:nth-of-type(2){display:none}}
+<style id="eyekon-extreme-upgrade">
+:root{--di-gold:#c9972e;--di-amber:#f0a53a;--di-blue:#1476d4;--di-green:#2aab79}
+.nav-doctor{border-color:rgba(20,118,212,.25)!important;color:#176da8!important;background:#f7fcff!important}
+.eyk-pro-suite{background:linear-gradient(180deg,#fff,#fbfdfd);position:relative;overflow:hidden}.eyk-pro-suite:before,.eyk-knowledge:before{content:"";position:absolute;width:380px;height:380px;border:1px solid rgba(201,151,46,.14);border-radius:50%;right:-190px;top:40px;box-shadow:0 0 0 30px rgba(201,151,46,.025),0 0 0 60px rgba(20,118,212,.018);pointer-events:none}.pro-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;position:relative;z-index:1}.pro-card{background:rgba(255,255,255,.88);border:1px solid #dceaf0;border-radius:24px;padding:22px;box-shadow:0 18px 60px rgba(28,87,120,.07);min-height:250px}.pro-card h3{font-size:22px;letter-spacing:-.035em;margin:12px 0 8px}.pro-card p{color:#61788a;line-height:1.7;font-size:13px}.pro-icon{font-size:10px;font-weight:950;letter-spacing:.14em;color:#a47720}.mini-steps{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:18px;font-size:9px;font-weight:950;letter-spacing:.1em;color:#587488}.use-cases{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0}.use-cases button,.glossary button{border:1px solid #dbe8ef;background:#fff;border-radius:999px;padding:8px 10px;font-size:9px;font-weight:900;cursor:pointer}.use-cases button.active,.glossary button.active{background:#eef8f3;border-color:#bfe2d2;color:#257a59}.knowledge-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:12px}.knowledge-grid>article{background:#fff;border:1px solid #dceaf0;border-radius:24px;padding:22px;box-shadow:0 18px 60px rgba(28,87,120,.05)}.knowledge-grid h3{font-size:20px;margin:0 0 10px}.glossary{display:flex;flex-wrap:wrap;gap:7px}.knowledge-grid p{color:#61788a;line-height:1.7;font-size:13px}.eyk-di-finale{position:relative;min-height:620px;display:grid;place-items:center;text-align:center;overflow:hidden;background:radial-gradient(circle at 50% 46%,rgba(240,165,58,.12),transparent 16%),linear-gradient(180deg,#fff,#fffaf0 55%,#f7fcff)}#finaleFireworks{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}.finale-content{position:relative;z-index:2}.finale-kicker{font-size:11px;font-weight:950;letter-spacing:.22em;color:#8b6b28}.finale-content h2{font-size:clamp(46px,8vw,110px);letter-spacing:-.075em;line-height:.9;margin:16px 0}.finale-content p{font-size:13px;letter-spacing:.12em;color:#60778a}.finale-date{font-weight:950;letter-spacing:.18em;color:#8b6b28;margin:18px 0}.finale-rangoli{position:absolute;width:430px;height:430px;border:1px dashed rgba(201,151,46,.22);border-radius:26%;transform:rotate(45deg);animation:finaleSpin 30s linear infinite;pointer-events:none}.finale-diya{position:absolute;bottom:70px;left:8%;width:86px;height:42px;border-radius:50%;background:linear-gradient(#e9bb55,#a9701d);box-shadow:0 12px 40px rgba(201,151,46,.24)}.finale-diya span{position:absolute;left:50%;top:-38px;transform:translateX(-50%);width:17px;height:34px;border-radius:55% 45% 55% 45%;background:radial-gradient(circle at 50% 70%,#fff8c6 0 20%,#f2a334 48%,transparent 75%);filter:drop-shadow(0 0 12px rgba(240,165,58,.65));animation:finaleFlame 1.5s ease-in-out infinite alternate}@keyframes finaleSpin{to{transform:rotate(405deg)}}@keyframes finaleFlame{to{transform:translateX(-50%) scale(1.08,.92)}}
+.eyk-doctor-overlay{position:fixed;inset:0;background:rgba(255,255,255,.98);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);z-index:1200;display:none;overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;touch-action:pan-y}.eyk-doctor-overlay.open{display:block}.eyk-doctor-overlay.stable{contain:layout paint}.doctor-shell{max-width:1300px;margin:auto;padding:22px}.doctor-top{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid #dceaf0;padding-bottom:16px}.doctor-grid{display:grid;grid-template-columns:1fr 360px;gap:16px;margin-top:18px}.doctor-panel{background:#fff;border:1px solid #dceaf0;border-radius:24px;padding:20px;box-shadow:0 18px 70px rgba(28,87,120,.08)}.doctor-product-list{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.doctor-product-list button{display:grid;grid-template-columns:62px 1fr;gap:10px;text-align:left;align-items:center;border:1px solid #dceaf0;background:#fff;border-radius:16px;padding:8px;cursor:pointer}.doctor-product-list img{width:62px;height:52px;object-fit:contain;background:#f5fbfd;border-radius:10px}.doctor-selected{min-height:400px;display:grid;place-items:center;background:linear-gradient(135deg,#fbfeff,#fffaf0);border-radius:18px;overflow:hidden}.doctor-selected img{max-width:90%;max-height:420px;object-fit:contain;transform-origin:center}.doctor-controls{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.doctor-actions{display:grid;gap:8px;margin-top:16px}.doctor-note{font-size:11px;color:#6a7f8f;line-height:1.6;padding:11px;background:#f7fbfd;border-radius:12px}.doctor-compare{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}.compare-item{border:1px solid #dceaf0;border-radius:14px;padding:12px;font-size:11px}.compare-item strong{display:block;font-size:14px;margin-bottom:5px}@media(max-width:1050px){.pro-grid{grid-template-columns:repeat(2,1fr)}.knowledge-grid{grid-template-columns:1fr 1fr}.doctor-grid{grid-template-columns:1fr}}@media(max-width:680px){.pro-grid,.knowledge-grid,.doctor-product-list,.doctor-compare{grid-template-columns:1fr}.nav-doctor{display:none}.finale-diya{left:50%;transform:translateX(-50%);bottom:34px}.finale-rangoli{width:270px;height:270px}.doctor-shell{padding:14px}}
+@media(prefers-reduced-motion:reduce){.finale-rangoli,.finale-diya span{animation:none!important}}
+</style>
+
+<script id="eyekon-extreme-upgrade-js">
+(()=>{
+ const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+ const KEY='eyekon_v2_cms', IMGDB='eyekon_media_v2';
+ const readCMS=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch{return {}}};
+ const getProducts=()=>{const c=readCMS();return Array.isArray(c.products)?c.products:[]};
+ async function idb(){return new Promise((res,rej)=>{if(!indexedDB)return rej(new Error('IndexedDB unavailable'));const r=indexedDB.open(IMGDB,1);r.onupgradeneeded=()=>r.result.createObjectStore('images');r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)})}
+ async function getImg(id){try{const db=await idb();return await new Promise((res,rej)=>{const r=db.transaction('images').objectStore('images').get(id);r.onsuccess=()=>res(r.result||null);r.onerror=()=>rej(r.error)})}catch{return null}}
+ async function applyStoredImages(){const ps=getProducts();for(const p of ps){const blob=await getImg(p.id);if(!blob)continue;const url=URL.createObjectURL(blob);document.querySelectorAll(`img[data-cms-product="${p.id}"]`).forEach(i=>{i.src=url})}}
+ // global visual layer
+ let layer=$('#diwali-background-layer');if(!layer){layer=document.createElement('div');layer.id='diwali-background-layer';layer.setAttribute('aria-hidden','true');layer.innerHTML='<canvas></canvas><div class="diwali-rings"></div>';document.body.prepend(layer);}
+ const canvas=layer.querySelector('canvas'),ctx=canvas.getContext?.('2d');let W=0,H=0,dpr=1,particles=[],raf=0,last=0,hidden=false;
+ const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;const mobile=matchMedia('(max-width:700px)').matches;const cores=navigator.hardwareConcurrency||4;const density=reduce?0:mobile?10:cores<=4?16:30;
+ function resize(){W=innerWidth;H=innerHeight;dpr=Math.min(devicePixelRatio||1,1.5);canvas.width=W*dpr;canvas.height=H*dpr;canvas.style.width=W+'px';canvas.style.height=H+'px';ctx?.setTransform(dpr,0,0,dpr,0,0)}
+ function seed(){particles=Array.from({length:density},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.08,vy:-.08-Math.random()*.12,r:.6+Math.random()*1.4,a:.12+Math.random()*.18,c:Math.random()>.5?'#c9972e':'#2aab79'}))}
+ function loop(t){if(hidden||reduce||!ctx)return;raf=requestAnimationFrame(loop);if(t-last<50)return;last=t;ctx.clearRect(0,0,W,H);for(const p of particles){p.x+=p.vx;p.y+=p.vy;if(p.y<-10)p.y=H+10;if(p.x<0)p.x=W;if(p.x>W)p.x=0;ctx.globalAlpha=p.a;ctx.fillStyle=p.c;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill()}ctx.globalAlpha=1}
+ resize();seed();addEventListener('resize',()=>{resize();seed()},{passive:true});document.addEventListener('visibilitychange',()=>hidden=document.hidden);if(density)raf=requestAnimationFrame(loop);
+ // final fireworks, low-cost and non-interactive
+ function finalFireworks(){const c=$('#finaleFireworks');if(!c||reduce)return;const x=c.getContext('2d');let w=c.clientWidth,h=c.clientHeight,ps=[],visible=true,lastB=0,lastDraw=0;const io='IntersectionObserver' in window?new IntersectionObserver(es=>visible=!!es[0]?.isIntersecting,{rootMargin:'160px'}):null;io?.observe(c);function rs(){w=c.clientWidth;h=c.clientHeight;c.width=Math.max(1,Math.floor(w*dpr));c.height=Math.max(1,Math.floor(h*dpr));x.setTransform(dpr,0,0,dpr,0,0)}rs();addEventListener('resize',rs,{passive:true});function burst(){const bx=w*(.18+Math.random()*.64),by=h*(.1+Math.random()*.42),n=mobile?10:18;for(let i=0;i<n;i++){const a=Math.PI*2*i/n,s=.7+Math.random()*1.8;ps.push({x:bx,y:by,vx:Math.cos(a)*s,vy:Math.sin(a)*s,life:1})}}function f(t){if(document.hidden||!visible){ps.length=0;requestAnimationFrame(f);return}if(t-lastDraw<66){requestAnimationFrame(f);return}lastDraw=t;if(t-lastB>2600){burst();lastB=t}x.clearRect(0,0,w,h);for(let i=ps.length-1;i>=0;i--){const p=ps[i];p.x+=p.vx;p.y+=p.vy;p.vy+=.012;p.life-=mobile?.045:.035;if(p.life<=0){ps.splice(i,1);continue}x.globalAlpha=p.life*.42;x.fillStyle='#c9972e';x.beginPath();x.arc(p.x,p.y,1.1,0,7);x.fill()}x.globalAlpha=1;requestAnimationFrame(f)}requestAnimationFrame(f)}
+ finalFireworks();
+ // Doctor workspace
+ let overlay=$('#doctorOverlay');if(!overlay){overlay=document.createElement('div');overlay.id='doctorOverlay';overlay.className='eyk-doctor-overlay';overlay.innerHTML=`<div class="doctor-shell"><div class="doctor-top"><div><div class="eyebrow">EYEKON / PROFESSIONAL WORKSPACE</div><h2 style="margin:6px 0 0;letter-spacing:-.04em">Doctor Mode</h2></div><button class="btn" id="closeDoctor" type="button">EXIT DOCTOR MODE</button></div><div class="doctor-grid"><div class="doctor-panel"><div class="eyebrow">INSTRUMENT EXPLORER</div><div class="doctor-product-list" id="doctorProducts"></div><div class="doctor-selected"><img id="doctorImage" alt="Selected EYEKON product"><div id="doctorNoImage" class="notice" style="display:none">PRODUCT IMAGE UNAVAILABLE · INFORMATION AVAILABLE ON REQUEST.</div></div><div class="doctor-controls"><button class="btn" id="dzOut">−</button><button class="btn" id="dzReset">RESET</button><button class="btn" id="dzIn">+</button><button class="btn" id="docFullscreen">FULLSCREEN</button></div></div><aside class="doctor-panel"><div class="eyebrow">PRODUCT WORKSPACE</div><h3 id="docName">Select a product</h3><p id="docDesc" class="doctor-note">Select an instrument to inspect its supplied information.</p><div class="doctor-actions"><button class="btn primary" id="docQuote">REQUEST QUOTATION</button><button class="btn" id="docDetails">REQUEST PRODUCT DETAILS</button><button class="btn" id="docAvail">CHECK AVAILABILITY</button></div><div class="eyebrow" style="margin-top:24px">COMPARE INSTRUMENTS</div><div class="doctor-compare" id="docCompare"></div><div class="doctor-note" style="margin-top:16px">Only administrator-supplied product facts are shown. Missing specifications are not inferred.</div></aside></div></div>`;document.body.appendChild(overlay)}
+ let selected=getProducts()[0]||{id:'1',number:'01',name:'PRODUCT 01',description:'Product information available on request.',image:'1.jpg'},zoom=1,doctorBlobUrl='';
+ async function selectDoc(p){selected=p;zoom=1;const im=$('#doctorImage'),ni=$('#doctorNoImage');$('#docName').textContent=p.name;$('#docDesc').textContent=p.description||'Information available on request.';im.style.transform='scale(1)';im.style.display='block';ni.style.display='none';im.src=p.image||'';const blob=await getImg(p.id);if(blob)im.src=URL.createObjectURL(blob);im.onerror=()=>{im.style.display='none';ni.style.display='block'};renderCompare()}
+ function renderDocProducts(){const box=$('#doctorProducts');box.innerHTML=getProducts().filter(p=>p.visible!==false).map(p=>`<button data-doc-p="${p.id}"><img data-cms-product="${p.id}" src="${p.image||''}" alt="${p.name}"><span><strong>${p.name}</strong><small>PRODUCT ${p.number}</small></span></button>`).join('');box.querySelectorAll('[data-doc-p]').forEach(b=>b.onclick=()=>{const p=getProducts().find(x=>x.id===b.dataset.docP);if(p)selectDoc(p)});applyStoredImages()}
+ function renderCompare(){const ps=getProducts().filter(p=>p.visible!==false).slice(0,3);$('#docCompare').innerHTML=ps.map(p=>`<div class="compare-item"><strong>${p.name}</strong><span>Category: ${p.category||'Unassigned'}</span><br><span>Available information: ${p.description?'Yes':'On request'}</span></div>`).join('')||'<div class="small">No published products.</div>'}
+ let doctorOpen=false,doctorTransitionTimer=0;
+ function openDoctor(){
+   if(doctorOpen)return; doctorOpen=true; clearTimeout(doctorTransitionTimer);
+   overlay.classList.add('open','stable'); overlay.setAttribute('aria-hidden','false'); overlay.scrollTop=0;
+   renderDocProducts();
+   const p=getProducts().find(x=>x.id===selected?.id)||getProducts()[0];
+   if(p)Promise.resolve(selectDoc(p)).catch(()=>{});
+   doctorTransitionTimer=setTimeout(()=>overlay.classList.add('stable'),650);
+ }
+ function closeDoctor(){
+   clearTimeout(doctorTransitionTimer); doctorOpen=false; overlay.classList.remove('open'); overlay.classList.add('stable');
+   overlay.setAttribute('aria-hidden','true');
+   document.documentElement.classList.remove('doctor-active');
+   if(doctorBlobUrl){URL.revokeObjectURL(doctorBlobUrl);doctorBlobUrl='';}
+ }
+ $('#doctorModeBtn')?.addEventListener('click',openDoctor);
+ $('#navDoctorMode')?.addEventListener('click',openDoctor);
+ $('#closeDoctor')?.addEventListener('click',closeDoctor);
+ function enquiry(kind){const p=selected;const msg=`Hello EYEKON VISION,\nI am interested in ${p.name}.\nI would like to ${kind}.`;location.href='https://wa.me/919455855203?text='+encodeURIComponent(msg)}
+ $('#docQuote').onclick=()=>enquiry('request a quotation.');$('#docDetails').onclick=()=>enquiry('request product details.');$('#docAvail').onclick=()=>enquiry('check current availability.');$('#quoteBtn')?.addEventListener('click',()=>openDoctor());$('#detailsBtn')?.addEventListener('click',()=>openDoctor());$('#availabilityBtn')?.addEventListener('click',()=>openDoctor());
+ $('#dzIn').onclick=()=>{zoom=Math.min(3,zoom+.2);$('#doctorImage').style.transform=`scale(${zoom})`};$('#dzOut').onclick=()=>{zoom=Math.max(1,zoom-.2);$('#doctorImage').style.transform=`scale(${zoom})`};$('#dzReset').onclick=()=>{zoom=1;$('#doctorImage').style.transform='scale(1)'};$('#docFullscreen').onclick=()=>overlay.requestFullscreen?.();
+ // clinical use cases: filter only on factual category/environment metadata if supplied; otherwise explain
+ $$('.use-cases button').forEach(b=>b.onclick=()=>{$$('.use-cases button').forEach(x=>x.classList.remove('active'));b.classList.add('active');const ps=getProducts().filter(p=>p.visible!==false&&String(p.category||'').toLowerCase().includes(b.dataset.env.toLowerCase()));$('#envResult').textContent=ps.length?`${ps.length} published product${ps.length>1?'s':''} currently tagged ${b.dataset.env}.`:`No published product is currently tagged ${b.dataset.env}. No compatibility is inferred.`});
+ // glossary
+ const defs={Cornea:'Transparent front surface of the eye.',Iris:'Colored structure surrounding the pupil.',Pupil:'Opening through which light enters the eye.',Lens:'Transparent structure that helps focus light.',Retina:'Light-sensitive layer lining the back of the eye.','Optic nerve':'Carries visual signals from the retina toward the brain.'};$$('[data-term]').forEach(b=>b.onclick=()=>{$$('[data-term]').forEach(x=>x.classList.remove('active'));b.classList.add('active');$('#glossaryResult').textContent=defs[b.dataset.term]||'Information available on request.'});
+ // robust bilingual UI: stable key registry + broad control labels. Dynamic product names stay unchanged.
+ const T={en:{'nav.home':'HOME','nav.experience':'EXPERIENCE','nav.products':'PRODUCTS','nav.lab':'OPTICAL LAB','nav.about':'ABOUT','nav.contact':'CONTACT','nav.catalogue':'CATALOGUE','nav.doctor':'DOCTOR MODE','hero.badge':'EYEKON DIWALI 2026 · LIGHT MEETS VISION','hero.eyebrow':'EYEKON VISION · OPTICAL SYSTEM','hero.title':'PRECISION|IN VISION.','hero.date':'COMING SUNDAY · 8 NOVEMBER 2026','hero.explore':'EXPLORE PRODUCTS','hero.lab':'ENTER OPTICAL LAB','hero.message':'MESSAGE EYEKON','hero.call':'CALL 9455855203','products.search':'Search products…','products.all':'All products','products.visible':'Visible','products.favorites':'Favorites','products.number':'Product number','products.name':'Name','products.recent':'Recently viewed','products.list':'LIST VIEW','products.grid':'GRID VIEW','doctor.button':"I'M A DOCTOR ↗"},hi:{'nav.home':'होम','nav.experience':'अनुभव','nav.products':'उत्पाद','nav.lab':'ऑप्टिकल लैब','nav.about':'हमारे बारे में','nav.contact':'संपर्क','nav.catalogue':'कैटलॉग','nav.doctor':'डॉक्टर मोड','hero.badge':'EYEKON दिवाली 2026 · प्रकाश और दृष्टि','hero.eyebrow':'EYEKON VISION · ऑप्टिकल सिस्टम','hero.title':'दृष्टि|में सटीकता।','hero.date':'रविवार · 8 नवंबर 2026 को','hero.explore':'उत्पाद देखें','hero.lab':'ऑप्टिकल लैब में प्रवेश करें','hero.message':'EYEKON को संदेश','hero.call':'कॉल 9455855203','products.search':'उत्पाद खोजें…','products.all':'सभी उत्पाद','products.visible':'दृश्य','products.favorites':'पसंदीदा','products.number':'उत्पाद क्रमांक','products.name':'नाम','products.recent':'हाल में देखे गए','products.list':'सूची दृश्य','products.grid':'ग्रिड दृश्य','doctor.button':'मैं डॉक्टर हूँ ↗'}};
+ function lang(){return localStorage.getItem('eyekon_language')||localStorage.getItem('eyekon_lang')||'en'}
+ function applyLanguage(){const l=lang();document.documentElement.lang=l==='hi'?'hi':'en';localStorage.setItem('eyekon_language',l);const tr=T[l];const set=(el,key)=>{if(!el||!tr[key])return;const v=tr[key];if(v.includes('|')){const [a,b]=v.split('|');el.innerHTML=`${a}<br><span>${b}</span>`}else el.textContent=v};set($('.nav-link[href="#home"]'),'nav.home');set($('.nav-link[href="#experience"]'),'nav.experience');set($('.nav-link[href="#products"]'),'nav.products');set($('.nav-link[href="#lab"]'),'nav.lab');set($('.nav-link[href="#about"]'),'nav.about');set($('.nav-link[href="#contact"]'),'nav.contact');set($('.nav-catalogue'),'nav.catalogue');set($('#navDoctorMode'),'nav.doctor');set($('.diwali-hero-badge'),'hero.badge');set($('.hero-copy .eyebrow'),'hero.eyebrow');set($('#hero-title'),'hero.title');set($('.diwali-date'),'hero.date');const buttons=[['.hero-actions .btn.primary','hero.explore'],['.hero-actions .btn.green','hero.lab'],['.hero-actions .btn:nth-of-type(3)','hero.message'],['.hero-actions .btn:nth-of-type(4)','hero.call'],['#doctorModeBtn','doctor.button']];buttons.forEach(([q,k])=>set($(q),k));$('#productSearch')?.setAttribute('placeholder',tr['products.search']);const opts=$('#productFilter')?.options;if(opts&&opts.length>=3){opts[0].textContent=tr['products.all'];opts[1].textContent=tr['products.visible'];opts[2].textContent=tr['products.favorites']}const so=$('#productSort')?.options;if(so&&so.length>=3){so[0].textContent=tr['products.number'];so[1].textContent=tr['products.name'];so[2].textContent=tr['products.recent']}if($('#toggleView'))$('#toggleView').textContent=$('#toggleView').textContent.includes('GRID')?tr['products.grid']:tr['products.list'];}
+ let langBtn=$('#languageToggleExtreme');if(!langBtn){langBtn=document.createElement('button');langBtn.id='languageToggleExtreme';langBtn.className='btn eyk-lang';langBtn.type='button';langBtn.setAttribute('aria-label','Switch language');langBtn.textContent='EN | हिन्दी';$('.nav-actions')?.prepend(langBtn)}langBtn.onclick=()=>{localStorage.setItem('eyekon_language',lang()==='hi'?'en':'hi');applyLanguage()};applyLanguage();
+ // keep CMS changes visible across tabs; local-only synchronization is honest
+ addEventListener('storage',e=>{if(e.key===KEY){try{if(window.content&&Array.isArray(JSON.parse(e.newValue||'{}').products))window.content.products=JSON.parse(e.newValue).products;document.dispatchEvent(new CustomEvent('eyekon:cms-updated'));applyStoredImages()}catch{}}});document.addEventListener('eyekon:cms-updated',()=>{try{if(typeof renderProducts==='function')renderProducts()}catch{}});
+ // bind data-cms-product to existing product cards after each render via observer
+ const mo=new MutationObserver(()=>{document.querySelectorAll('#productGrid img').forEach(img=>{const card=img.closest('.product-card');const btn=card?.querySelector('[data-view]');if(btn)img.dataset.cmsProduct=btn.dataset.view})});if($('#productGrid'))mo.observe($('#productGrid'),{childList:true,subtree:true});
+ applyStoredImages();
+ // CMS-controlled Diwali switches. Static deployments are local-only; no global sync is implied.
+ try{const cfg=readCMS().diwali||{};const enabled=cfg.enabled!==false;const ann=document.querySelector('#diwaliAnnouncement');if(ann)ann.style.display=enabled&&cfg.banner!==false?'flex':'none';document.documentElement.dataset.diwali=enabled?'on':'off';const setVis=(sel,on)=>document.querySelectorAll(sel).forEach(e=>e.style.display=on?'':'none');setVis('#diwaliFireworks, #diwaliSectionFireworks, #finaleFireworks',enabled&&cfg.fireworks!==false);setVis('.optical-diya,.finale-diya',enabled&&cfg.diyas!==false);setVis('.rangoli,.finale-rangoli',enabled&&cfg.rangoli!==false);setVis('.diwali-hero-badge,.diwali-date,.eyk-diwali',enabled);if(cfg.countdown===false){document.querySelectorAll('.diwali-countdown').forEach(e=>e.style.display='none')}}catch{}
+ // dynamic business bar
+ const bar=document.createElement('div');bar.className='eyk-live-bar';bar.innerHTML='<span class="live-dot"></span><strong id="liveStatus">CHECKING…</strong><span>10:00–17:00 · ASIA/KOLKATA</span><a href="tel:9455855203">CALL</a><a href="https://wa.me/919455855203" target="_blank" rel="noopener">WHATSAPP</a><a href="https://wa.me/c/919455855203" target="_blank" rel="noopener">CATALOGUE</a><a href="https://maps.app.goo.gl/77szJmgtXu7oERWr8" target="_blank" rel="noopener">DIRECTIONS</a>';document.body.prepend(bar);const update=()=>{const parts=new Intl.DateTimeFormat('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());const h=+parts.find(x=>x.type==='hour').value,m=+parts.find(x=>x.type==='minute').value,open=h*60+m>=600&&h*60+m<1020;$('#liveStatus').textContent=open?'OPEN NOW':'CLOSED NOW';bar.classList.toggle('closed',!open)};update();setInterval(update,30000);
+})();
+</script>
+
+<style id="eyekon-master-style">
+/* EYEKON MASTER DOCTOR-FIRST / WHATSAPP / BILINGUAL LAYER */
+.eyk-master-toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:18px 0 12px;padding:12px;border:1px solid #dceaf0;border-radius:18px;background:rgba(255,255,255,.88);box-shadow:0 14px 45px rgba(28,87,120,.05)}
+.eyk-master-toolbar .eyk-search{flex:1;min-width:190px;border:1px solid #d7e6ee;border-radius:999px;padding:11px 14px;background:#fff;color:#17334a;outline:none}.eyk-master-toolbar select{border:1px solid #d7e6ee;border-radius:999px;padding:10px 12px;background:#fff;color:#17334a}
+.eyk-mini-pill{display:inline-flex;align-items:center;gap:6px;padding:7px 10px;border:1px solid #dceaf0;border-radius:999px;font-size:9px;font-weight:900;letter-spacing:.08em;background:#fff;color:#5d7486}
+.eyk-master-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:12px 0}.eyk-master-card{border:1px solid #dceaf0;border-radius:22px;background:#fff;padding:18px;box-shadow:0 16px 55px rgba(28,87,120,.06)}.eyk-master-card h3{margin:8px 0;font-size:20px;letter-spacing:-.035em}.eyk-master-card p{font-size:12px;line-height:1.7;color:#62798a}.eyk-master-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.eyk-dock{position:fixed;right:18px;bottom:18px;z-index:350;display:flex;gap:6px;padding:7px;border:1px solid #d8e6ed;border-radius:999px;background:rgba(255,255,255,.92);backdrop-filter:blur(16px);box-shadow:0 16px 50px rgba(24,76,108,.13)}.eyk-dock a,.eyk-dock button{border:1px solid #dbe8ef;background:#fff;border-radius:999px;padding:9px 11px;font-size:9px;font-weight:950;letter-spacing:.06em;color:#17334a;text-decoration:none;cursor:pointer}.eyk-dock .wa{background:#eefaf5;border-color:#c5e7d6;color:#257b59}@media(max-width:680px){.eyk-dock{left:8px;right:8px;bottom:8px;justify-content:space-between}.eyk-dock a,.eyk-dock button{flex:1;padding:10px 5px}.eyk-master-grid{grid-template-columns:1fr}.eyk-master-toolbar{position:relative}.eyk-master-toolbar .eyk-search{min-width:100%}}
+.eyk-master-overlay{position:fixed;inset:0;background:rgba(245,251,253,.97);backdrop-filter:blur(22px);z-index:900;display:none;overflow:auto}.eyk-master-overlay.open{display:block}.eyk-master-shell{max-width:1320px;margin:auto;padding:18px}.eyk-master-top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:8px 0 16px;border-bottom:1px solid #dceaf0}.eyk-master-layout{display:grid;grid-template-columns:1.15fr .85fr;gap:14px;margin-top:14px}.eyk-viewer-stage{min-height:560px;border:1px solid #dceaf0;border-radius:26px;background:radial-gradient(circle at 50% 45%,rgba(20,118,212,.05),transparent 25%),linear-gradient(135deg,#fff,#fffaf0);display:grid;place-items:center;overflow:hidden;position:relative;touch-action:none}.eyk-viewer-stage img{max-width:90%;max-height:500px;object-fit:contain;transform:translate(var(--tx,0),var(--ty,0)) scale(var(--scale,1));transition:transform .18s ease;user-select:none}.eyk-viewer-hud{position:absolute;left:14px;top:14px;display:flex;gap:6px;flex-wrap:wrap}.eyk-viewer-hud span{padding:6px 8px;border-radius:999px;background:rgba(255,255,255,.9);border:1px solid #dceaf0;font-size:8px;font-weight:950;letter-spacing:.08em;color:#5d7486}.eyk-side-panel{border:1px solid #dceaf0;border-radius:26px;background:#fff;padding:20px;box-shadow:0 18px 60px rgba(28,87,120,.07)}.eyk-side-panel h2{font-size:34px;letter-spacing:-.055em;margin:7px 0 10px}.eyk-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0}.eyk-tab{border:1px solid #dceaf0;background:#fff;border-radius:999px;padding:8px 10px;font-size:9px;font-weight:950;cursor:pointer}.eyk-tab.active{background:#17334a;color:#fff}.eyk-info-box{padding:13px;border:1px solid #e0ebf0;border-radius:16px;background:#f8fcfe;margin-top:10px;font-size:12px;line-height:1.7;color:#607789}.eyk-info-box strong{color:#17334a}.eyk-product-action-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:12px}.eyk-product-action-grid .btn{min-height:42px}.eyk-note{font-size:10px;line-height:1.6;color:#718696;margin-top:10px}.eyk-hotspots{position:absolute;inset:0;pointer-events:none}.eyk-hotspot{position:absolute;pointer-events:auto;border:1px solid #1476d4;background:#fff;border-radius:50%;width:28px;height:28px;cursor:pointer;box-shadow:0 5px 20px rgba(20,118,212,.16);font-size:10px;font-weight:900}.eyk-hs1{left:34%;top:35%}.eyk-hs2{left:61%;top:50%}.eyk-hs3{left:46%;top:68%}
+.eyk-lab-overlay{position:fixed;inset:0;background:#f8fcfe;z-index:920;display:none;overflow:auto}.eyk-lab-overlay.open{display:block}.eyk-lab-shell{max-width:1400px;margin:auto;padding:18px}.eyk-lab-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.eyk-lab-stage{min-height:500px;border:1px solid #dceaf0;border-radius:28px;background:radial-gradient(circle at 50% 50%,rgba(20,118,212,.09),transparent 25%),linear-gradient(135deg,#fff,#fffaf0);position:relative;overflow:hidden;display:grid;place-items:center}.eyk-eye{width:min(58vw,340px);height:min(58vw,340px);border-radius:50%;border:1px solid rgba(20,118,212,.45);box-shadow:0 0 0 24px rgba(20,118,212,.035),0 0 0 48px rgba(201,151,46,.03),inset 0 0 55px rgba(20,118,212,.08);position:relative;transition:transform .35s ease}.eyk-eye:before{content:"";position:absolute;inset:20%;border-radius:50%;border:2px solid rgba(42,171,121,.45);box-shadow:inset 0 0 30px rgba(42,171,121,.08)}.eyk-eye:after{content:"";position:absolute;inset:38%;border-radius:50%;background:#17334a;box-shadow:0 0 0 12px rgba(201,151,46,.18)}.eyk-ray{position:absolute;width:62%;height:2px;background:linear-gradient(90deg,transparent,#c9972e,#1476d4,transparent);transform-origin:left center;animation:eykRay 2.8s linear infinite}.eyk-ray.r1{transform:rotate(-9deg);top:45%;left:8%}.eyk-ray.r2{transform:rotate(9deg);top:55%;left:8%;animation-delay:.6s}@keyframes eykRay{0%{opacity:0;transform:translateX(-20px) rotate(-9deg)}20%,75%{opacity:.8}100%{opacity:0;transform:translateX(70px) rotate(-9deg)}}.eyk-lab-controls{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}.eyk-structure{border:1px solid #dceaf0;border-radius:14px;background:#fff;padding:11px;text-align:left;cursor:pointer;font-weight:900;font-size:9px;letter-spacing:.08em}.eyk-structure.active{border-color:#8acbb1;background:#f1fbf6;color:#257b59}.eyk-lab-copy{border:1px solid #dceaf0;border-radius:28px;background:#fff;padding:22px}.eyk-lab-copy h2{font-size:clamp(34px,5vw,70px);letter-spacing:-.065em;margin:8px 0}.eyk-lab-copy p{font-size:13px;line-height:1.8;color:#607789}.eyk-lab-list{display:grid;gap:7px;margin-top:16px}.eyk-lab-list .row{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid #edf3f6;font-size:11px}.eyk-magnify{font-size:12px;font-weight:950;letter-spacing:.08em}.eyk-lens-portal{height:170px;width:170px;border-radius:50%;border:1px solid rgba(20,118,212,.45);margin:20px auto;display:grid;place-items:center;background:radial-gradient(circle at 35% 35%,rgba(255,255,255,.95),rgba(20,118,212,.08));box-shadow:0 0 0 18px rgba(20,118,212,.025),0 0 0 38px rgba(201,151,46,.025);transition:transform .2s ease}.eyk-lens-portal:hover{transform:scale(1.05)}@media(max-width:850px){.eyk-master-layout,.eyk-lab-grid{grid-template-columns:1fr}.eyk-viewer-stage{min-height:400px}.eyk-viewer-stage img{max-height:360px}}
+.eyk-wa-modal{position:fixed;inset:0;background:rgba(15,36,52,.35);backdrop-filter:blur(12px);z-index:1000;display:none;place-items:center;padding:14px}.eyk-wa-modal.open{display:grid}.eyk-wa-card{width:min(620px,100%);background:#fff;border:1px solid #dceaf0;border-radius:26px;padding:22px;box-shadow:0 25px 100px rgba(15,36,52,.25)}.eyk-wa-options{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:14px 0}.eyk-wa-option{border:1px solid #dceaf0;background:#fff;border-radius:15px;padding:13px;text-align:left;cursor:pointer}.eyk-wa-option strong{display:block;font-size:11px}.eyk-wa-option span{display:block;font-size:9px;color:#718696;margin-top:4px}.eyk-wa-option.active{border-color:#9bd2b9;background:#f2fbf6}.eyk-message-preview{white-space:pre-wrap;border:1px solid #dceaf0;background:#f8fcfe;border-radius:16px;padding:13px;font-size:11px;line-height:1.7;max-height:220px;overflow:auto}@media(max-width:600px){.eyk-wa-options{grid-template-columns:1fr}}
+.eyk-dossier{background:#fff;padding:28px;border-radius:22px;max-width:800px;margin:auto}.eyk-dossier img{width:180px;height:140px;object-fit:contain;background:#f7fbfd;border-radius:14px}.eyk-qr{width:180px;height:180px;object-fit:contain;border:1px solid #dceaf0;border-radius:12px;padding:6px;background:#fff}.eyk-print-only{display:none}@media print{body>*:not(.eyk-print-root){display:none!important}.eyk-print-root{display:block!important}.eyk-print-root .eyk-dossier{box-shadow:none!important}}
+</style>
+<script id="eyekon-master-js">
+(()=>{
+'use strict';
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const CMS='eyekon_v2_cms', FAV='eyekon-favorites-v1', REC='eyekon-recent-v1', LANG='eyekon_language';
+const fallbackProducts=Array.from({length:10},(_,i)=>({id:String(i+1),number:String(i+1).padStart(2,'0'),name:`Product ${String(i+1).padStart(2,'0')}`,image:`${i+1}.jpg`,description:'Product information available on request.',category:'Ophthalmic equipment',visible:true,sort:i+1}));
+function cms(){try{const x=JSON.parse(localStorage.getItem(CMS)||'{}');return x&&typeof x==='object'?x:{}}catch{return {}}}
+function products(){const c=cms();return Array.isArray(c.products)&&c.products.length?c.products:fallbackProducts}
+function saveFavorites(a){try{localStorage.setItem(FAV,JSON.stringify(a))}catch{}}
+function getFavorites(){try{const a=JSON.parse(localStorage.getItem(FAV)||'[]');return Array.isArray(a)?a:[]}catch{return []}}
+function getRecent(){try{const a=JSON.parse(localStorage.getItem(REC)||'[]');return Array.isArray(a)?a:[]}catch{return []}}
+function saveRecent(a){try{localStorage.setItem(REC,JSON.stringify(a.slice(0,8)))}catch{}}
+function esc(v){return String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+const T={en:{'master.lab':'OPTICAL LAB','master.shortlist':'MY SHORTLIST','master.requirement':'REQUIREMENT LIST','master.compare':'COMPARE','master.recent':'RECENTLY EXPLORED','master.explore':'EXPLORE','master.inspect':'INSPECT INSTRUMENT','master.quick':'DOCTOR QUICK VIEW','master.standard':'STANDARD VIEW','master.technical':'TECHNICAL VIEW','master.what':'WHAT IS THIS INSTRUMENT?','master.used':'WHAT IS IT USED FOR?','master.works':'HOW DOES IT WORK?','master.request':'REQUEST PRODUCT INFORMATION','master.tech':'REQUEST TECHNICAL DETAILS','master.quote':'REQUEST QUOTATION','master.avail':'CHECK AVAILABILITY','master.catalogue':'REQUEST OFFICIAL CATALOGUE','master.multi':'MULTIPLE PRODUCTS','master.general':'GENERAL ENQUIRY','master.send':'OPEN WHATSAPP','master.share':'SHARE PRODUCT','master.colleague':'SHARE WITH A COLLEAGUE','master.dossier':'GENERATE PRODUCT DOSSIER','master.qr':'SCAN TO EXPLORE','master.diwan':'ASK ABOUT DIWALI 2026','master.clear':'CLEAR HISTORY','master.remove':'REMOVE','master.add':'SAVE PRODUCT','master.saved':'SAVED','master.close':'CLOSE','master.reset':'RESET VIEW','master.full':'FULLSCREEN','master.enter':'ENTER THE LENS','master.eye':'EXPLORE THE HUMAN EYE','master.normal':'NORMAL','master.near':'NEAR FOCUS','master.far':'FAR FOCUS','master.educational':'Educational visualization — not a diagnostic view.','master.simulation':'Educational simulation.','master.missing':'Not specified','master.available':'Available information','master.message':'MESSAGE PREVIEW','master.choice':'WHAT WOULD YOU LIKE TO KNOW?','master.product':'PRODUCT','master.category':'CATEGORY','master.description':'DESCRIPTION','master.details':'Detailed information available on request.','master.status':'BUSINESS STATUS','master.open':'OPEN NOW','master.closed':'CURRENTLY CLOSED','master.leave':'LEAVE AN ENQUIRY'},hi:{'master.lab':'ऑप्टिकल लैब','master.shortlist':'मेरी शॉर्टलिस्ट','master.requirement':'आवश्यकता सूची','master.compare':'तुलना करें','master.recent':'हाल ही में देखे गए','master.explore':'देखें','master.inspect':'इंस्ट्रूमेंट निरीक्षण','master.quick':'डॉक्टर क्विक व्यू','master.standard':'सामान्य दृश्य','master.technical':'तकनीकी दृश्य','master.what':'यह इंस्ट्रूमेंट क्या है?','master.used':'इसका उपयोग किस लिए है?','master.works':'यह कैसे काम करता है?','master.request':'उत्पाद जानकारी मांगें','master.tech':'तकनीकी जानकारी मांगें','master.quote':'कोटेशन मांगें','master.avail':'उपलब्धता पूछें','master.catalogue':'आधिकारिक कैटलॉग मांगें','master.multi':'कई उत्पाद','master.general':'सामान्य पूछताछ','master.send':'व्हाट्सऐप खोलें','master.share':'उत्पाद साझा करें','master.colleague':'सहकर्मी के साथ साझा करें','master.dossier':'उत्पाद डॉसियर बनाएं','master.qr':'स्कैन करके देखें','master.diwan':'Diwali 2026 के बारे में पूछें','master.clear':'इतिहास साफ करें','master.remove':'हटाएं','master.add':'उत्पाद सेव करें','master.saved':'सेव किया गया','master.close':'बंद करें','master.reset':'दृश्य रीसेट करें','master.full':'फुलस्क्रीन','master.enter':'लेंस में प्रवेश करें','master.eye':'मानव आंख देखें','master.normal':'सामान्य','master.near':'निकट फोकस','master.far':'दूर फोकस','master.educational':'शैक्षिक दृश्य — यह डायग्नोस्टिक दृश्य नहीं है।','master.simulation':'शैक्षिक सिमुलेशन।','master.missing':'निर्दिष्ट नहीं','master.available':'उपलब्ध जानकारी','master.message':'संदेश पूर्वावलोकन','master.choice':'आप क्या जानना चाहते हैं?','master.product':'उत्पाद','master.category':'श्रेणी','master.description':'विवरण','master.details':'विस्तृत जानकारी अनुरोध पर उपलब्ध है।','master.status':'व्यावसायिक स्थिति','master.open':'अभी खुला है','master.closed':'अभी बंद है','master.leave':'पूछताछ छोड़ें'}};
+function tr(k){return (T[localStorage.getItem(LANG)||'en']||T.en)[k]||T.en[k]||k}
+function lang(){return localStorage.getItem(LANG)||'en'}
+function setLang(l){localStorage.setItem(LANG,l==='hi'?'hi':'en');document.documentElement.lang=lang();applyMasterLanguage();window.dispatchEvent(new CustomEvent('eyekon:language-change',{detail:{language:lang()}}));try{window.EYEKON_ANALYTICS?.track('LANGUAGE_CHANGE',{language:lang()})}catch{}}
+function button(text,key,cls='btn'){return `<button type="button" class="${cls}" data-mi18n="${key}">${esc(tr(key))}</button>`}
+function ensureShell(){
+ let toolbar=$('#eykMasterToolbar');
+ const ps=$('#products');
+ if(ps&&!toolbar){toolbar=document.createElement('div');toolbar.id='eykMasterToolbar';toolbar.className='eyk-master-toolbar';toolbar.innerHTML=`<input class="eyk-search" id="eykMasterSearch" type="search" placeholder="Search products…" aria-label="Search products"><select id="eykMasterFilter"><option value="all">ALL</option><option value="saved">SAVED</option><option value="visible">PUBLISHED / VISIBLE</option></select><button class="btn" id="eykShortlistBtn">${esc(tr('master.shortlist'))}</button><button class="btn" id="eykRequirementBtn">${esc(tr('master.requirement'))}</button><button class="btn" id="eykCompareBtn">${esc(tr('master.compare'))}</button><button class="btn" id="eykLabBtn">${esc(tr('master.lab'))}</button>`;const anchor=$('.section-head',ps);(anchor?anchor.parentNode:ps).insertBefore(toolbar,anchor?anchor.nextSibling:ps.firstChild);}
+ let dock=$('#eykDock');if(!dock){dock=document.createElement('div');dock.id='eykDock';dock.className='eyk-dock';dock.innerHTML=`<a href="tel:9455855203" id="dockCall">CALL</a><a class="wa" href="https://wa.me/919455855203" target="_blank" rel="noopener" id="dockWa">WHATSAPP</a><a href="https://wa.me/c/919455855203" target="_blank" rel="noopener">CATALOGUE</a><button id="dockEnquire">ENQUIRE</button>`;document.body.appendChild(dock);}
+ let recent=$('#eykRecentBlock');if(!recent){recent=document.createElement('div');recent.id='eykRecentBlock';recent.className='eyk-master-grid';recent.innerHTML=`<article class="eyk-master-card"><div class="eyebrow">${esc(tr('master.shortlist'))}</div><h3 id="shortlistCount">0</h3><p>Save products locally for review, comparison and a single professional enquiry.</p><div class="eyk-master-actions"><button class="btn" id="viewShortlist">VIEW</button><button class="btn" id="clearShortlist">CLEAR</button></div></article><article class="eyk-master-card"><div class="eyebrow">${esc(tr('master.requirement'))}</div><h3 id="requirementCount">0</h3><p>Select multiple products and prepare one organized WhatsApp enquiry.</p><div class="eyk-master-actions"><button class="btn" id="viewRequirement">VIEW</button><button class="btn primary" id="sendRequirement">SEND TO EYEKON</button></div></article><article class="eyk-master-card"><div class="eyebrow">${esc(tr('master.recent'))}</div><h3 id="recentCount">0</h3><p>Your recent product exploration stays in this browser only.</p><div class="eyk-master-actions"><button class="btn" id="clearRecent">${esc(tr('master.clear'))}</button></div></article>`;const ps=$('#products');ps?.appendChild(recent)}
+}
+let requirement=[];
+function waUrl(message){return 'https://wa.me/919455855203?text='+encodeURIComponent(message)}
+function productUrl(p){const u=new URL(location.href);u.hash='product-'+encodeURIComponent(p.id);return u.toString()}
+function messageFor(kind,pList){const ps=pList||[];const names=ps.map(p=>p.name).join(', ');const common='Hello EYEKON VISION,\n';if(kind==='technical')return common+'I would like the available technical details for '+names+'.\nPlease share the verified information available.';if(kind==='quote')return common+'I would like to request a quotation for '+names+'.\nPlease share the available details and next steps.';if(kind==='availability')return common+'Please let me know the current availability for '+names+'.';if(kind==='catalogue')return common+'Please share the official catalogue and available product information.';if(kind==='info')return common+'I would like product information for '+names+'. Please share the available details.';if(kind==='diwali')return common+'I would like to know about the EYEKON VISION Diwali 2026 campaign. Please share the available information.';if(kind==='hospital')return common+'I have a professional requirement for '+names+'.\nContext: Hospital / Clinic procurement.\nPlease share the available product information and enquiry process.';if(kind==='shortlist')return common+'My EYEKON shortlist:\n'+ps.map((p,i)=>(i+1)+'. '+p.name+' — '+productUrl(p)).join('\n')+'\nPlease share the available details for these products.';return common+'I would like information about '+names+'. Please share the available details.'}
+function openWa(kind,ps){const list=(ps||[]).filter(Boolean);const modal=$('#eykWaModal');if(!modal)return;modal.dataset.kind=kind;modal.dataset.ids=list.map(x=>x.id).join(',');$$('.eyk-wa-option',modal).forEach(x=>x.classList.toggle('active',x.dataset.kind===kind));$('#eykWaPreview',modal).textContent=messageFor(kind,list);modal.classList.add('open');modal.setAttribute('aria-hidden','false')}
+function closeWa(){const m=$('#eykWaModal');m?.classList.remove('open');m?.setAttribute('aria-hidden','true')}
+function createWaModal(){if($('#eykWaModal'))return;const m=document.createElement('div');m.id='eykWaModal';m.className='eyk-wa-modal';m.setAttribute('aria-hidden','true');m.innerHTML=`<div class="eyk-wa-card" role="dialog" aria-modal="true" aria-labelledby="eykWaTitle"><div class="eyebrow">EYEKON / WHATSAPP</div><h2 id="eykWaTitle">${esc(tr('master.choice'))}</h2><div class="eyk-wa-options">${[['technical','master.tech'],['availability','master.avail'],['catalogue','master.catalogue'],['quote','master.quote'],['info','master.request'],['shortlist','master.multi'],['hospital','HOSPITAL / CLINIC REQUIREMENT'],['general','master.general']].map(([k,t])=>`<button class="eyk-wa-option" data-kind="${k}"><strong data-mi18n="${t}">${esc(T.en[t]||t)}</strong><span>Professional message preview before WhatsApp opens.</span></button>`).join('')}</div><div class="eyebrow">${esc(tr('master.message'))}</div><div class="eyk-message-preview" id="eykWaPreview"></div><div class="eyk-master-actions"><button class="btn" id="eykWaClose">${esc(tr('master.close'))}</button><a class="btn primary" id="eykWaOpen" target="_blank" rel="noopener">${esc(tr('master.send'))}</a></div></div>`;document.body.appendChild(m);m.addEventListener('click',e=>{if(e.target===m)closeWa()});$('#eykWaClose').onclick=closeWa;$$('.eyk-wa-option',m).forEach(b=>b.onclick=()=>{const ids=(m.dataset.ids||'').split(',').filter(Boolean);const ps=products().filter(p=>ids.includes(p.id));m.dataset.kind=b.dataset.kind;$$('.eyk-wa-option',m).forEach(x=>x.classList.toggle('active',x===b));$('#eykWaPreview').textContent=messageFor(b.dataset.kind,ps);$('#eykWaOpen').href=waUrl($('#eykWaPreview').textContent);});$('#eykWaOpen').onclick=()=>{try{window.EYEKON_ANALYTICS?.track('WHATSAPP_CLICK',{context:m.dataset.kind||'general'})}catch{};closeWa()}}
+function updateCounts(){const f=getFavorites(),r=getRecent();$('#shortlistCount')&&( $('#shortlistCount').textContent=f.length+' '+(f.length===1?'product':'products'));$('#recentCount')&&($('#recentCount').textContent=r.length+' '+(r.length===1?'product':'products'));$('#requirementCount')&&($('#requirementCount').textContent=requirement.length+' '+(requirement.length===1?'selected':'selected'));}
+function addRecent(p){let r=getRecent().filter(id=>id!==p.id);r.unshift(p.id);saveRecent(r);updateCounts()}
+function toggleFavorite(p){let f=getFavorites();if(f.includes(p.id))f=f.filter(x=>x!==p.id);else f.push(p.id);saveFavorites(f);updateCounts();try{window.EYEKON_ANALYTICS?.track('PRODUCT_FAVORITE',{product:p.id,saved:f.includes(p.id)})}catch{};renderCardsEnhancements()}
+function openProduct(id){const p=products().find(x=>x.id===id);if(!p)return;addRecent(p);const o=$('#eykProductOverlay');o.dataset.id=id;$('#eykViewerImg').src=p.image;$('#eykViewerImg').alt=p.alt||p.name;$('#eykViewerName').textContent=p.name;$('#eykViewerNumber').textContent='PRODUCT '+(p.number||'');$('#eykViewerCategory').textContent=p.category||tr('master.missing');$('#eykViewerDesc').textContent=p.description||tr('master.details');$('#eykViewerTech').textContent=JSON.stringify(p.specifications||p.specs||{},null,2);if(!Object.keys(p.specifications||p.specs||{}).length)$('#eykViewerTech').textContent=tr('master.missing');resetView();o.classList.add('open');o.setAttribute('aria-hidden','false');try{window.EYEKON_ANALYTICS?.track('PRODUCT_VIEW',{product:p.id})}catch{}}
+function closeProduct(){const o=$('#eykProductOverlay');o?.classList.remove('open');o?.setAttribute('aria-hidden','true')}
+let scale=1,tx=0,ty=0;
+function applyView(){const i=$('#eykViewerImg');if(i){i.style.setProperty('--scale',scale);i.style.setProperty('--tx',tx+'px');i.style.setProperty('--ty',ty+'px')}}function resetView(){scale=1;tx=0;ty=0;applyView()}
+function createProductOverlay(){if($('#eykProductOverlay'))return;const o=document.createElement('div');o.id='eykProductOverlay';o.className='eyk-master-overlay';o.setAttribute('aria-hidden','true');o.innerHTML=`<div class="eyk-master-shell"><div class="eyk-master-top"><div><div class="eyebrow">EYEKON / ${esc(tr('master.inspect'))}</div><div class="eyk-mini-pill" id="eykViewerNumber">PRODUCT</div></div><button class="btn" id="eykViewerClose">${esc(tr('master.close'))}</button></div><div class="eyk-master-layout"><div class="eyk-viewer-stage" id="eykViewerStage"><div class="eyk-viewer-hud"><span>OBJECT-FIT: CONTAIN</span><span>TOUCH / DRAG / PINCH</span><span>EDUCATIONAL</span></div><img id="eykViewerImg" draggable="false" alt="EYEKON product"><div class="eyk-hotspots"><button class="eyk-hotspot eyk-hs1" data-hs="1">1</button><button class="eyk-hotspot eyk-hotspot eyk-hs2" data-hs="2">2</button><button class="eyk-hotspot eyk-hotspot eyk-hs3" data-hs="3">3</button></div></div><aside class="eyk-side-panel"><div class="eyebrow">${esc(tr('master.quick'))}</div><h2 id="eykViewerName">Product</h2><div class="eyk-mini-pill" id="eykViewerCategory">—</div><div class="eyk-tabs"><button class="eyk-tab active" data-tab="standard">${esc(tr('master.standard'))}</button><button class="eyk-tab" data-tab="technical">${esc(tr('master.technical'))}</button><button class="eyk-tab" data-tab="anatomy">${esc(tr('master.inspect'))}</button></div><div class="eyk-info-box" id="eykViewerInfo"><strong>${esc(tr('master.what'))}</strong><br><span id="eykViewerDesc">${esc(tr('master.details'))}</span></div><pre class="eyk-info-box" id="eykViewerTech" style="display:none;white-space:pre-wrap;font-family:inherit">${esc(tr('master.missing'))}</pre><div id="eykAnatomy" class="eyk-info-box" style="display:none"><strong>ILLUSTRATIVE INSPECTION</strong><br><span id="eykAnatomyText">Select a hotspot. Exact component data is shown only when supplied by the CMS.</span></div><div class="eyk-product-action-grid"><button class="btn primary" id="eykAsk">${esc(tr('master.request'))}</button><button class="btn" id="eykTech">${esc(tr('master.tech'))}</button><button class="btn" id="eykQuote">${esc(tr('master.quote'))}</button><button class="btn" id="eykAvail">${esc(tr('master.avail'))}</button><button class="btn" id="eykCatalogue">${esc(tr('master.catalogue'))}</button><button class="btn" id="eykFav">${esc(tr('master.add'))}</button><button class="btn" id="eykShare">${esc(tr('master.share'))}</button><button class="btn" id="eykColleague">${esc(tr('master.colleague'))}</button><button class="btn" id="eykDossier">${esc(tr('master.dossier'))}</button><button class="btn" id="eykQR">${esc(tr('master.qr'))}</button></div><div class="eyk-master-actions"><button class="btn" id="eykZoomOut">−</button><button class="btn" id="eykReset">${esc(tr('master.reset'))}</button><button class="btn" id="eykZoomIn">+</button><button class="btn" id="eykFull">${esc(tr('master.full'))}</button></div><div class="eyk-note">${esc(tr('master.educational'))}</div><div id="eykQRBox" style="display:none;margin-top:12px;text-align:center"></div></aside></div></div>`;document.body.appendChild(o);$('#eykViewerClose').onclick=closeProduct;$('#eykZoomIn').onclick=()=>{scale=Math.min(5,scale+.25);applyView()};$('#eykZoomOut').onclick=()=>{scale=Math.max(1,scale-.25);applyView()};$('#eykReset').onclick=resetView;$('#eykFull').onclick=()=>$('#eykViewerStage').requestFullscreen?.();$('#eykAsk').onclick=()=>{const p=products().find(x=>x.id===o.dataset.id);openWa('info',[p])};$('#eykTech').onclick=()=>{const p=products().find(x=>x.id===o.dataset.id);openWa('technical',[p])};$('#eykQuote').onclick=()=>{const p=products().find(x=>x.id===o.dataset.id);openWa('quote',[p])};$('#eykAvail').onclick=()=>{const p=products().find(x=>x.id===o.dataset.id);openWa('availability',[p])};$('#eykCatalogue').onclick=()=>openWa('catalogue',[]);$('#eykFav').onclick=()=>{const p=products().find(x=>x.id===o.dataset.id);toggleFavorite(p);updateFavButton(p)};$('#eykShare').onclick=()=>shareProduct(products().find(x=>x.id===o.dataset.id));$('#eykColleague').onclick=()=>shareProduct(products().find(x=>x.id===o.dataset.id),true);$('#eykDossier').onclick=()=>dossier(products().find(x=>x.id===o.dataset.id));$('#eykQR').onclick=()=>showQR(products().find(x=>x.id===o.dataset.id));$$('.eyk-tab',o).forEach(t=>t.onclick=()=>{ $$('.eyk-tab',o).forEach(x=>x.classList.toggle('active',x===t));$('#eykViewerInfo').style.display=t.dataset.tab==='standard'?'block':'none';$('#eykViewerTech').style.display=t.dataset.tab==='technical'?'block':'none';$('#eykAnatomy').style.display=t.dataset.tab==='anatomy'?'block':'none'});$$('.eyk-hotspot',o).forEach(h=>h.onclick=()=>{$('#eykAnatomyText').textContent='Hotspot '+h.dataset.hs+': exact component purpose is not published in the supplied CMS data, so no component claim is made.'});const stage=$('#eykViewerStage');let drag=false,lx=0,ly=0,pinch=0;stage.addEventListener('pointerdown',e=>{drag=true;lx=e.clientX;ly=e.clientY;stage.setPointerCapture?.(e.pointerId)});stage.addEventListener('pointermove',e=>{if(!drag)return;tx+=(e.clientX-lx);ty+=(e.clientY-ly);lx=e.clientX;ly=e.clientY;applyView()});stage.addEventListener('pointerup',()=>drag=false);stage.addEventListener('pointercancel',()=>drag=false);stage.addEventListener('wheel',e=>{e.preventDefault();scale=Math.max(1,Math.min(5,scale+(e.deltaY<0?.18:-.18)));applyView()},{passive:false});stage.addEventListener('touchstart',e=>{if(e.touches.length===2)pinch=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY)},{passive:true});stage.addEventListener('touchmove',e=>{if(e.touches.length===2){const d=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);if(pinch){scale=Math.max(1,Math.min(5,scale*(d/pinch)));applyView()}pinch=d}},{passive:true})}
+function updateFavButton(p){const b=$('#eykFav');if(b)b.textContent=getFavorites().includes(p.id)?tr('master.saved'):tr('master.add')}
+async function shareProduct(p,colleague=false){if(!p)return;const url=productUrl(p),text=colleague?`EYEKON VISION — ${p.name}\nExplore: ${url}`:`EYEKON VISION — ${p.name}\n${p.description||tr('master.details')}\n${url}`;try{if(navigator.share){await navigator.share({title:'EYEKON VISION — '+p.name,text,url});}else throw 0}catch{try{await navigator.clipboard.writeText(url);alert('Product link copied.')}catch{window.open(waUrl('Hello, please explore this EYEKON VISION product: '+url),'_blank')}}try{window.EYEKON_ANALYTICS?.track('PRODUCT_SHARE',{product:p.id})}catch{}}
+function dossier(p){if(!p)return;const root=document.createElement('div');root.className='eyk-print-root';root.innerHTML=`<div class="eyk-dossier"><div class="eyebrow">EYEKON VISION · PRODUCT DOSSIER</div><h1>${esc(p.name)}</h1><img src="${esc(p.image)}" alt="${esc(p.alt||p.name)}"><p><strong>${esc(tr('master.category'))}:</strong> ${esc(p.category||tr('master.missing'))}</p><p><strong>${esc(tr('master.description'))}:</strong> ${esc(p.description||tr('master.details'))}</p><p><strong>Technical information:</strong> ${Object.keys(p.specifications||p.specs||{}).length?esc(JSON.stringify(p.specifications||p.specs)):esc(tr('master.missing'))}</p><hr><p>EYEKON VISION · 9455855203 · eyekonvision01@gmail.com</p><p>M-D1, Sector B, Kanpur Rd, LDA Colony, opposite Kisna Diamond & Gold Jewellery, Alambagh, Lucknow, Uttar Pradesh 226012</p><div class="eyk-master-actions"><button class="btn" onclick="this.parentElement.parentElement.remove()">CLOSE</button><button class="btn primary" onclick="window.print()">PRINT / SAVE PDF</button></div></div>`;document.body.appendChild(root)}
+function showQR(p){if(!p)return;const box=$('#eykQRBox');box.style.display='block';box.innerHTML=`<div class="eyebrow">${esc(tr('master.qr'))}</div><img class="eyk-qr" loading="lazy" alt="QR code for ${esc(p.name)}" src="https://quickchart.io/qr?size=180&text=${encodeURIComponent(productUrl(p))}"><div class="eyk-note">QR generation uses an external image service when online; no secret data is included.</div>`}
+function renderCardsEnhancements(){const ps=products();$$('.product-card').forEach(card=>{const btn=card.querySelector('[data-view]');if(!btn)return;const id=btn.dataset.view,p=ps.find(x=>x.id===id);if(!p)return;let actions=card.querySelector('.eyk-card-master-actions');if(!actions){actions=document.createElement('div');actions.className='eyk-card-master-actions eyk-master-actions';actions.innerHTML=`<button class="btn" data-master-open>INSPECT</button><button class="btn" data-master-fav>SAVE</button><button class="btn" data-master-req>REQUIREMENT</button>`;card.querySelector('.product-body')?.appendChild(actions)}actions.querySelector('[data-master-open]').onclick=()=>openProduct(id);actions.querySelector('[data-master-fav]').onclick=()=>toggleFavorite(p);actions.querySelector('[data-master-req]').onclick=()=>{if(!requirement.includes(id))requirement.push(id);else requirement=requirement.filter(x=>x!==id);updateCounts()}})}
+function filterMaster(){const s=($('#eykMasterSearch')?.value||'').toLowerCase().trim(),f=$('#eykMasterFilter')?.value||'all';$$('.product-card').forEach(c=>{const b=c.querySelector('[data-view]');const p=products().find(x=>x.id===b?.dataset.view);if(!p)return;const okText=!s||`${p.name} ${p.category||''} ${p.description||''}`.toLowerCase().includes(s);const ok=f==='all'||(f==='saved'&&getFavorites().includes(p.id))||(f==='visible'&&p.visible!==false);c.style.display=okText&&ok?'':'none'});try{window.EYEKON_ANALYTICS?.track('PRODUCT_SEARCH',{query:s,filter:f})}catch{}}
+function requirementModal(){const ps=products().filter(p=>requirement.includes(p.id));const box=document.createElement('div');box.className='eyk-wa-modal open';box.innerHTML=`<div class="eyk-wa-card"><div class="eyebrow">EYEKON / ${esc(tr('master.requirement'))}</div><h2>${ps.length?ps.map(p=>esc(p.name)).join(', '):'No products selected'}</h2><p class="eyk-note">Select products from their cards using REQUIREMENT. Then generate one organized enquiry.</p><div class="eyk-master-actions"><button class="btn" id="rmClose">${esc(tr('master.close'))}</button><button class="btn primary" id="rmSend">${esc(tr('master.send'))}</button></div></div>`;document.body.appendChild(box);box.querySelector('#rmClose').onclick=()=>box.remove();box.querySelector('#rmSend').onclick=()=>{box.remove();openWa('shortlist',ps)}}
+function shortlistModal(){const ps=products().filter(p=>getFavorites().includes(p.id));const box=document.createElement('div');box.className='eyk-wa-modal open';box.innerHTML=`<div class="eyk-wa-card"><div class="eyebrow">EYEKON / ${esc(tr('master.shortlist'))}</div><h2>${ps.length?ps.length+' saved product(s)':'No saved products'}</h2><div class="rows">${ps.map(p=>`<div class="row"><span><strong>${esc(p.name)}</strong><br><small>${esc(p.category||tr('master.missing'))}</small></span><button class="btn" data-open="${esc(p.id)}">${esc(tr('master.explore'))}</button></div>`).join('')}</div><div class="eyk-master-actions"><button class="btn" id="smClose">${esc(tr('master.close'))}</button><button class="btn primary" id="smSend">${esc(tr('master.send'))}</button></div></div>`;document.body.appendChild(box);box.querySelector('#smClose').onclick=()=>box.remove();box.querySelector('#smSend').onclick=()=>{box.remove();openWa('shortlist',ps)};box.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{box.remove();openProduct(b.dataset.open)})}
+function createLab(){if($('#eykLabOverlay'))return;const o=document.createElement('div');o.id='eykLabOverlay';o.className='eyk-lab-overlay';o.innerHTML=`<div class="eyk-lab-shell"><div class="eyk-master-top"><div><div class="eyebrow">EYEKON / OPTICAL LAB</div><h2 style="margin:6px 0;letter-spacing:-.05em">${esc(tr('master.lab'))}</h2></div><button class="btn" id="eykLabClose">${esc(tr('master.close'))}</button></div><div class="eyk-lab-grid"><div class="eyk-lab-stage"><div class="eyk-ray r1"></div><div class="eyk-ray r2"></div><div class="eyk-eye" id="eykEye"></div></div><div class="eyk-lab-copy"><div class="eyebrow">${esc(tr('master.eye'))}</div><h2>LIGHT → OPTICS → EYE</h2><p>Educational visualization of the relationship between optical elements and the structures of the human eye. It is not a clinical examination or diagnostic result.</p><div class="eyk-lab-controls">${['CORNEA','IRIS','PUPIL','LENS','RETINA','OPTIC NERVE'].map(x=>`<button class="eyk-structure" data-structure="${x}">${x}</button>`).join('')}</div><div class="eyk-info-box" id="eykEyeInfo"><strong>CORNEA</strong><br>Transparent front structure of the eye. This description is educational and does not constitute medical advice.</div><div class="eyk-lab-list"><div class="row"><span>RAY LAB</span><span><button class="btn eyk-focus active" data-focus="normal">${esc(tr('master.normal'))}</button> <button class="btn eyk-focus" data-focus="near">${esc(tr('master.near'))}</button> <button class="btn eyk-focus" data-focus="far">${esc(tr('master.far'))}</button></span></div><div class="row"><span>MAGNIFICATION</span><span><button class="btn eyk-mag" data-mag="1">1×</button> <button class="btn eyk-mag" data-mag="2">2×</button> <button class="btn eyk-mag" data-mag="3">3×</button> <button class="btn eyk-mag" data-mag="5">5×</button></span></div></div><div class="eyk-lens-portal" id="eykLensPortal"><span class="eyk-magnify">${esc(tr('master.enter'))}</span></div><div class="eyk-note">${esc(tr('master.simulation'))} ${esc(tr('master.educational'))}</div></div></div></div>`;document.body.appendChild(o);$('#eykLabClose').onclick=()=>o.classList.remove('open');const defs={CORNEA:'Transparent front structure of the eye.',IRIS:'Colored structure surrounding the pupil and regulating the amount of light entering the eye.',PUPIL:'Opening in the iris through which light enters the eye.',LENS:'Transparent optical structure that contributes to focusing light.',RETINA:'Light-sensitive tissue lining the back of the eye.', 'OPTIC NERVE':'Structure carrying visual information from the retina toward the brain.'};$$('[data-structure]',o).forEach(b=>b.onclick=()=>{$$('[data-structure]',o).forEach(x=>x.classList.toggle('active',x===b));$('#eykEyeInfo').innerHTML=`<strong>${esc(b.dataset.structure)}</strong><br>${esc(defs[b.dataset.structure])}`;try{window.EYEKON_ANALYTICS?.track('LAB_INTERACTION',{structure:b.dataset.structure})}catch{}});$$('.eyk-focus',o).forEach(b=>b.onclick=()=>{$$('.eyk-focus',o).forEach(x=>x.classList.toggle('active',x===b));$('#eykEyeInfo').insertAdjacentHTML('beforeend',`<br><small>Mode: ${esc(b.dataset.focus)} · simplified educational ray behavior.</small>`)});$$('.eyk-mag',o).forEach(b=>b.onclick=()=>{$('#eykEye').style.transform=`scale(${b.dataset.mag})`;o.dataset.mag=b.dataset.mag});$('#eykLensPortal').onclick=()=>{const stage=$('.eyk-lab-stage',o);stage.scrollIntoView({behavior:'smooth',block:'center'});$('#eykEye').animate([{transform:'scale(.8)'},{transform:'scale(1.15)'},{transform:'scale(1)'}],{duration:900})}}
+function applyMasterLanguage(){
+ document.documentElement.lang=lang();
+ $$('[data-mi18n]').forEach(e=>{const k=e.dataset.mi18n;e.textContent=tr(k)});
+ const s=$('#eykMasterSearch');if(s)s.placeholder=lang()==='hi'?'उत्पाद खोजें…':'Search products…';
+ const set=(sel,key)=>{const e=$(sel);if(e)e.textContent=tr(key)};
+ set('#eykShortlistBtn','master.shortlist');set('#eykRequirementBtn','master.requirement');set('#eykCompareBtn','master.compare');set('#eykLabBtn','master.lab');
+ const legacy=lang()==='hi'?{
+  '.nav-link[href="#home"]':'होम','.nav-link[href="#experience"]':'अनुभव','.nav-link[href="#products"]':'उत्पाद','.nav-link[href="#lab"]':'लैब','.nav-link[href="#about"]':'हमारे बारे में','.nav-link[href="#contact"]':'संपर्क','.nav-catalogue':'कैटलॉग','#navDoctorMode':'डॉक्टर मोड','.diwali-hero-badge':'Diwali 2026','#heroStatus':'अभी खुला है','#dDays + span':'दिन','#dHours + span':'घंटे','#dMinutes + span':'मिनट','#dSeconds + span':'सेकंड','.hero-actions .btn.primary':'उत्पाद देखें ↘','.hero-actions .btn.green':'ऑप्टिकल लैब देखें ↗','.hero-actions .btn:nth-of-type(3)':'EYEKON को संदेश','.hero-actions .btn:nth-of-type(4)':'कॉल','#doctorModeBtn':'डॉक्टर मोड'
+ }:{
+  '.nav-link[href="#home"]':'HOME','.nav-link[href="#experience"]':'EXPERIENCE','.nav-link[href="#products"]':'PRODUCTS','.nav-link[href="#lab"]':'LAB','.nav-link[href="#about"]':'ABOUT','.nav-link[href="#contact"]':'CONTACT','.nav-catalogue':'CATALOGUE','#navDoctorMode':'DOCTOR MODE','.diwali-hero-badge':'DIWALI 2026','#heroStatus':'OPEN NOW','#dDays + span':'DAYS','#dHours + span':'HOURS','#dMinutes + span':'MINUTES','#dSeconds + span':'SECONDS','.hero-actions .btn.primary':'EXPLORE PRODUCTS ↘','.hero-actions .btn.green':'DISCOVER OPTICAL LAB ↗','.hero-actions .btn:nth-of-type(3)':'MESSAGE EYEKON','.hero-actions .btn:nth-of-type(4)':'CALL','#doctorModeBtn':'DOCTOR MODE'
+ };
+ Object.entries(legacy).forEach(([sel,text])=>{const e=$(sel);if(e)e.textContent=text});
+ $$('.product-card').forEach(card=>{const view=card.querySelector('[data-view]');if(view)view.textContent=lang()==='hi'?'उत्पाद देखें ↗':'VIEW PRODUCT ↗';const enq=card.querySelector('.view-link');if(enq)enq.textContent=lang()==='hi'?'पूछताछ':'ENQUIRE';const a=card.querySelector('[data-master-open]');if(a)a.textContent=lang()==='hi'?'निरीक्षण':'INSPECT';const f=card.querySelector('[data-master-fav]');if(f){const id=view?.dataset.view;f.textContent=getFavorites().includes(id)?tr('master.saved'):tr('master.add')}const r=card.querySelector('[data-master-req]');if(r)r.textContent=lang()==='hi'?'आवश्यकता':'REQUIREMENT'});
+}
+function genericUiTranslate(){const dict={
+'VIEW PRODUCT ↗':'उत्पाद देखें ↗','ENQUIRE':'पूछताछ','EXPLORE PRODUCTS ↘':'उत्पाद देखें ↘','DISCOVER OPTICAL LAB ↗':'ऑप्टिकल लैब देखें ↗','VIEW CATALOGUE':'कैटलॉग देखें','MESSAGE EYEKON':'EYEKON को संदेश','CALL':'कॉल','WHATSAPP':'व्हाट्सऐप','CATALOGUE':'कैटलॉग','PRODUCTS':'उत्पाद','ABOUT':'हमारे बारे में','CONTACT':'संपर्क','OPEN GOOGLE MAPS ↗':'Google Maps खोलें ↗','OPEN NOW':'अभी खुला है','CLOSED NOW':'अभी बंद है','ASK':'पूछें','SAVE':'सेव करें','SAVED':'सेव किया गया','LIST':'सूची','GRID':'ग्रिड','ALL PRODUCTS':'सभी उत्पाद','VISIBLE':'दृश्य','FAVORITES':'पसंदीदा','NUMBER':'क्रमांक','NAME':'नाम','RECENT':'हालिया'};
+if(lang()==='en')return;const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);nodes.forEach(n=>{const v=n.nodeValue.trim();if(dict[v])n.nodeValue=n.nodeValue.replace(v,dict[v])});}
+function wire(){ensureShell();createProductOverlay();createWaModal();createLab();
+ $('#eykMasterSearch')?.addEventListener('input',filterMaster);$('#eykMasterFilter')?.addEventListener('change',filterMaster);$('#eykShortlistBtn')?.addEventListener('click',shortlistModal);$('#eykRequirementBtn')?.addEventListener('click',requirementModal);$('#eykCompareBtn')?.addEventListener('click',()=>{const ps=products().filter(p=>getFavorites().includes(p.id)).slice(0,4);if(ps.length<2){alert('Save at least two products to compare.');return}openWa('shortlist',ps)});$('#eykLabBtn')?.addEventListener('click',()=>{$('#eykLabOverlay').classList.add('open');try{window.EYEKON_ANALYTICS?.track('LAB_OPEN',{})}catch{}});$('#viewShortlist')?.addEventListener('click',shortlistModal);$('#clearShortlist')?.addEventListener('click',()=>{saveFavorites([]);updateCounts();renderCardsEnhancements()});$('#viewRequirement')?.addEventListener('click',requirementModal);$('#sendRequirement')?.addEventListener('click',()=>openWa('shortlist',products().filter(p=>requirement.includes(p.id))));$('#clearRecent')?.addEventListener('click',()=>{saveRecent([]);updateCounts()});$('#dockEnquire')?.addEventListener('click',()=>openWa('general',[]));
+ renderCardsEnhancements();updateCounts();applyMasterLanguage();
+ const langBtn=$('#languageToggleExtreme');if(langBtn){const clone=langBtn.cloneNode(true);langBtn.replaceWith(clone);clone.onclick=()=>setLang(lang()==='hi'?'en':'hi');clone.textContent=lang()==='hi'?'हिन्दी | EN':'EN | हिन्दी';}
+ // Explicit CMS events only; observing the product grid would observe our own renders and recurse.
+ window.addEventListener('eyekon:cms-updated',()=>{renderCardsEnhancements();updateCounts()});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeProduct();closeWa();$('#eykLabOverlay')?.classList.remove('open')}});
+ window.EYEKON_MASTER={openProduct,openWa,openLab:()=>$('#eykLabOverlay')?.classList.add('open'),setLanguage:setLang};
+ window.EYEKON_DOCTOR={open:openDoctor,close:closeDoctor,isOpen:()=>doctorOpen};
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',wire,{once:true});else wire();
+})();
+</script>
+
+
+<script id="eyekon-performance-engine">
+(()=>{
+  'use strict';
+  const root=document.documentElement, body=document.body;
+  const reduce=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches||false;
+  const fine=window.matchMedia?.('(pointer:fine)').matches||false;
+  const mobile=window.matchMedia?.('(max-width:700px)').matches||false;
+  const cores=navigator.hardwareConcurrency||4, dpr=Math.min(window.devicePixelRatio||1,1.5);
+  const quality=(reduce||mobile||cores<=4||dpr>2)?'LITE':(cores>=8&&!mobile?'HIGH':'BALANCED');
+  root.dataset.eyekonPerformance=quality.toLowerCase();
+  window.EYEKON_PERFORMANCE={quality,reduce};
+
+  // Central, reference-counted scroll lock. One component cannot unlock another component's lock.
+  let locks=0, scrollY=0;
+  window.EYEKON_SCROLL={
+    lock(){if(locks++===0){scrollY=window.scrollY||0;body.classList.add('modal-open');body.dataset.scrollLocked='1';}},
+    unlock(){if(locks>0)locks--;if(locks===0){body.classList.remove('modal-open');delete body.dataset.scrollLocked;window.scrollTo({top:scrollY,left:0,behavior:'auto'});}},
+    reset(){locks=0;body.classList.remove('modal-open');delete body.dataset.scrollLocked;}
+  };
+
+  // Never let decorative fixed layers intercept touch/wheel input.
+  document.querySelectorAll('#diwali-background-layer,[aria-hidden="true"] canvas').forEach(el=>{el.style.pointerEvents='none'});
+
+  // Disable the desktop optical cursor entirely on touch devices; it is not useful there.
+  if(!fine){document.documentElement.classList.add('eyekon-touch');}
+
+  // Pause CSS-heavy animated elements while far off-screen.
+  if('IntersectionObserver' in window){
+    const io=new IntersectionObserver(entries=>entries.forEach(e=>{e.target.classList.toggle('eyk-perf-paused',!e.isIntersecting)}),{rootMargin:'160px 0px'});
+    document.querySelectorAll('.eyk-di-finale,.eyk-pro-suite,.eyk-knowledge,.eyk-diwali,section canvas').forEach(el=>io.observe(el));
+  }
+
+  // Guard optional WebGL modules: if a context is lost, fall back without breaking the page.
+  document.querySelectorAll('canvas').forEach(c=>c.addEventListener('webglcontextlost',e=>{e.preventDefault();c.dataset.webglFallback='1';c.style.opacity='.65'},{passive:false}));
+
+  // Throttle resize work globally by broadcasting one stable event per frame.
+  let resizeQueued=false;
+  window.addEventListener('resize',()=>{if(resizeQueued)return;resizeQueued=true;requestAnimationFrame(()=>{resizeQueued=false;window.dispatchEvent(new CustomEvent('eyekon:resize'))})},{passive:true});
+
+  // Keep the tab quiet when hidden; existing animation engines also observe visibilityState.
+  document.addEventListener('visibilitychange',()=>{root.dataset.eyekonHidden=document.hidden?'1':'0'},{passive:true});
+
+  // Safety net: if an overlay is removed unexpectedly, never leave the page locked.
+  window.addEventListener('pageshow',()=>{if(!document.querySelector('.modal.open,.eyk-wa-modal.open,.eyk-doctor-overlay.open,.eyk-lab-overlay.open'))window.EYEKON_SCROLL.reset()},{passive:true});
+})();
+</script>
+
+<script id="eyekon-greeting-engine">
+(()=>{'use strict';
+function indiaGreeting(){try{const parts=new Intl.DateTimeFormat('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());const h=Number(parts.find(x=>x.type==='hour')?.value||0);if(h<12)return "Good morning EYEKON VISION";if(h<17)return "Good afternoon EYEKON VISION";return "Good evening EYEKON VISION";}catch{return "Greetings EYEKON VISION"}}
+function openGreeting(){const g=indiaGreeting();const msg=`${g}. Greetings from me. I would like to connect with EYEKON VISION regarding your ophthalmic and eye-care solutions.`;window.open('https://wa.me/919455855203?text='+encodeURIComponent(msg),'_blank','noopener');}
+document.querySelector('#eykGreetingBtn')?.addEventListener('click',openGreeting);document.querySelector('#contactGreeting')?.addEventListener('click',openGreeting);window.EYEKON_GREETING={get:indiaGreeting,open:openGreeting};
+})();
+</script>
+<script id="eyekon-final-stability-engine">
+(()=>{'use strict';const root=document.documentElement,body=document.body;const reduced=!!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;const touch=!!window.matchMedia?.('(pointer:coarse)').matches||'ontouchstart' in window;const cores=navigator.hardwareConcurrency||4;const mobile=!!window.matchMedia?.('(max-width:700px)').matches;const mode=window.EYEKON_PERFORMANCE?.quality||((reduced||mobile||cores<=4)?'LITE':'BALANCED');root.dataset.eyekonPerformance=String(mode).toLowerCase();
+const hasBlockingModal=()=>!!document.querySelector('.modal.open,.eyk-wa-modal.open,.eyk-lab-overlay.open');
+let recovery=0;const recover=()=>{clearTimeout(recovery);recovery=setTimeout(()=>{if(!hasBlockingModal()&&body.classList.contains('modal-open')){body.classList.remove('modal-open');delete body.dataset.scrollLocked;}},1200)};addEventListener('pageshow',recover,{passive:true});document.addEventListener('pointerdown',recover,{passive:true});
+let sq=false,sy=-1;addEventListener('scroll',()=>{if(sq)return;sq=true;requestAnimationFrame(()=>{sq=false;const y=scrollY||0;if(y!==sy){sy=y;root.style.setProperty('--eyekon-scroll-y',String(y));}})},{passive:true});
+if('IntersectionObserver' in window){const io=new IntersectionObserver(es=>es.forEach(e=>e.target.classList.toggle('eyk-perf-paused',!e.isIntersecting)),{rootMargin:'120px 0px'});document.querySelectorAll('.eyk-diwali,.eyk-pro-suite,.eyk-knowledge,.eyk-di-finale,.diwali-stage').forEach(x=>io.observe(x));}
+function hidden(){root.dataset.eyekonHidden=document.hidden?'1':'0'}document.addEventListener('visibilitychange',hidden,{passive:true});hidden();
+if(!touch&&!reduced){let x=0,y=0,q=false;document.addEventListener('pointermove',e=>{x=e.clientX;y=e.clientY;if(q)return;q=true;requestAnimationFrame(()=>{q=false;const c=document.querySelector('.eyekon-cursor');if(c)c.style.transform=`translate3d(${x}px,${y}px,0) translate(-50%,-50%)`;});},{passive:true});}
+document.querySelectorAll('canvas').forEach(c=>c.addEventListener('webglcontextlost',e=>{e.preventDefault();c.dataset.webglFallback='1';c.style.opacity='.35'},{passive:false}));
+window.EYEKON_STABILITY={mode,reducedMotion:reduced,touch,scrolling:()=>!body.classList.contains('modal-open'),recover};
+})();
+</script>
+</body>
+</html>
